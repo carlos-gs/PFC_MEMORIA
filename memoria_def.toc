@@ -1,0 +1,40 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{7}
+\contentsline {section}{\numberline {1.1}Presentaci\IeC {\'o}n}{8}
+\contentsline {section}{\numberline {1.2}Motivaci\IeC {\'o}n Personal}{9}
+\contentsline {section}{\numberline {1.3}Estructura de la memoria}{10}
+\contentsline {chapter}{\numberline {2}Objetivos}{13}
+\contentsline {section}{\numberline {2.1}Descripci\IeC {\'o}n del problema}{13}
+\contentsline {section}{\numberline {2.2}Punto de partida}{14}
+\contentsline {subsection}{\numberline {2.2.1}Recuperaci\IeC {\'o}n de los datos}{15}
+\contentsline {subsection}{\numberline {2.2.2}Preproceso}{16}
+\contentsline {subsection}{\numberline {2.2.3}Parseo XML: PDML, SMIL}{16}
+\contentsline {subsection}{\numberline {2.2.4}Correctness}{18}
+\contentsline {subsection}{\numberline {2.2.5}Posproceso}{18}
+\contentsline {subsection}{\numberline {2.2.6}Generaci\IeC {\'o}n de examen}{18}
+\contentsline {subsection}{\numberline {2.2.7}Detecci\IeC {\'o}n de plagio}{19}
+\contentsline {section}{\numberline {2.3}Requisitos}{20}
+\contentsline {section}{\numberline {2.4}Objetivos generales}{21}
+\contentsline {section}{\numberline {2.5}Objetivos Espec\IeC {\'\i }ficos}{22}
+\contentsline {chapter}{\numberline {3}Estado del arte}{25}
+\contentsline {section}{\numberline {3.1}OTRAS HERRAMIENTAS UTILIZADAS}{25}
+\contentsline {subsection}{\numberline {3.1.1}PYCHARM}{26}
+\contentsline {subsection}{\numberline {3.1.2}ROBOMONGO}{28}
+\contentsline {chapter}{\numberline {4}Dise\IeC {\~n}o e implementaci\IeC {\'o}n}{31}
+\contentsline {section}{\numberline {4.1}Modelo de desarrollo}{31}
+\contentsline {section}{\numberline {4.2}ITERACION 1:}{34}
+\contentsline {subsection}{\numberline {4.2.1}M\IeC {\'O}DULO PRINCIPAL}{35}
+\contentsline {subsection}{\numberline {4.2.2}M\IeC {\'O}DULO DE AN\IeC {\'A}LISIS DE C\IeC {\'O}DIGO PYTHON}{35}
+\contentsline {subsection}{\numberline {4.2.3}M\IeC {\'O}DULO DE AN\IeC {\'A}LISIS DE CALIDAD DEL C\IeC {\'O}DIGO}{36}
+\contentsline {subsection}{\numberline {4.2.4}M\IeC {\'O}DULO DE PRUEBAS DE EJECUCI\IeC {\'O}N}{37}
+\contentsline {subsection}{\numberline {4.2.5}M\IeC {\'O}DULO DE AN\IeC {\'A}LISIS DE GIT}{38}
+\contentsline {subsection}{\numberline {4.2.6}M\IeC {\'O}DULO DE COMUNICACI\IeC {\'O}N}{39}
+\contentsline {section}{\numberline {4.3}DISE\IeC {\~N}O DE BBDD}{39}
+\contentsline {chapter}{\numberline {5}Resultados}{47}
+\contentsline {chapter}{\numberline {6}Conclusiones}{51}
+\contentsline {section}{\numberline {6.1}LECCIONES APRENDIDAS}{51}
+\contentsline {section}{\numberline {6.2}CONOCIMIENTOS APLICADOS}{53}
+\contentsline {section}{\numberline {6.3}CONOCIMIENTOS ADQUIRIDOS}{54}
+\contentsline {section}{\numberline {6.4}MEJORAS O TRABAJOS FUTUROS}{55}
+\contentsline {chapter}{\numberline {A}Instalaci\IeC {\'o}n y Uso}{57}
+\contentsline {chapter}{\numberline {B}Requisitos}{59}

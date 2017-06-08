@@ -1,0 +1,72 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Para obtener PDF, ejectuar en la shell:
+%%   pdflatex memoria.tex
+%% (las im�genes deben ir en PNG o JPG)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, 12pt]{book}
+%\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage[a4paper, left=2.5cm, right=2.5cm, top=3cm, bottom=3cm]{geometry}
+\usepackage{times}
+
+\usepackage[spanish]{babel}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{comment}
+\usepackage{color}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{verbatim}
+\usepackage{ulem}
+\usepackage{caption}
+%\usepackage[dvips]{hyperref}
+\usepackage{pdfpages}
+\usepackage{graphicx} % gr?ficos
+\usepackage{subfigure} % subgr?ficos
+
+\usepackage{enumerate}
+\usepackage{listings}
+%\usepackage[dvipdfm]{graphicx}
+
+\usepackage{float}  %% H para posicionar figuras
+\usepackage[nottoc, notlot, notlof, notindex]{tocbibind} %% Opciones de �ndice
+\usepackage{latexsym}  %% Logo LaTeX
+
+\title{MiStuRe: MINADO DE REPOSITORIOS DE ESTUDIANTES ORIENTADO AL ANÁLISIS DEL APRENDIZAJE.}
+\author{Carlos González Sesmero}
+
+\renewcommand{\baselinestretch}{1.5}  %% Interlineado
+
+\begin{document}
+
+\renewcommand{\refname}{Bibliografía}  %% Renombrando
+\renewcommand{\appendixname}{Apéndice}
+
+\input{portada.tex}
+\pagenumbering{Roman} % para comenzar la numeracion de paginas en numeros romanos
+
+\input{dedicatoria.tex}
+\input{agradecimientos.tex}
+\input{resumen.tex}
+%\input{summary.tex} 
+\pagenumbering{arabic} % para empezar la numeración de página con números
+\input{indice.tex}
+\cleardoublepage
+
+\input{introduccion.tex}
+\input{objetivos.tex}
+\input{estadodelarte.tex}
+\input{design_implement.tex}
+\input{evaluation.tex}
+\input{conclusiones.tex}
+
+%\input{bibliografia.tex}
+
+\input{apendices.tex}
+\end{document}
