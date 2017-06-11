@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.2)  11 JUN 2017 14:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.2)  11 JUN 2017 19:42
 entering extended mode
 **memoria_def.tex
 
@@ -695,15 +695,39 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 {C:/Users/Itzi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Itz
 i/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/img/logo_vect.png>]
 )
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\dedica
-toria.tex [1] [2
-
-]
+(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\anexo_
+entrega.tex [1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 )
+(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\licenc
+ia.tex [1
+
+
+] <img/by-sa_petit.png, id=15, 28.4262pt x 9.8769pt>
+File: img/by-sa_petit.png Graphic file (type png)
+
+<use img/by-sa_petit.png>
+Package pdftex.def Info: img/by-sa_petit.png used on input line 10.
+(pdftex.def)             Requested size: 113.7044pt x 39.5075pt.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 10.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+))
+(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\dedica
+toria.tex [2 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_M
+EMORIA/img/by-sa_petit.png>])
 (C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\agrade
-cimientos.tex [1] [2
+cimientos.tex [1
+
+] [2
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
@@ -736,12 +760,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
  []
 
 )
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\abrevi
-aciones.tex [3] [4
-
-])
 (C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\resume
-n.tex [5] [6
+n.tex [3] [4
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
@@ -758,9 +778,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-[7])
+[5])
 (C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\summar
-y.tex [8]
+y.tex [6]
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
@@ -777,18 +797,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
 )
 (C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\indice
-.tex [9
+.tex [7
 
-] [10
+] [8
 
 ]
 (C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\memori
-a_def.toc
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
- [11] [12])
+a_def.toc [9] [10])
 \tf@toc=\write4
- [13] [14
+ [11] [12
 
 ]
 (C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\memori
@@ -801,10 +818,13 @@ LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 21.
 )
 \tf@lof=\write5
-) [15
+)
+(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\abrevi
+aciones.tex [13
 
-]
-[16
+] [14
+
+]) [15] [16
 
 ]
 (C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\introd
@@ -949,29 +969,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
 [7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
@@ -981,13 +981,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-<img/Diagram1_flujo_semiautomatico.png, id=91, 1701.35625pt x 529.98pt>
+<img/Diagram1_flujo_semiautomatico.png, id=98, 1701.35625pt x 529.98pt>
 File: img/Diagram1_flujo_semiautomatico.png Graphic file (type png)
 
 <use img/Diagram1_flujo_semiautomatico.png>
 Package pdftex.def Info: img/Diagram1_flujo_semiautomatico.png used on input li
 ne 43.
 (pdftex.def)             Requested size: 455.2446pt x 199.1706pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [8]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
@@ -998,8 +1001,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
 
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
@@ -1022,31 +1023,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-<img/Selection_014_traza_wireshark.png, id=98, 948.54375pt x 314.17375pt>
+<img/Selection_014_traza_wireshark.png, id=105, 948.54375pt x 314.17375pt>
 File: img/Selection_014_traza_wireshark.png Graphic file (type png)
 
 <use img/Selection_014_traza_wireshark.png>
@@ -1058,7 +1039,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-<img/Selection_015_pdml_2.png, id=102, 770.88pt x 201.75375pt>
+<img/Selection_015_pdml_2.png, id=109, 770.88pt x 201.75375pt>
 File: img/Selection_015_pdml_2.png Graphic file (type png)
 
 <use img/Selection_015_pdml_2.png>
@@ -1069,12 +1050,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
-
-Underfull \vbox (badness 2608) has occurred while \output is active []
-
- [11 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/i
-mg/Selection_014_traza_wireshark.png> <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATE
-X/memoria2017github/PFC_MEMORIA/img/Selection_015_pdml_2.png>]
+[11 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
+g/Selection_014_traza_wireshark.png> <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX
+/memoria2017github/PFC_MEMORIA/img/Selection_015_pdml_2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
@@ -1094,14 +1072,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
-<img/Selection_020_expregunta.png, id=106, 514.92375pt x 212.795pt>
+<img/Selection_020_expregunta.png, id=114, 514.92375pt x 212.795pt>
 File: img/Selection_020_expregunta.png Graphic file (type png)
 
 <use img/Selection_020_expregunta.png>
 Package pdftex.def Info: img/Selection_020_expregunta.png used on input line 14
 7.
 (pdftex.def)             Requested size: 455.24408pt x 188.13684pt.
+
+Underfull \vbox (badness 2293) has occurred while \output is active []
+
  [12]
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
@@ -1111,64 +1097,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-
- []
-
-<img/Selection_021_moss.png, id=111, 516.93124pt x 322.20375pt>
+<img/Selection_021_moss.png, id=118, 516.93124pt x 322.20375pt>
 File: img/Selection_021_moss.png Graphic file (type png)
 
 <use img/Selection_021_moss.png>
-Package pdftex.def Info: img/Selection_021_moss.png used on input line 168.
+Package pdftex.def Info: img/Selection_021_moss.png used on input line 165.
 (pdftex.def)             Requested size: 455.24408pt x 283.76633pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/i
-mg/Selection_020_expregunta.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
-
- []
-
-[14 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
-g/Selection_021_moss.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+mg/Selection_020_expregunta.png>] [14 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATE
+X/memoria2017github/PFC_MEMORIA/img/Selection_021_moss.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
@@ -1198,83 +1139,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--217
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 247.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 250.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 250.
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
-
- []
-
-)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 247.
+ [17])
 (C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\estado
 delarte.tex [18]
 Cap\'{\i }tulo 3.
@@ -1307,31 +1184,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
@@ -1341,12 +1193,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-[20]
+
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
@@ -1366,12 +1218,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-[21]
+
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
@@ -1386,17 +1238,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
@@ -1421,223 +1268,187 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-[23]
+
 Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-
- []
-
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
-
- []
-
-<img/pycharm.png, id=160, 1174.3875pt x 1038.88126pt>
+<img/pycharm.png, id=164, 1174.3875pt x 1038.88126pt>
 File: img/pycharm.png Graphic file (type png)
  <use img/pycharm.png>
-Package pdftex.def Info: img/pycharm.png used on input line 232.
+Package pdftex.def Info: img/pycharm.png used on input line 225.
 (pdftex.def)             Requested size: 455.24408pt x 402.705pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2828) has occurred while \output is active []
 
- [28]
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-
- []
-
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 242.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Overfull \hbox (38.97423pt too wide) in paragraph at lines 242--243
-\OT1/ptm/m/n/12 cu-yas con-di-cio-nes po-de-mos en-con-trar en $\OT1/pcr/m/n/12
- https : / / www . jetbrains . com / buy / opensource/$\OT1/ptm/m/n/12 . 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+ [27]
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
 
-Overfull \hbox (31.25278pt too wide) in paragraph at lines 245--246
-\OT1/ptm/m/n/12 mo es el ca-so de In-te-lliJ IDEA $\OT1/pcr/m/n/12 https : / / 
-github . com / JetBrains / intellij-[]community$\OT1/ptm/m/n/12 ,
+Overfull \hbox (41.25426pt too wide) in paragraph at lines 235--236
+\OT1/ptm/m/n/12 cu-yas con-di-cio-nes po-de-mos en-con-trar en  $\OT1/pcr/m/n/1
+2 https : / / www . jetbrains . com / buy / opensource/$\OT1/ptm/m/n/12 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
-[29 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
+
+Overfull \hbox (33.53209pt too wide) in paragraph at lines 238--239
+\OT1/ptm/m/n/12 mo es el ca-so de In-te-lliJ IDEA  $\OT1/pcr/m/n/12 https : / /
+ github . com / JetBrains / intellij-[]community$\OT1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+[28 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
 g/pycharm.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
-<img/robomongo.png, id=170, 1216.545pt x 743.77875pt>
+<img/robomongo.png, id=172, 1216.545pt x 743.77875pt>
 File: img/robomongo.png Graphic file (type png)
  <use img/robomongo.png>
-Package pdftex.def Info: img/robomongo.png used on input line 265.
+Package pdftex.def Info: img/robomongo.png used on input line 258.
 (pdftex.def)             Requested size: 455.24408pt x 278.32619pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30])
+ [29])
 (C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\design
-_implement.tex [31 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github
-/PFC_MEMORIA/img/robomongo.png>] [32
-
-]
+_implement.tex [30 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github
+/PFC_MEMORIA/img/robomongo.png>]
 Cap\'{\i }tulo 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
@@ -1651,30 +1462,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-[33
+[31
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
@@ -1683,63 +1475,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
- []
-
-
-Overfull \hbox (8.8283pt too wide) in paragraph at lines 63--64
+[32]
+Overfull \hbox (8.8283pt too wide) in paragraph at lines 60--61
 []\OT1/ptm/m/n/12 Escenarios de ma-yor can-ti-dad y com-ple-ji-dad de c[]odi-go
  fuen-te: apli-ca-cio-nes cliente-servidor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-[35]
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
@@ -1749,7 +1496,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
@@ -1765,11 +1512,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
-[36]
+
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
@@ -1779,19 +1526,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
-<img/Diagram2_iteracion1.png, id=195, 1236.62pt x 698.61pt>
-File: img/Diagram2_iteracion1.png Graphic file (type png)
-
-<use img/Diagram2_iteracion1.png>
-Package pdftex.def Info: img/Diagram2_iteracion1.png used on input line 99.
-(pdftex.def)             Requested size: 455.24408pt x 257.18114pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
-[37 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
-g/Diagram2_iteracion1.png>]
+<img/Diagram2_iteracion1.png, id=193, 1236.62pt x 698.61pt>
+File: img/Diagram2_iteracion1.png Graphic file (type png)
+
+<use img/Diagram2_iteracion1.png>
+Package pdftex.def Info: img/Diagram2_iteracion1.png used on input line 102.
+(pdftex.def)             Requested size: 455.24408pt x 257.18114pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
@@ -1801,127 +1547,113 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+[35 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
+g/Diagram2_iteracion1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
-<img/Selection_022_pyanaly_regex.png, id=202, 481.8pt x 94.3525pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+<img/Selection_022_pyanaly_regex.png, id=201, 481.8pt x 94.3525pt>
 File: img/Selection_022_pyanaly_regex.png Graphic file (type png)
 
 <use img/Selection_022_pyanaly_regex.png>
 Package pdftex.def Info: img/Selection_022_pyanaly_regex.png used on input line
- 137.
+ 142.
 (pdftex.def)             Requested size: 455.24408pt x 89.15492pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-[39 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
+[37 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
 g/Selection_022_pyanaly_regex.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-<img/Selection_024_testcodigo.png, id=206, 462.72874pt x 213.79875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+<img/Selection_024_testcodigo.png, id=205, 462.72874pt x 213.79875pt>
 File: img/Selection_024_testcodigo.png Graphic file (type png)
 
 <use img/Selection_024_testcodigo.png>
-Package pdftex.def Info: img/Selection_024_testcodigo.png used on input line 17
-1.
+Package pdftex.def Info: img/Selection_024_testcodigo.png used on input line 18
+5.
 (pdftex.def)             Requested size: 455.24408pt x 210.34343pt.
- [40 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/i
+ [38 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/i
 mg/Selection_024_testcodigo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
-<img/Selection_025_gitlog_patterns.png, id=210, 517.935pt x 336.25626pt>
+<img/Selection_025_gitlog_patterns.png, id=209, 517.935pt x 336.25626pt>
 File: img/Selection_025_gitlog_patterns.png Graphic file (type png)
 
 <use img/Selection_025_gitlog_patterns.png>
 Package pdftex.def Info: img/Selection_025_gitlog_patterns.png used on input li
-ne 193.
+ne 209.
 (pdftex.def)             Requested size: 455.24408pt x 295.56778pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
-[41 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
+[39 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
 g/Selection_025_gitlog_patterns.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-
- []
-
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
@@ -1935,288 +1667,228 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
-
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
-[43] <img/Diagram3_iteracion2.png, id=221, 1295.84125pt x 858.20625pt>
+[41] <img/Diagram3_iteracion2.png, id=220, 1295.84125pt x 858.20625pt>
 File: img/Diagram3_iteracion2.png Graphic file (type png)
 
 <use img/Diagram3_iteracion2.png>
-Package pdftex.def Info: img/Diagram3_iteracion2.png used on input line 249.
+Package pdftex.def Info: img/Diagram3_iteracion2.png used on input line 265.
 (pdftex.def)             Requested size: 455.24408pt x 301.50287pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+[42 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
+g/Diagram3_iteracion2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
+
+ []
+
+[43] <img/Selection_026_mongomodel.png, id=227, 461.725pt x 236.885pt>
+File: img/Selection_026_mongomodel.png Graphic file (type png)
+
+<use img/Selection_026_mongomodel.png>
+Package pdftex.def Info: img/Selection_026_mongomodel.png used on input line 30
+0.
+(pdftex.def)             Requested size: 455.24408pt x 233.559pt.
+
+<img/Selection_027_mongoembdoc.png, id=228, 260.975pt x 75.28125pt>
+File: img/Selection_027_mongoembdoc.png Graphic file (type png)
+
+<use img/Selection_027_mongoembdoc.png>
+Package pdftex.def Info: img/Selection_027_mongoembdoc.png used on input line 3
+07.
+(pdftex.def)             Requested size: 341.43306pt x 98.49162pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
 
 [44 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
-g/Diagram3_iteracion2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
-
- []
-
-[45] <img/Selection_026_mongomodel.png, id=228, 461.725pt x 236.885pt>
-File: img/Selection_026_mongomodel.png Graphic file (type png)
-
-<use img/Selection_026_mongomodel.png>
-Package pdftex.def Info: img/Selection_026_mongomodel.png used on input line 28
-4.
-(pdftex.def)             Requested size: 455.24408pt x 233.559pt.
-
-<img/Selection_027_mongoembdoc.png, id=229, 260.975pt x 75.28125pt>
-File: img/Selection_027_mongoembdoc.png Graphic file (type png)
-
-<use img/Selection_027_mongoembdoc.png>
-Package pdftex.def Info: img/Selection_027_mongoembdoc.png used on input line 2
-91.
-(pdftex.def)             Requested size: 341.43306pt x 98.49162pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
-
- []
-
-[46 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
 g/Selection_026_mongomodel.png> <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memo
 ria2017github/PFC_MEMORIA/img/Selection_027_mongoembdoc.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
+
+ []
+
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
-
- []
-
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
-
- []
-
-[48]
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
-
- []
-
-<img/Selection_028_git_comentarios.png, id=240, 416.55624pt x 118.4425pt>
+[46] <img/Selection_028_git_comentarios.png, id=238, 416.55624pt x 118.4425pt>
 File: img/Selection_028_git_comentarios.png Graphic file (type png)
 
 <use img/Selection_028_git_comentarios.png>
 Package pdftex.def Info: img/Selection_028_git_comentarios.png used on input li
-ne 376.
+ne 392.
 (pdftex.def)             Requested size: 455.24408pt x 129.44855pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
 
  []
 
-[49 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+
+ []
+
+[47 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
 g/Selection_028_git_comentarios.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 393--394
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
-
- []
-
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 417--418
-
- []
-
-<img/Selection_015_pdml_1.png, id=247, 752.8125pt x 521.95pt>
-File: img/Selection_015_pdml_1.png Graphic file (type png)
-
-<use img/Selection_015_pdml_1.png>
-Package pdftex.def Info: img/Selection_015_pdml_1.png used on input line 421.
-(pdftex.def)             Requested size: 455.24408pt x 315.64134pt.
-
-<img/Selection_029_pdml.png, id=248, 400.49625pt x 155.58125pt>
-File: img/Selection_029_pdml.png Graphic file (type png)
-
-<use img/Selection_029_pdml.png>
-Package pdftex.def Info: img/Selection_029_pdml.png used on input line 422.
-(pdftex.def)             Requested size: 455.24408pt x 176.8588pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 430--431
 
  []
 
+<img/Selection_015_pdml_1.png, id=243, 752.8125pt x 521.95pt>
+File: img/Selection_015_pdml_1.png Graphic file (type png)
 
-Underfull \vbox (badness 1888) has occurred while \output is active []
+<use img/Selection_015_pdml_1.png>
+Package pdftex.def Info: img/Selection_015_pdml_1.png used on input line 434.
+(pdftex.def)             Requested size: 455.24408pt x 315.64134pt.
 
- [51 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/i
-mg/Selection_015_pdml_1.png> <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria
-2017github/PFC_MEMORIA/img/Selection_029_pdml.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+<img/Selection_029_pdml.png, id=244, 400.49625pt x 155.58125pt>
+File: img/Selection_029_pdml.png Graphic file (type png)
 
- []
+<use img/Selection_029_pdml.png>
+Package pdftex.def Info: img/Selection_029_pdml.png used on input line 435.
+(pdftex.def)             Requested size: 284.52756pt x 110.53703pt.
 
+Underfull \vbox (badness 1184) has occurred while \output is active []
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+ [48]
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
 
  []
 
-[52]
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
+[49 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
+g/Selection_015_pdml_1.png> <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2
+017github/PFC_MEMORIA/img/Selection_029_pdml.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
 
  []
 
@@ -2225,60 +1897,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 468--469
 
  []
 
-<img/Diagram4_bbdd.png, id=255, 1249.66875pt x 614.295pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--472
+
+ []
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
+
+ []
+
+<img/Diagram4_bbdd.png, id=254, 1249.66875pt x 614.295pt>
 File: img/Diagram4_bbdd.png Graphic file (type png)
 
 <use img/Diagram4_bbdd.png>
-Package pdftex.def Info: img/Diagram4_bbdd.png used on input line 473.
+Package pdftex.def Info: img/Diagram4_bbdd.png used on input line 481.
 (pdftex.def)             Requested size: 455.24408pt x 223.77994pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 488--489
 
- [53]
-[54 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
-g/Diagram4_bbdd.png>] [55] [56] [57] [58] [59])
+ []
+
+[51 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
+g/Diagram4_bbdd.png>] [52] [53] [54] [55] [56])
 (C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\evalua
-tion.tex [60]
+tion.tex [57] [58
+
+]
 Cap\'{\i }tulo 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-[61
-
+[59
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
@@ -2303,12 +1962,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-[62]
+
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
@@ -2333,9 +1992,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-[63])
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+)
 (C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\conclu
-siones.tex [64]
+siones.tex [62]
 Cap\'{\i }tulo 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
@@ -2367,7 +2036,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-[65
+[63
 
 
 ]
@@ -2390,7 +2059,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[66]
+[64]
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
@@ -2415,7 +2084,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-[67]
+[65]
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
@@ -2425,22 +2094,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-
- []
-
-[68]
+[66]
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
@@ -2450,39 +2104,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
+)
+(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\apendi
+ces.tex [67] [68
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+]
+Ap\IeC {\'e}ndice A.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Overfull \hbox (4.18318pt too wide) in paragraph at lines 21--22
+[]\OT1/ptm/m/n/12 Una co-pia del \OT1/ptm/m/it/12 script \OT1/ptm/m/n/12 prin-c
+i-pal, que lee las con-fi-gu-ra-cio-nes e in-vo-ca los di-fe-ren-tes subm[]odu-
+
+ []
+
+[69
+
+] [70]
+Ap\IeC {\'e}ndice B.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-[69])
+[71
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+[72])
 (C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\biblio
-grafia.tex [70]
+grafia.tex [73] [74
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
@@ -2492,134 +2163,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-[71
-
-
-])
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\apendi
-ces.tex [72]
-Ap\IeC {\'e}ndice A.
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-
-Overfull \hbox (4.18318pt too wide) in paragraph at lines 20--21
-[]\OT1/ptm/m/n/12 Una co-pia del \OT1/ptm/m/it/12 script \OT1/ptm/m/n/12 prin-c
-i-pal, que lee las con-fi-gu-ra-cio-nes e in-vo-ca los di-fe-ren-tes subm[]odu-
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-[73
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-[74]
-Ap\IeC {\'e}ndice B.
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
 [75
 
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-) [76]
+]) [76]
 (C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\memori
 a_def.aux)
 
@@ -2627,13 +2173,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7997 strings out of 493921
- 117403 string characters out of 3147286
- 180528 words of memory out of 3000000
- 11050 multiletter control sequences out of 15000+200000
- 30594 words of font info for 74 fonts, out of 3000000 for 9000
+ 8016 strings out of 493921
+ 117986 string characters out of 3147286
+ 180519 words of memory out of 3000000
+ 11060 multiletter control sequences out of 15000+200000
+ 34312 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,13n,38p,768b,506s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,13n,38p,767b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -2642,9 +2188,9 @@ lvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on memoria_def.pdf (95 pages, 978347 bytes).
+Output written on memoria_def.pdf (96 pages, 986208 bytes).
 PDF statistics:
- 362 PDF objects out of 1000 (max. 8388607)
+ 367 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

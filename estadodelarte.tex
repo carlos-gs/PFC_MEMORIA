@@ -5,15 +5,15 @@
 En este capítulo se describen las tecnologías utilizadas para la realización del presente proyecto.
 
 
-\section{MINING SOFTWARE REPOSITORIES}
+\section{Mining Software Repositories}
 
 Este Proyecto de Fin de Carrera, puede asociarse al área de los Mining Software Repositories -MSR-. El objetivo de la comunidad MSR es, aprovechar todos los datos que se generan en el proceso de desarrollo software.\\
 
 
-En general, estos datos se hallan en repositorios de software, como por ejemplo repositorios de control de cambios del código fuente -como Git-, repositorios de seguimiento de bugs y errores,  o repositorios de comunicaciones, que almacenan las comunicaciones entre el equipo de desarrolladores como es el caso de las listas de distribución. Los MSR se dedican a encontrar fuentes de información provenientes de los proyectos software, estudiar sus características, encontrar técnicas para extraer de forma efectiva la información y el aprovechamiento de esos datos para mejorar los requisitos, la calidad y la trazabilidad de los proyectos, y estudiar el impacto de diferentes fenómenos en un desarrollo.\\
+En general, estos datos se hallan en repositorios de software, como por ejemplo repositorios de control de cambios del código fuente -como Git-, repositorios de seguimiento de bugs y errores, o repositorios de comunicaciones, que almacenan las comunicaciones entre el equipo de desarrolladores como es el caso de las listas de distribución. Los MSR se dedican a encontrar fuentes de información provenientes de los proyectos software, estudiar sus características, encontrar técnicas para extraer de forma efectiva la información y el aprovechamiento de esos datos para mejorar los requisitos, la calidad y la trazabilidad de los proyectos, y estudiar el impacto de diferentes fenómenos en un desarrollo.\\
 
 
-Gran parte del conocimiento y evolución en este campo, se presenta anualmente en la conferencia de MSR, cuya vigésimo cuarta edición se ha celebrado este año en Buenos Aires junta a la Conferencia Internacional de Ingeniería de Software.\\
+Gran parte del conocimiento y evolución en este campo, se presenta anualmente en la conferencia de MSR, cuya décimo cuarta edición se ha celebrado este año en Buenos Aires, conjuntamente a la Conferencia Internacional de Ingeniería de Software.\\
 
 
 En esta conferencia, se presentan los artículos sobre MSR que han sido aceptados tras su revisión y entre las actividades se encuentra la propuesta de un desafío sobre un conjunto de datos propuesto, para el cual los desafiados tienen que solucionar a través de sus herramientas o sistemas MSR y presentar un reporte de los resultados.\\
@@ -22,15 +22,15 @@ En esta conferencia, se presentan los artículos sobre MSR que han sido aceptado
 Las temáticas dentro de los MSR, entre muchas otras, podemos enumerar, por ejemplo:\\
 
 \begin{itemize}
-\item Predicción de las características del software mediante el análisis del repositorio software.\\
+\item Predicción de las características del software mediante el análisis del repositorio software.
 
-\item Caracterización, clasificación y predicción de defectos en el software mediante el análisis de los repositorios software.\\
+\item Caracterización, clasificación y predicción de defectos en el software mediante el análisis de los repositorios software.
 
-\item Análisis de cambios o de nuevas tendencias.\\
+\item Análisis de cambios o de nuevas tendencias.
 
-\item Técnicas de visualización y modelos para los conjuntos de datos minados.\\
+\item Técnicas de visualización y modelos para los conjuntos de datos minados.
 
-\item Privacidad y ética en los MSR.\\
+\item Privacidad y ética en los MSR.
 
 \item Minado sobre cualquier elemento asociado a un proceso de desarrollo software. Los ya mencionados, pero también otros como licencias, \textit{logs} o las opiniones en los centros de aplicaciones y sitios de opiniones sobre los programas.
 \end{itemize}
@@ -45,10 +45,10 @@ El otro hecho que se concluye, es que un sistema de estas características, que 
 Asimismo, a la hora de explorar formas y herramientas para explotar los datos brutos de las entregas de los alumnos, me resultó útil el análisis de las diferentes fuentes que nos podemos encontrar en un proyecto de software, que se realiza en el artículo \textit{Robles, G., González-Barahona J. M., Izquierdo-Cortazar, D. y Herraiz, I. (2009). Tools for the Study of the Usual Data Sources found in Libre Software Projects}.\\
 
 
-\section{TECNOLOGÍAS UTILIZADAS} 
+\section{Tecnologías utilizadass} 
 \label{sec:tec_use}
 
-\subsection{PYTHON} 
+\subsection{Python} 
 \label{sec:python}
 
 
@@ -70,11 +70,11 @@ La versión 1.0 fue lanzada en 1994, la 2.0 en Octubre de 2000 y la 3.0 fue lanz
 Python pretende ser un lenguaje fácil de leer. Para delimitar bloques se emplea la indentación en blancos en lugar de las llaves y los puntos y coma. En el mundillo Python, existe una filosofía  con unos principios de Python en cuenta a legibilidad y transparencia, recogida en el documento ``El Zen de Python'' (PEP 20). El código que siga sus principios se denomina \textit{pythonic}.
 
 
-\subsection{DJANGO} 
+\subsection{Django} 
 \label{sec:django}
 
 
-Django es un framework de aplicaciones web open source, escrito en Python, que aparenta seguir el patrón de diseño Modelo-Vista-Controlador. Proporciona al usuario una serie de componentes habituales en las aplicaciones web, como autenticación, sesión, administración, formularios, gestión de archivos preparados para ser usados.\\
+Django es un framework de aplicaciones web open source, escrito en Python, que aparenta seguir el patrón de diseño Modelo-Vista-Controlador. Proporciona al usuario una serie de componentes habituales en las aplicaciones web, como autenticación, sesión, administración, formularios, gestión de archivos, preparados para ser usados.\\
 
 
 Está orientado a realizar desarrollos rápidos, por lo que incluye un servidor web ligero para facilitar esto, aunque soporta \textit{Apache2} para la etapa de producción y servidores \textit{WSGI}. Las bases de datos soportadas son \textit{PostgreSQL}, \textit{MySQL} y \textit{SQLite3}.\\
@@ -83,14 +83,14 @@ Está orientado a realizar desarrollos rápidos, por lo que incluye un servidor 
 Django fue liberado al público bajo licencia BSD en 2005, siendo desde 2008 la \textit{Django Software Foundation} quien mantiene el proyecto. La última versión es la 1.11, que será la última que soporte Python2.
 
 
-\subsection{MONGODB} 
+\subsection{MongoDB} 
 \label{sec:mongodb}
 
 
 MongoDB es un sistema de base de datos NoSQL lanzado en 2009 y ampliamente adoptado por la industria. La última versión es la 3.4.4. Es orientado a documentos, los cuales se guardan en colecciones de documentos de una estructura similar a JSON -BSON-.  La equivalencia entre elementos de una BBDD SQL y NoSQL, es la siguiente:\\
 
 \begin{itemize}
-\item TABLA-COLECCIÓN\\
+\item TABLA-COLECCIÓN
 
 \item REGISTRO-DOCUMENTO
 
@@ -110,7 +110,7 @@ MongoDB viene por defecto con una consola construida sobre Javascript, realizán
 Asimismo, MongoDB tiene drivers oficiales para los principales lenguajes de programación. Para Python, el driver recomendado es PyMongo.\\
 
 
-\subsection{PYMODM} 
+\subsubsection{PyMODM} 
 \label{sec:pymod}
 
 PyMODM, es un ODM sobre el driver de MongoDB PyMongo, desarrollado por ingenieros de MongoDB. Es una librería que proporciona los mecanismos para mapear la estructura de la base de datos a objetos Python, pudiéndose usar la información de la base de datos como si se tratase de un objeto.\\
@@ -128,19 +128,12 @@ En Git, los datos se modelan y almacenan como una sucesión de instantáneas de 
 Para operar con el repositorio o el historial, no es necesario  estar conectado al servidor, salvo para sincronizar los cambios, pudiendo operar todo el tiempo en local.\\
 
 
-\subsection{PYGIT2} 
+\subsubsection{PyGIT2} 
 \label{sec:pygit2}
 
 Librería externa de Python, que proporciona en Python la funcionalidad esencial de Git a través de \textit{libgit2}, la API en C multiplataforma.
 
-
-\subsection{Pep8} 
-\label{sec:pep8}
-
-Pep8 es un ``checker'' de la guía de estilo de Python, una herramienta que valida el código Python contra las convenciones de estilo recogidas en PEP 8.\\
-
-
-\section{ANÁLISIS DE CÓDIGO FUENTE} 
+\subsection{Análisis de código fuente} 
 \label{sec:anal_cod}
 
 El análisis del código fuente, es un tipo de análisis dentro del análisis estático de software, habitualmente realizado por herramientas automáticas, que evalúa el software sin ejecutarlo, para permitir mejorar el código, sin alterar la semántica.\\
@@ -158,20 +151,20 @@ Los objetivos de estos análisis puede ser tales como la verificación de propie
 No obstante, el análisis de código fuente no es suficiente para evaluar o mejorar un desarrollo en todos sus aspectos, por lo que debería complementarse con otras técnicas de análisis de software, por ejemplo, los test.\\
 
 
-\section{UTILIDADES DE ANÁLISIS DE CÓDIGO FUENTE EN PYTHON} 
+\subsubsection{UTILIDADES DE ANÁLISIS DE CÓDIGO FUENTE EN PYTHON} 
 \label{sec:utilidades_cod}
 
 
 Para la realización de análisis de código en Python, nos hemos ayudado de varias herramientas, introducidas a continuación.\\
 
 
-La utilidad Pep8, ya rebautizada como pycodestyle, es un ``checker'' de la guía de estilo de Python. Esta utilidad, se ejecuta sobre ficheros fuente python, y nos proporciona un listado con la localización, el código de error E*** o W*** y la descripción de los incumplimientos con respecto a la guía de PEP8.\\
+La utilidad Pep8, ya rebautizada como \textit{pycodestyle}, es un ``checker'' de la guía de estilo de Python. Esta utilidad, se ejecuta sobre ficheros fuente python, y nos proporciona un listado con la localización, el código de error E*** o W*** y la descripción de los incumplimientos con respecto a la guía de PEP8.\\
 
 
 Pylint, es otra utilidad de verificación de código Python bastante completa, que verifica estilo, bugs y calidad del código. También si los nombres de los elementos están bien formados con respecto a los estándares y si las interfaces declaradas son implementadas. Es una herramienta comúnmente integrada en los entornos de desarrollo y editores de código.\\
 
 
-Flake8 es una utilidad que auna las comprobaciones de estilo de pep8, de errores de logica de pyflakes, y de complejidad circular. Su diseño permite la extensión mediante la inclusión de extensiones.  Por defecto incluye la extensión McCabe, que generaría errores con el codigo C9**, si detecta casos de complejidades mayores a un umbral dado.\\
+Flake8 es una utilidad que auna las comprobaciones de estilo de Pep8, de errores de logica de pyflakes, y de complejidad circular. Su diseño permite la extensión mediante la inclusión de extensiones.  Por defecto incluye la extensión McCabe, que generaría errores con el codigo C9**, si detecta casos de complejidades mayores a un umbral dado.\\
 
 
 Otra extensión popular es Hacking, que introduce errores con el código H***, y sus comprobaciones son las contempladas en las \textit{OpenStack Style Guidelines}, basadas en el \textit{Google Python Style Guideline}.\\
@@ -179,7 +172,7 @@ Otra extensión popular es Hacking, que introduce errores con el código H***, y
 Las comprobaciones de errores de lógica de pyflakes se etiquetan mediante códigos F***. Existe una completa documentación de los códigos de error en los manuales de las diferentes utilidades.\\
 
 
-\section{OTRAS HERRAMIENTAS UTILIZADAS} 
+\section{Otras herramientas utilizadas} 
 \label{sec:otras_herramientas}
 
 El desarrollo de este proyecto se ha realizado eminentemente desde y para sistemas Linux, y concretamente se ha desarrollado y probado en distribuciones Ubuntu y Linux Mint, semejantes a los entornos que emplean profesores y alumnos en el contexto tratado.
@@ -200,7 +193,7 @@ En este caso, el cambio a este IDE viene justificado con una notable mejora de p
 
 Una vez ya han sido introducidas con anterioridad las tecnologías, herramientas y librerías clave, paso a hacer una mención de dos de las herramientas que he conocido durante la realización de este proyecto, y que han sido de notable ayuda para su realización.\\
 
-\subsection{PYCHARM}
+\subsection{PyCharm}
 \label{subsec:pycharm}
 
 Como ya se ha introducido, PyCharm es un IDE multiplataforma orientado al lenguaje Python, y también al desarrollo de JavaScript y soporte para frameworks basados en estos lenguajes cono AngularJS o Django.\\
@@ -209,19 +202,19 @@ Como ya se ha introducido, PyCharm es un IDE multiplataforma orientado al lengua
 Pycharm aporta además, entre otras funcionalidades:\\
 
 \begin{itemize}
-\item Ayuda y análisis de código: autocompletado, marcado de sintaxis y errores.\\
+\item Ayuda y análisis de código: autocompletado, marcado de sintaxis y errores.
 
-\item Navegación avanzada entre los elementos del proyecto y del código.\\
+\item Navegación avanzada entre los elementos del proyecto y del código.
 
-\item Refactorización del código Python.\\
+\item Refactorización del código Python.
 
 \item Depurador integrado.
 
-\item Integración para test unitarios en Python.\\
+\item Integración para test unitarios en Python.
 
-\item Integración con sistemas de control de versiones: Git, Mercurial, Subversión, CVS.\\
+\item Integración con sistemas de control de versiones: Git, Mercurial, Subversión, CVS.
 
-\item Extensiones y disponibilidad de una numerosa biblioteca para infinidad de propósitos.\\
+\item Extensiones y disponibilidad de una numerosa biblioteca para infinidad de propósitos.
 
 \item También permite la integración de herramientas externas. Por ejemplo, en nuestro caso integramos \textit{pep8} y pudiéndose chequear el estilo de cualquier módulo rápidamente.
 \end{itemize}
@@ -239,16 +232,16 @@ Pycharm aporta además, entre otras funcionalidades:\\
 Jetbrains, la empresa desarrolladora de este producto, lo pone a disposición de los usuarios bajo un modelo que puede considerarse \textit{fremium}. Tienen disponible una versión profesional, privativa, con todas las funcionalidades y extensiones.\\
 
 
-No obstante, proporcionan licencias especiales para proyectos open source no comerciales, cuyas condiciones podemos encontrar en \url{https://www.jetbrains.com/buy/opensource/}.\\
+No obstante, proporcionan licencias especiales para proyectos open source no comerciales, cuyas condiciones podemos encontrar en \space \url{https://www.jetbrains.com/buy/opensource/}.\\
 
 
-Asimismo, mantienen versiones básicas de sus productos lanzadas bajo licencias open source, como Apache 2.0, llegando a disponerse públicamente del código de algunos de ellos. Tal como es el caso de IntelliJ IDEA \url{https://github.com/JetBrains/intellij-community}, que es otro IDE desarrollado por ellos que es la propia base del IDE PyCharm.\\
+Asimismo, mantienen versiones básicas de sus productos lanzadas bajo licencias open source, como Apache 2.0, llegando a disponerse públicamente del código de algunos de ellos. Tal como es el caso de IntelliJ IDEA \space \url{https://github.com/JetBrains/intellij-community}, que es otro IDE desarrollado por ellos que es la propia base del IDE PyCharm.\\
 
 
 En el caso de PyCharm, está versión es la denominada como ``Community Edition'', la cuál fue la que se empleo en el desarrollo y depuración de buena parte de este proyecto.\\
 
 
-\subsection{ROBOMONGO}
+\subsection{Robomongo}
 \label{subsec:robomongo}
 
 Robomongo es un cliente para bases de datos MongoDB con interfaz gráfica, muy ligero y de funcionalidad básica, pero suficientemente potente.\\

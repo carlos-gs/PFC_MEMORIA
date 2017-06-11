@@ -7,19 +7,19 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Formato de la pregunta de examen que se sube a la BBDD\relax }}{13}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Resultado que publica MOSS en una url\relax }}{14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Interfaz de PyCharm \relax }}{29}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Interfaz de Robomongo\relax }}{31}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Interfaz de PyCharm \relax }}{28}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Interfaz de Robomongo\relax }}{30}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Flujo de la iteraci\IeC {\'o}n 1.\relax }}{37}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces regex utilizados para identificar elementos de c\IeC {\'o}digo y su nombre\relax }}{39}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Tuplas con la bater\IeC {\'\i }a de pruebas para el m\IeC {\'o}dulo de pruebas\relax }}{40}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Regex utilizados para el an\IeC {\'a}lisis del log\relax }}{41}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Relaci\IeC {\'o}n entre los paquetes y elementos en esta versi\IeC {\'o}n de Misture\relax }}{44}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces un objeto misture como documentos de una colecci\IeC {\'o}n en MongoDB v\IeC {\'\i }a ODM\relax }}{46}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces representaci\IeC {\'o}n de un documento sin colecci\IeC {\'o}n , embebido en otro documento\relax }}{46}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Par\IeC {\'a}metros para la extracci\IeC {\'o}n de significantes de comentarios de commits\relax }}{49}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces PDML de una captura es una sucesi\IeC {\'o}n de \textless packet\textgreater con \textless proto\textgreater en su interior.\relax }}{51}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Representaci\IeC {\'o}n de BBDD incluida en Misture\relax }}{54}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Flujo de la iteraci\IeC {\'o}n 1.\relax }}{35}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Patrones utilizados para identificar elementos de c\IeC {\'o}digo y su nombre\relax }}{37}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Tuplas con la bater\IeC {\'\i }a de pruebas\relax }}{38}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Regex utilizados para el an\IeC {\'a}lisis del log\relax }}{39}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Relaci\IeC {\'o}n entre los paquetes y elementos en esta versi\IeC {\'o}n de Misture\relax }}{42}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Un objeto Misture como documentos de una colecci\IeC {\'o}n en MongoDB v\IeC {\'\i }a ODM\relax }}{44}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Representaci\IeC {\'o}n de un documento sin colecci\IeC {\'o}n, embebido en otro documento\relax }}{44}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Par\IeC {\'a}metros para la extracci\IeC {\'o}n de significantes de comentarios de \textit {commits}\relax }}{47}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces PDML de una captura es una sucesi\IeC {\'o}n de \textless packet\textgreater con \textless proto\textgreater en su interior.\relax }}{49}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Representaci\IeC {\'o}n de BBDD incluida en Misture\relax }}{51}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
