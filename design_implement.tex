@@ -3,7 +3,12 @@
 \label{chap:design_implement}
 
 
-En este capítulo se realiza una descripción detallada sobre el diseño y la implementación del presente Proyecto de Fin de Carrera.\\
+\section{Arquitectura y diseño.}
+
+En este capítulo, vamos a describir la metodología de desarrollo del proyecto Misture, y el diseño y arquitectura en varios momentos de su desarrollo, respondiendo a una funcionalidad creciente y más rica.\\
+
+
+Por último, se detalla la estructura de la base de datos no relacional que se emplea en el estado final del proyecto.\\
 
 
 \section{Modelo de desarrollo} 
@@ -12,7 +17,7 @@ En este capítulo se realiza una descripción detallada sobre el diseño y la im
 El desarrollo de un proyecto de software libre implica una sucesión de tareas entre el momento que se tiene una idea para resolver un problema o necesidad, y el producto u servicio final que lo satisface. Este metodología nos marca como se suceden las diferentes tareas y actividades dentro del proyecto.\\
 
 
-Durante el desarrollo de este proyecto hemos seguido un modelo que se asemeja al modelo de desarrollo iterativo y creciente, o incremental.  En este proceso creamos una primera versión del sistema, funcional, con el que se pueda interactuar y nos dé realimentación para las sucesivas iteraciones.\\
+Durante el desarrollo de este proyecto hemos seguido un modelo que se asemeja al modelo de desarrollo iterativo y creciente, o incremental.  En este proceso creamos una primera versión del sistema, funcional, con el que se pueda interactuar y nos de realimentación para las sucesivas iteraciones.\\
 
 
 El modelo incremental, a priori, nos proporciona las siguientes ventajas:\\
@@ -77,7 +82,7 @@ A partir de ese versión inicial, se fueron añadiendo los módulos con los dife
 Para simplificar la explicación del diseño de Misture, vamos a reducir la explicación de todo el proceso al detalle de dos estados, que vamos a denominar iteración 1 e iteración 2, que realmente componen una sucesión de incrementos que llevaron a esos dos estados del proyecto.\\
 
 
-Esta división, asimismo, tiene también como justificación el hecho de que el estado descrito en la primera iteración es más próxima a las actividades caracterizadas del grupo 1 descrito anteriormente, y la iteración 2 recoge un estado más cercano a resolver las necesidades de las actividades descritas en el grupo 2.
+Esta división, asimismo, tiene también como justificación el hecho de que el estado descrito en la primera iteración es más próxima a las actividades caracterizadas del grupo 1 descrito anteriormente, y la iteración 2 recoge un estado más cercano a resolver las necesidades de las actividades descritas en el grupo 2.\\
 
 \section{ITERACION 1:}
 
@@ -87,7 +92,15 @@ Vamos a describir el diseño de los diferentes módulos que componen este primer
 En este diseño, para el almacenamiento y tratamiento de todos los datos extraídos en los diferentes análisis, se emplearon ficheros para las transacciones entre las utilidades externas y para generar logs de errores e imprimir el reporte final ordenado, así como estructuras dinámicas como listas y diccionarios y una jerarquía de clases Python que modelaban los diferentes objetos y las relaciones entre ellos que identificábamos en este escenario, tales como actividad, alumnos, repositorios, ficheros, elementos de código, estadística, error de estilo, etc.\\
 
 
-Esta jerarquía, era una primera versión del modelo usado en la iteración 2 y que se detalla posteriormente en en el apartado ``DISEÑO DE BBDD''.
+Esta jerarquía, era una primera versión del modelo usado en la iteración 2 y que se detalla posteriormente en en el apartado ``DISEÑO DE BBDD''.\\
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=16cm]{img/Diagram2_iteracion1}
+   \caption{Flujo de la iteración 1.}
+   \label{figura:ite1}
+\end{figure}
+
 
 \subsection{MÓDULO PRINCIPAL}
 
@@ -97,7 +110,7 @@ En el modulo MainAnaly, se establece la configuración básica de la actividad a
 Este módulo, también se encarga de cargar esta configuración en la jerarquía de clases del escenario e inicializar los logs para la actividad y establecer una ubicación para los reportes individualizados.\\
 
 
-A continuación, realiza las diferentes llamadas a los módulos de análisis, a los que les proporciona como parámetros los objetos adecuados del escenario -repositorio, fichero, etc- y recoge los resultados del análisis, asociándolos al objeto del mundo Misture correspondiente.
+A continuación, realiza las diferentes llamadas a los módulos de análisis, a los que les proporciona como parámetros los objetos adecuados del escenario -repositorio, fichero, etc- y recoge los resultados del análisis, asociándolos al objeto del mundo Misture correspondiente.\\
 
 \subsection{MÓDULO DE ANÁLISIS DE CÓDIGO PYTHON}
 
@@ -134,7 +147,7 @@ En el módulo \textbf{CodeAnaly.py}, se implementa la funcionalidad de análisis
 El procedimiento de análisis de estilo, se implementa en la clase \textbf{Pep8Analy}, es una clase con los atributos necesarios para almacenar los errores de estilo, ficheros en que se producen, y estadísticas de los errores.\\
 
 
-\textbf{Pep8Analy}  recibe como configuración las rutas de los ficheros python a analizar, y los códigos de error que no deben ser tenidos en cuenta para este análisis. Y se inicializa invocando a la utilidad \textit{pep8} como se indica abajo, para recopilar los errores detectados y un sumario de estadísticas.
+\textbf{Pep8Analy}  recibe como configuración las rutas de los ficheros python a analizar, y los códigos de error que no deben ser tenidos en cuenta para este análisis. Y se inicializa invocando a la utilidad \textit{pep8} como se indica abajo, para recopilar los errores detectados y un sumario de estadísticas.\\
 
 \begin{verbatim}
 pep8 --repeat --show-source –ignore=<codigos_error>
@@ -144,7 +157,7 @@ pep8 -q --statistics <ruta_py1 ruta_py2...>
 \end{verbatim}
 
 
-Por otra parte, también se implementa una clase \textbf{PylintAnaly}, que con un funcionamiento semejante al de \textit{Pep8Analy}, extrae y guarda de forma estructurada los errores \textit{Pylint} y la nota de calidad del código obtenidas de la utilidad llamada de la siguiente manera.
+Por otra parte, también se implementa una clase \textbf{PylintAnaly}, que con un funcionamiento semejante al de \textit{Pep8Analy}, extrae y guarda de forma estructurada los errores \textit{Pylint} y la nota de calidad del código obtenidas de la utilidad llamada de la siguiente manera.\\
 
 \begin{verbatim}
 pylint –disable=<codigos_error> <ruta_py1 ruta_py2 ...>
@@ -189,8 +202,256 @@ Con el objetivo de dotar de nuevas funcionalidades a Misture y automatizando y r
 En dicho módulo, a través la funcionalidad de las librerías \textit{smtplib} y \textit{email} de Python, o la API del servicio de emailing \textit{SendGrid}, hay implementaciones para realizar el envío automatizado de los reportes, siempre que se proporcionen las credenciales de acceso.
 
 
+\section{ITERACIÓN 2:} 
+\label{subsec:iteracion2}
+
+Una vez descrito el diseño y funcionalidad de Misture en el estado anterior, podemos observar que el diseño que queda propuesto en ese punto, introduce algunas pequeñas mejoras en cuanto a funcionalidades, organización y modularidad del sistema, especializando las tareas y diferentes tipos de análisis .\\
+
+
+Asimismo, se ha establecido un universo de objetos que modela aproximadamente los elementos que nos vamos encontrando en una corrección automática y la generación de resultados de ``checks'', y así disponer de toda la información extraída en los análisis de una forma estructurada.\\
+
+
+De esta forma, se facilita la recuperación de la información, y por ejemplo, elaborar diferentes informes al final del proceso, a partir de la misma estructura, en lugar de componer  una combinación heterogénea y por separado para alumno y profesor de trazas de diferentes ficheros sobre la marcha. O la posibilidad de añadir con más facilidad en pasos posteriores del proceso, otros análisis a partir de la información estructurada de la corrección. Por ejemplo, para añadir un pequeño análisis de la actividad a nivel de grupo, mediante la agregación de la información sobre cualquiera de los análisis cuyo resultado\\
+
+
+Aun así, a pesar del trabajo desempeñado, la funcionalidad no supone una mejora cualitativa con respecto al sistema de scritps de preproceso y corrección que se plantea en las experiencias piloto de los que partimos. Y seguimos circunscritos a la corrección de entregas de tamaño reducido, con un pull de ficheros cerrado, y comprobaciones basadas en el parseo de la salida de trazas de terceras utilidades.\\
+
+
+Por tanto, esta aproximación, una vez nos planteamos ampliar la funcionalidad, añadir más información para cada uno de los análisis, y trasladarlo a las correcciones de entregas más complejas y avanzadas, nos damos cuenta que es algo limitada para tales intenciones.\\
+
+
+Tras recapitular estas ideas, es posible vislumbrar que líneas vamos a seguir en la mejora del proceso. Por tanto, en los sucesivos incrementos de funcionalidades, se buscaron las siguientes mejoras:\\
+
+\begin{itemize}
+\item Estructurar la información en BBDD\\
+
+\item Especializar aún más los módulos de análisis.\\
+
+\item Búsqueda de APIs Python de las utilidades que se emplean para el análisis, o de alternativas que nos ayuden a tal fin.\\
+\end{itemize}
+
+A raíz de los cambios introducidos en el diseño de los sucesivos incrementos que realizamos en esta segunda versión de Misture, la estructura del código resultante se amplió, constando el proyecto con la siguiente estructura:\\
+
+\begin{itemize}
+\item El script o módulo principal, desde el que se deben especificar las configuraciones y entradas -listados, ruta de ficheros del profesor, etc- necesarias para la corrección, y se invocan las llamadas a los análisis disponibles con los parámetros que el profesor quiera lanzar.\\
+
+\item Un paquete de entidades –denominado \textit{entities}- donde se representan a los objetos del universo Misture, mapeados como documentos a una BBDD MongoDB.\\
+
+\item Un paquete que contiene todos los módulos especializados que proporcionan acceso a cada pequeña funcionalidad de análisis implementada a través de, denominado \textit{Analyx}.\\
+
+\item Se añade un paquete, cuya función consiste hacer de intermediario entre los tres elementos anteriores, denominado \textit{funcionalityx}. Proporciona al módulo principal la interfaz sobre las funcionalidades de análisis a usar; para cada funcionalidad a alto nivel, se encarga de invocar las operaciones y análisis especializados necesarios de los módulos del paquete \textit{analyx}. Y por último, es el encargado de interaccionar con las entidades del paquete \textit{entities}, de forma que la información que recibe de los análisis la almacene estructurada en los objetos del ODM, que se almacenaran de forma persistente en la BBDD.
+\end{itemize}
+
+A continuación, se describen dichos paquetes.
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=16cm]{img/Diagram3_iteracion2}
+   \caption{Relación entre los paquetes y elementos en esta versión de Misture}
+   \label{figura:regex}
+\end{figure}
+
+
+
+\subsection{MÓDULO PRINCIPAL} 
+\label{subsec:mod_principal}
+
+Durante el transcurso de las iteraciones, se sigue manteniendo en el diseño la idea del módulo principal elemento de interacción con el profesor para la configuración, control y uso de la funcionalidad de Misture. La idea es que este módulo abstraiga el resto del sistema Misture y unicamente pueda usarse con la interfaz que proporcionemos a través del paquete \textit{funcionalityx}, siendo solo necesario editar la configuración y llamadas a los análisis deseados para realizar cualquier corrección.\\
+
+
+Se mantiene la necesidad de disponer de los listados de alumnos y de la ubicación o url de los repositorios, así como de las tuplas con las pruebas de caja negra a ejecutar. Pero si introduce como novedad en la configuración la necesidad de un directorio del profesor especifico para la corrección, donde los ficheros necesarios para funcionalidades como las preguntas de examen, ficheros de entrada u otros módulos con la implementación de un cliente o servidor en caso de querer hacer una prueba contra la funcionalidad de los alumnos.
+
+\subsection{PAQUETE DE ENTIDADES} 
+\label{subsec:paq_entities}
+
+En la primera versión de Misture, se implementaron una pequeña jerarquía de clases, con relaciones entre sí, que modelaban las diferentes realidades dentro de la corrección, con sus datos y relaciones entre ellos: una actividad, una corrección de actividad sobre un repositorio, un error de estilo o código, etc.\\
+
+
+El siguiente paso en el diseño, ha sido trasladar este modelado a BBDD, de forma que podamos almacenar y recuperar sistemáticamente la información, y disponer de toda la información para posteriores reportes o análisis.\\
+
+
+Al establecer el diseño de este paso, se optó por una base de datos no relacional como MongoDB, ya que para nuestro desarrollo incremental era más ágil y menos problemático no tener la exigencia de cumplir con un esquema fijo en los datos en todo momento.\\
+
+
+Por otra parte, para poder centrarnos en la lógica de negocio de Misture, y abstraernos lo máximo posible de los accesos a datos, optamos también por el uso de un ODM, eligiendo \textit{PyMODM}. De esta forma, podemos mantener la lógica de nuestro universo de objetos Misture y ampliarla con mayor facilidad.\\
+
+
+Asimismo, \textit{PyMODM} nos permite establecer el tipo de sus campos y otras restricciones, además de implementar validaciones, como vemos en las figuras. Estas siempre se realizan a nivel de aplicación y no en BBDD.\\
+
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=16cm]{img/Selection_026_mongomodel}
+   \caption{un objeto misture como documentos de una colección en MongoDB vía ODM}
+   \label{figura:iter2}
+\end{figure}
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=12cm]{img/Selection_027_mongoembdoc}
+   \caption{representación de un documento sin colección , embebido en otro documento}
+   \label{figura:mon_emb}
+\end{figure}
+
+
+\subsection{PAQUETE DE FUNCIONALIDADES} 
+\label{subsec:paq_functs}
+
+Como ya se ha introducido, este paquete \textit{funtionalityx} se encarga de implementar las funcionalidades de Misture a alto nivel, delegando las diferentes tareas que conforman un análisis a los módulos especializados del paquete \textit{analyx}, estructurando los datos recibidos en los objetos del ODM para su guardado, y atendiendo a las llamadas que recibe de la interfaz que sirve al módulo principal.\\
+
+
+Las funcionalidades que podemos invocar, son las que se detallan a continuación.\\
+
+\begin{itemize}
+\item Análisis de ficheros del repositorio.\\
+
+\item Análisis de elementos del código Python.\\
+
+\item Análisis de estilo y calidad del código.\\
+
+\item Análisis de repositorio Git.\\
+
+\item Análisis de XML y trazas de Wireshark.\\
+
+\item Generación de examen.
+\end{itemize}
+
+
+\subsection{PAQUETE DE ANÁLISIS} 
+\label{subsec:paq_anals}
+
+
+En el diseño de las siguientes iteraciones de desarrollo, se mejoraron y ampliaron las funcionalidades de los análisis, buscando obtener funcionalidades a partir de librerías Python para git, pep8, u otras alternativas, lo que nos facilitaba el acceso a más opciones y datos.\\
+
+
+Esto, junto con el resto de cambios comentados, justificó la, reestructuración del proyecto, volcando dentro de un paquete los módulos de los diferentes análisis, aunando las viejas y nuevas funcionalidades implementadas.\\
+
+A continuación los enumeramos.
+
+
+\subsubsection{MÓDULO DE ANÁLISIS DE FICHEROS ENTREGADOS} 
+\label{subsec:mod_anal_fich}
+
+Con el objetivo de ampliar el análisis del contenido de la entrega, se crea un nuevo módulo, \textit{FuentesAnaly}, que analiza el árbol del proyecto entregado, sin limitarse a evaluar un listado cerrado de ficheros, funcionalidad que mantiene el modulo \textit{PyFichAnaly}.\\
+
+
+En este módulo, se lee todo el árbol del directorio, almacenándose para su posterior guardado estructurado en la BBDD.\\
+
+
+Asimismo, nos servimos de la herramienta \textit{Sloccount}, a partir de la salida sobre el directorio del repositorio del alumno,
+
+\begin{center}
+\begin{verbatim}
+sloccount –details –follow –duplicates <path_directorio>
+\end{verbatim}
+\end{center}
+
+Para obtener parámetros de lenguaje, cantidad de líneas de código, de los ficheros fuente que se detecten. Con esos datos junto a la extensión del fichero, le asociamos el tipo de fichero.\\
+
+
+Todos estos datos, se guardaran debidamente relacionados en la colección \textbf{Udfile} de nuestra BBDD.\\
+
+\subsubsection{MÓDULO DE ANÁLISIS DE GIT} 
+\label{subsec:mod_anal_git}
+
+Para el desarrollo de una funcionalidad de análisis del repositorio git más rica, se implementó un nuevo módulo \textit{GitAnaly}, que permite, a través de la introducción de la librería de Python pygit2, el manejo de repositorios y la lectura de la estructura y contenidos de éste.\\
+
+
+Este módulo proporcionamos, por una parte, funcionalidad para descargar, copiar o clonar los repositorios y puedan realizarse el resto de operaciones y análisis.\\
+
+
+Por otra parte, aprovechando la API de pygit2, implementamos funcionalidad para extraer la información de las ramas locales y remotas. También se implementa otra funcionalidad la cual nos extrae en orden topológico la sucesión entre dos Commits cuyo sha-1 se índique, o entre HEAD y el primero en su defecto. Se analizan todos los datos de un commit y se calcula información semejante .\\
+
+
+Entre esta información adicional, se extraen ciertas estadísticas para su almacenamiento:\\
+
+\begin{itemize}
+\item Frecuencia entre los commits.\\
+
+\item Extracción de palabras clave de un commit: se extraen la lista de palabras clave resultante de normalizar el comentario, suprimir las palabras consideradas de un listado de irrelevantes.\\
+\end{itemize}
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=16cm]{img/Selection_028_git_comentarios}
+   \caption{Parámetros para la extracción de significantes de comentarios de commits}
+   \label{figura:git_commnet}
+\end{figure}
+
+Toda la información extraída según cada funcionalidad, se proporciona estructurada y los commits relacionados entre si para que pueda ser almacena en BBDD.\\
+
+
+\subsubsection{MÓDULO DE ANÁLISIS DE CÓDIGO PYTHON} 
+\label{subsec:mod_anal_python}
+
+En el análisis de los elementos del código fuente, introducimos en el diseño las funcionalidades que aportan la librería estándar \textit{ast} y la librería externa \textit{astor}, cuya función es la de procesar árboles de gramática abstracta, en Python.\\
+
+
+Con ellas, podemos recuperar todos los elementos de código y sus propiedades en una estructura de árbol. Para la funcionalidad de este módulo, nos simplifica la implementación de este y abre nuevas posibilidades a futuras automatizaciones de Misture. \textit{Astor} nos proporciona algunas capacidades adicionales para manipular estos árboles y convertir el árbol a otras estructuras, incluyendo su impresión a texto de nodos de código.\\
+
+
+Esta funcionalidad la añadimos al módulo \textit{PyGrammarAnaly}, para extraer datos por módulo sobre sus clases, métodos, línea y nombre, y pueda volcarse en la colección \textbf{UdFuente}. No obstante, mantenemos la anterior funcionalidad de la clase \textbf{PyModuleCont} y la trasladamos a este módulo, para su uso en prácticas pequeñas o sobre versiones antiguas de Python.\\
+
+
+\subsubsection{MÓDULO DE ANÁLISIS DE ESTILO Y CALIDAD DE CÓDIGO} 
+\label{subsec:mod_anal_codigo}
+
+En la implementación se mantuvo en gran medida la funcionalidad del módulo \textit{CodeAnaly}. Se sustituyeron las llamadas a las utilidades por sus librerías equivalentes en Python.\\
+
+
+Se consiguió una pequeña mejora en la extracción de la información de Pylint obteniendo la salida de los errores en JSON.\\
+
+
+La principal novedad, es la introducción de una nueva utilidad de análisis de \textit{flake8}, que combina, el análisis de estilo de \textit{pep8} con el análisis estático de \textit{pyflakes}, similar a \textit{pylint}. Asimismo, permite la instalación de otros plugins para ampliar el análisis. Por lo que extendemos, con los paquetes \textit{McCabe} y \textit{Hackings}, aumentando la cantidad de comprobaciones y códigos de error disponibles.\\
+
+
+\subsubsection{MÓDULOS DE ANÁLISIS DE XML Y TRAZAS WIRESHARK}
+\label{subsec:mod_anal_xml_wireshark}
+
+En el análisis de los scripts semiautomáticos de las experiencias piloto, comentamos que existía un análisis de ficheros XML, que consistía en implementar un pequeño parser SAX especifico para la corrección que comprobara la validación deseada sobre los elementos del XML.\\
+
+
+En esta versión,  se ha empezado a introducir una aproximación mediante análisis del árbol DOM, con ayuda de la librería beautifulsoup4, que genera dicho árbol y nos proporciona un potente conjunto de funciones para navegar.\\
+
+
+Gracias a esto, hemos implementado un pequeño analizador dedicado a PDML que obtiene algunas estadísticas de las trazas. Como por ejemplo, para extraer la composición de tramas de los paquetes de una trama.\\
+
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=16cm]{img/Selection_015_pdml_1}
+   \includegraphics[width=16cm]{img/Selection_029_pdml}
+   \caption{PDML de una captura es una sucesión de \textless packet\textgreater \space   con \textless proto\textgreater  \space en su interior.}
+   \label{figura:pdml}
+\end{figure}
+
+
+\subsection{GENERACIÓN DE EXAMEN}
+
+En el diseño, se incluye un módulo que permite la generación y carga para cada una de las correcciones de la actividad, de un conjunto de preguntas acerca del código y de los conceptos que el profesor quiera poner a prueba. Para ello, consideramos dos fuentes:\\
+
+\begin{itemize}
+\item Se carga un fichero JSON con las preguntas desde la ruta que se le indica como parámetro. La estructura de este JSON es una lista de objetos pregunta con los elementos enunciado, pregunta, tipo, opciones, resultados.\\
+
+\item A partir del análisis del código, se obtienen  algunos snippets del código de las fuentes Python, pertenecientes a correcciones de los diferentes alumnos de una misma actividad.
+\end{itemize}
+
+
+A partir de esas dos fuentes, y en función del tipo de pregunta, se rellena la tabla \textbf{CuestionExamen} de la BBDD. En el caso de las preguntas generadas a partir de snippets, se generan preguntas con opciones si o no sobre la autoría o sobre al nombre del fichero fuente al que pertenece.\\
+
+
+La estructura definida a nivel de aplicación en el ODM nos permite validar, en el momento que haya cargada una respuesta del alumno, la respuesta con opciones\_respuesta, para aquellas respuestas.\\
+
+
+\section{APLICACIÓN EXAMEN DJANGO}
+
+Una aplicación de examen recoge información a través de la base de datos MongoDB de Misture con la carga de las preguntas generadas.\\
+
+
+Para los alumnos cuyos logines se encuentran en el conjunto de correcciones de la actividad, se activa la opción de contestar a las preguntas en forma de formularios, quedando marcada como respondida con la respuesta formulada una vez se pulse al botón de confirmación y queda asimismo registrado el momento en que fue contestada.
+
+
 \section{DISEÑO DE BBDD} 
-\label{subsec:bbdd}
+\label{sec:bbdd}
 
 En la versión más reciente de Misture, se optó por emplear el sistema de base de datos MongoDB, con bases de datos no relacionales, sin esquema, o mejor dicho, de esquema dinámico.\\
 
@@ -198,7 +459,7 @@ En la versión más reciente de Misture, se optó por emplear el sistema de base
 La elección de MongoDB para almacenar todos los datos obtenidos de los análisis de los repositorios, pruebas, y comprobaciones de código, en principio facilita y nos permite ser más ágiles durante el desarrollo y prueba de los diferentes módulos y funcionalidades. Por una parte por no trabajar con un esquema rígido y por otra porque MongoDB encaja muy bien con los tipos de datos nativos de Python – objetos, listas, diccionarios-.\\
 
 
-Adicionalmente, buscamos una librería ODM -Object Document Mapper- para MongoDB en Python, permitiéndonos operar con la BBDD como si fuera un objeto, facilitando aún más nuestra labor. En un primer momento se eligió \textbf{mongoengine}, aunque al final en Misture hemos utilizado \textbf{pymodm}.\\
+Adicionalmente, buscamos una librería ODM -Object Document Mapper- para MongoDB en Python, permitiéndonos operar con la BBDD como si fuera un objeto, facilitando aún más nuestra labor. En un primer momento se eligió \textbf{mongoengine}, aunque al final en Misture hemos utilizado \textbf{PyMODM}.\\
 
 
 Se debe recordar, que la estructura y validaciones de los campos definidos en las clases documento del ODM que representan los documentos de las colecciones de MongoDB son transparentes al propio MongoDB, se producen en el lado de la aplicación a través del ODM.\\
@@ -207,7 +468,12 @@ Se debe recordar, que la estructura y validaciones de los campos definidos en la
 A continuación, vamos a enumerar los diferentes documentos considerados para poder llevar a cabo la funcionalidad básica de Misture.\\
 
 
-[FIGURA XX: Representación de BBDD incluida en Misture]
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=16cm]{img/Diagram4_bbdd}
+   \caption{Representación de BBDD incluida en Misture}
+   \label{figura:bbdd}
+\end{figure}
 
 
 \textbf{LogError} es la clase del documento donde se vuelcan los errores controlados de la ejecución de Misture.
@@ -259,10 +525,10 @@ A continuación, vamos a enumerar los diferentes documentos considerados para po
 \textbf{Actividad} es la clase que representa una actividad, con sus datos básicos para ser corregida.
 \begin{itemize}
 \item descripcion
-\item corrector -> referencia a \textbf{Corrector}
-\item desarrolladores -> referencia a \textbf{Desarrollador}
-\item entregas -> documento Entrega
-\item directorios -> documento \textbf{DirectoriosActividad}
+\item corrector: referencia a \textbf{Corrector}
+\item desarrolladores: referencia a \textbf{Desarrollador}
+\item entregas: documento Entrega
+\item directorios: documento \textbf{DirectoriosActividad}
 \item ficheros\_entrega
 \end{itemize}
 
@@ -270,10 +536,10 @@ A continuación, vamos a enumerar los diferentes documentos considerados para po
 \textbf{Correccion} es la clase que representa a la ejecución de una corrección de una entrega de un alumno.
 \begin{itemize}
 \item fecha
-\item actividad -> referencia a \textbf{Actividad}
-\item desarrollador -> referencia a \textbf{Desarrollador}
-\item desarrolladores -> referencia a \textbf{Desarrollador}
-\item gitanaly -> documento \textbf{GitAnaly}
+\item actividad: referencia a \textbf{Actividad}
+\item desarrollador: referencia a \textbf{Desarrollador}
+\item desarrolladores: referencia a \textbf{Desarrollador}
+\item gitanaly: documento \textbf{GitAnaly}
 \end{itemize}
 
 
@@ -287,21 +553,13 @@ A continuación, vamos a enumerar los diferentes documentos considerados para po
 \end{itemize}
 
 
-\textbf{Prueba} modela una prueba de caja negra.
-\begin{itemize}
-\item correccion: referencia a \textbf{Correccion}
-\item llamadas\_ord
-\item outputs
-\end{itemize}
-
-
 \textbf{Udfile} representa a un fichero o directorio de una entrega.
 \begin{itemize}
-\item correccion -> referencia a \textbf{Correccion}
+\item correccion: referencia a \textbf{Correccion}
 \item pathrel
 \item nombre
 \item tipo
-\item hijos -> referencia a \textbf{Udfile}
+\item hijos: referencia a \textbf{Udfile}
 \item lenguaje
 \item sloc
 \end{itemize}
@@ -313,6 +571,7 @@ A continuación, vamos a enumerar los diferentes documentos considerados para po
 \item parent: referencia a Udfuente
 \item nombre
 \item ubicacion: documento Udfuentecoor
+\item snippet
 \end{itemize}
 
 
@@ -325,6 +584,17 @@ A continuación, vamos a enumerar los diferentes documentos considerados para po
 \end{itemize}
 
 
+\textbf{CodeError}: modela un error de estilo
+\begin{itemize}
+\item correccion: referencia a \textbf{Correccion}
+\item fichero
+\item fila
+\item columna
+\item tipo
+\item codigo
+\item descripcion
+\end{itemize}
+
 \textbf{GitUser}: usuario committer o author de Git.
 \begin{itemize}
 \item  name
@@ -334,7 +604,7 @@ A continuación, vamos a enumerar los diferentes documentos considerados para po
 
 \textbf{GitBranch}: datos de una rama de un repositorio Git de una corrección concreta.
 \begin{itemize}
-\item correccion -> referencia a \textbf{Correccion}
+\item correccion: referencia a \textbf{Correccion}
 \item nombre
 \item nombre\_remote
 \item targetid
@@ -343,35 +613,54 @@ A continuación, vamos a enumerar los diferentes documentos considerados para po
 
 \textbf{GitCommit}: representa un commit
 \begin{itemize}
-\item correccion -> referencia a \textbf{Correccion}
+\item correccion: referencia a \textbf{Correccion}
 \item idhex
 \item orden
-\item author -> referencia a \textbf{GitUser}
-\item committer -> referencia a \textbf{GitUser}
+\item author: referencia a \textbf{GitUser}
+\item committer: referencia a \textbf{GitUser}
 \item time
 \item offset
 \item mensaje
 \item palabrasclave
-\item commits\_ant -> referencia a \textbf{GitCommit}
+\item commits\_ant: referencia a \textbf{GitCommit}
 \item ficheros
 \end{itemize}
 
 
 \textbf{GitAnaly} es la clase que contienen los datos de analisis de un repositorio Git.
 \begin{itemize}
-\item commitentrega -> referencia a \textbf{GitCommit}
-\item commitinicial -> referencia a \textbf{GitCommit}
+\item commitentrega: referencia a \textbf{GitCommit}
+\item commitinicial: referencia a \textbf{GitCommit}
 \item numcommits
 \item palabras
 \item intervalos
-\item gitusers -> referencia a \textbf{GitUser}
-\item gitbranches -> referencia a \textbf{GitBranch}
+\item gitusers: referencia a \textbf{GitUser}
+\item gitbranches: referencia a \textbf{GitBranch}
 \end{itemize}
 
 
+\textbf{PruebaMisture} representa la definición de una prueba de caja negra.
+\begin{itemize}
+\item actividad: referencia a \textbf{Actividad}.
+\item titulo
+\item descripcion
+\item comando
+\item salida
+\end{itemize}
+
+
+\textbf{PruebaResultadoMisture} representa el resultado de una ejecución de prueba sobre una corrección de una entrega particular.
+\begin{itemize}
+\item correccion: referencia a \textbf{Corrección}.
+\item prueba: referencia a \textbf{PruebaMisture}
+\item tipo\_salida
+\item path\_salida
+\item espruebavalida
+\end{itemize}
+
 \textbf{CuestionExamen} representa las preguntas del examen
 \begin{itemize}
-\item correccion -> referencia a \textbf{Corrección}
+\item correccion: referencia a \textbf{Corrección}
 \item tipo\_pregunta
 \item contenido\_pregunta
 \item tipo\_respuesta

@@ -2,7 +2,182 @@
 \chapter{Estado del arte}
 
 
-En este capítulo se describen las tecnologías utilizadas para la realización de la aplicación.
+En este capítulo se describen las tecnologías utilizadas para la realización del presente proyecto.
+
+
+\section{MINING SOFTWARE REPOSITORIES}
+
+Este Proyecto de Fin de Carrera, puede asociarse al área de los Mining Software Repositories -MSR-. El objetivo de la comunidad MSR es, aprovechar todos los datos que se generan en el proceso de desarrollo software.\\
+
+
+En general, estos datos se hallan en repositorios de software, como por ejemplo repositorios de control de cambios del código fuente -como Git-, repositorios de seguimiento de bugs y errores,  o repositorios de comunicaciones, que almacenan las comunicaciones entre el equipo de desarrolladores como es el caso de las listas de distribución. Los MSR se dedican a encontrar fuentes de información provenientes de los proyectos software, estudiar sus características, encontrar técnicas para extraer de forma efectiva la información y el aprovechamiento de esos datos para mejorar los requisitos, la calidad y la trazabilidad de los proyectos, y estudiar el impacto de diferentes fenómenos en un desarrollo.\\
+
+
+Gran parte del conocimiento y evolución en este campo, se presenta anualmente en la conferencia de MSR, cuya vigésimo cuarta edición se ha celebrado este año en Buenos Aires junta a la Conferencia Internacional de Ingeniería de Software.\\
+
+
+En esta conferencia, se presentan los artículos sobre MSR que han sido aceptados tras su revisión y entre las actividades se encuentra la propuesta de un desafío sobre un conjunto de datos propuesto, para el cual los desafiados tienen que solucionar a través de sus herramientas o sistemas MSR y presentar un reporte de los resultados.\\
+
+
+Las temáticas dentro de los MSR, entre muchas otras, podemos enumerar, por ejemplo:\\
+
+\begin{itemize}
+\item Predicción de las características del software mediante el análisis del repositorio software.\\
+
+\item Caracterización, clasificación y predicción de defectos en el software mediante el análisis de los repositorios software.\\
+
+\item Análisis de cambios o de nuevas tendencias.\\
+
+\item Técnicas de visualización y modelos para los conjuntos de datos minados.\\
+
+\item Privacidad y ética en los MSR.\\
+
+\item Minado sobre cualquier elemento asociado a un proceso de desarrollo software. Los ya mencionados, pero también otros como licencias, \textit{logs} o las opiniones en los centros de aplicaciones y sitios de opiniones sobre los programas.
+\end{itemize}
+
+
+Centrándose más en la parcela relativa a este proyecto. Por otra parte, las experiencias piloto que suponen el punto de partida de este Proyecto de Fin de Carrera, fueron analizadas y expuestas en \textit{Gregorio Robles y Jesús M. González-Barahona (2013). Mining student repositories to gain learning analytics}. En éste, se expone el proceso, que ya describimos en esta memoria, y se concluye con el hecho de que proporciona importantes beneficios al facilitar la evaluación continua y realimentación frecuente a los alumnos.\\
+
+
+El otro hecho que se concluye, es que un sistema de estas características, que se ha tenido que refinar en un proceso iterativo, no es posible hacerse completamente automático, y se deben tomar medidas para minimizar las tareas manuales del proceso, la principal, es que los estudiantes sigan estrictamente las instrucciones indicadas para la realización de la actividad.\\
+
+
+Asimismo, a la hora de explorar formas y herramientas para explotar los datos brutos de las entregas de los alumnos, me resultó útil el análisis de las diferentes fuentes que nos podemos encontrar en un proyecto de software, que se realiza en el artículo \textit{Robles, G., González-Barahona J. M., Izquierdo-Cortazar, D. y Herraiz, I. (2009). Tools for the Study of the Usual Data Sources found in Libre Software Projects}.\\
+
+
+\section{TECNOLOGÍAS UTILIZADAS} 
+\label{sec:tec_use}
+
+\subsection{PYTHON} 
+\label{sec:python}
+
+
+Python es un lenguaje de programación interpretado, usa tipado dinámico y es multiplataforma. Además se trata de un lenguanje de programación multiparadigma, permitiendo programación orientada a objetos, imperativa y funcional. Además posee una extensa biblioteca estándar y existen infinidad de librerías de terceros.\\
+
+
+Dadas sus características, Python en muy útil como lenguaje para scripting y desarrollo rápido de aplicaciones de todo tipo.\\
+
+
+Es licenciado bajo la \textit{Python Software Foundation License} desde la versión 2.1, licencia declarada libre, y compatible con GPL.\\
+
+
+Fue creado por Guido van Rossum -el Benevolente Dictador Vitalicio- en los Países Bajos a finales de los años 80 y su nombre proviene de los humoristas británicos Monty Python.\\
+
+
+La versión 1.0 fue lanzada en 1994, la 2.0 en Octubre de 2000 y la 3.0 fue lanzada en Diciembre de 2008. Actualmente, coexisten dos versiones de Python, la 2 y la 3, con diferencias que las hacen incompatibles, siendo las últimas versiones la 3.6.1 y la 2.7.13.\\
+
+
+Python pretende ser un lenguaje fácil de leer. Para delimitar bloques se emplea la indentación en blancos en lugar de las llaves y los puntos y coma. En el mundillo Python, existe una filosofía  con unos principios de Python en cuenta a legibilidad y transparencia, recogida en el documento ``El Zen de Python'' (PEP 20). El código que siga sus principios se denomina \textit{pythonic}.
+
+
+\subsection{DJANGO} 
+\label{sec:django}
+
+
+Django es un framework de aplicaciones web open source, escrito en Python, que aparenta seguir el patrón de diseño Modelo-Vista-Controlador. Proporciona al usuario una serie de componentes habituales en las aplicaciones web, como autenticación, sesión, administración, formularios, gestión de archivos preparados para ser usados.\\
+
+
+Está orientado a realizar desarrollos rápidos, por lo que incluye un servidor web ligero para facilitar esto, aunque soporta \textit{Apache2} para la etapa de producción y servidores \textit{WSGI}. Las bases de datos soportadas son \textit{PostgreSQL}, \textit{MySQL} y \textit{SQLite3}.\\
+
+
+Django fue liberado al público bajo licencia BSD en 2005, siendo desde 2008 la \textit{Django Software Foundation} quien mantiene el proyecto. La última versión es la 1.11, que será la última que soporte Python2.
+
+
+\subsection{MONGODB} 
+\label{sec:mongodb}
+
+
+MongoDB es un sistema de base de datos NoSQL lanzado en 2009 y ampliamente adoptado por la industria. La última versión es la 3.4.4. Es orientado a documentos, los cuales se guardan en colecciones de documentos de una estructura similar a JSON -BSON-.  La equivalencia entre elementos de una BBDD SQL y NoSQL, es la siguiente:\\
+
+\begin{itemize}
+\item TABLA-COLECCIÓN\\
+
+\item REGISTRO-DOCUMENTO
+
+\item COLUMNA-CAMPO
+\end{itemize}
+
+
+Hace uso de esquemas dinámicos y no existe un esquema predefinido, pudiéndose alterar en cualquier momento, y pudiendo tener la misma colección varios documentos con distintos campos. Es recomendable en aplicaciones que necesiten almacenar datos semi-estructurados y facilitan los procesos de desarrollo iterativo.\\
+
+
+No es recomendable para aplicaciones que usen intensivamente \textit{JOINS} o requieran transacciones en lugar del bloqueo a nivel de documento. Asimismo, puede presentar problemas de consistencia entre documentos, las escrituras no son verificables y puede perderse información.\\
+
+
+MongoDB viene por defecto con una consola construida sobre Javascript, realizándose las consultas y operaciones en este lenguaje, y pudiéndose usar la sintaxis elemental de este lenguaje.\\
+
+
+Asimismo, MongoDB tiene drivers oficiales para los principales lenguajes de programación. Para Python, el driver recomendado es PyMongo.\\
+
+
+\subsection{PYMODM} 
+\label{sec:pymod}
+
+PyMODM, es un ODM sobre el driver de MongoDB PyMongo, desarrollado por ingenieros de MongoDB. Es una librería que proporciona los mecanismos para mapear la estructura de la base de datos a objetos Python, pudiéndose usar la información de la base de datos como si se tratase de un objeto.\\
+
+
+\subsection{GIT} 
+\label{sec:git}
+
+Git es un sistema de control de versiones de software libre, diseñado por Linus Torvalds y lanzado en 2005. Se caracteriza por ser una herramienta distribuida, muy eficiente de proyectos grandes y que soporta muy bien el desarrollo no lineal en un proyecto, con la gestión de ramas, diferencias y mezclado de versiones.\\
+
+
+En Git, los datos se modelan y almacenan como una sucesión de instantáneas de un pequeño sistema de archivos cada una, salvo el caso de ficheros idénticos entre dos instantáneas, que se referencian mediante un link. Además, todos los objetos en git son verificados mediante SHA-1 a bajo nivel, por lo que Git posee integridad.\\
+
+
+Para operar con el repositorio o el historial, no es necesario  estar conectado al servidor, salvo para sincronizar los cambios, pudiendo operar todo el tiempo en local.\\
+
+
+\subsection{PYGIT2} 
+\label{sec:pygit2}
+
+Librería externa de Python, que proporciona en Python la funcionalidad esencial de Git a través de \textit{libgit2}, la API en C multiplataforma.
+
+
+\subsection{Pep8} 
+\label{sec:pep8}
+
+Pep8 es un ``checker'' de la guía de estilo de Python, una herramienta que valida el código Python contra las convenciones de estilo recogidas en PEP 8.\\
+
+
+\section{ANÁLISIS DE CÓDIGO FUENTE} 
+\label{sec:anal_cod}
+
+El análisis del código fuente, es un tipo de análisis dentro del análisis estático de software, habitualmente realizado por herramientas automáticas, que evalúa el software sin ejecutarlo, para permitir mejorar el código, sin alterar la semántica.\\
+
+
+En un análisis estático de código automático, se incluyen análisis de sintáxis del código fuente, y diferentes reglas a aplicar sobre determinadas estructuras de código.\\
+
+
+En el caso del análisis humano, este se denomina comprensión de programas o también revisión de código, que es complementario al automático y permite evaluar aspectos que un sistema automático no suele cubrir, como la arquitectura, el diseño, o la forma de trabajar con elementos externos.\\
+
+
+Los objetivos de estos análisis puede ser tales como la verificación de propiedades del software para seguridad o detección de código vulnerable, la mejora de la calidad del software, o mejorar el mantenimiento y desarrollo del software.\\
+
+
+No obstante, el análisis de código fuente no es suficiente para evaluar o mejorar un desarrollo en todos sus aspectos, por lo que debería complementarse con otras técnicas de análisis de software, por ejemplo, los test.\\
+
+
+\section{UTILIDADES DE ANÁLISIS DE CÓDIGO FUENTE EN PYTHON} 
+\label{sec:utilidades_cod}
+
+
+Para la realización de análisis de código en Python, nos hemos ayudado de varias herramientas, introducidas a continuación.\\
+
+
+La utilidad Pep8, ya rebautizada como pycodestyle, es un ``checker'' de la guía de estilo de Python. Esta utilidad, se ejecuta sobre ficheros fuente python, y nos proporciona un listado con la localización, el código de error E*** o W*** y la descripción de los incumplimientos con respecto a la guía de PEP8.\\
+
+
+Pylint, es otra utilidad de verificación de código Python bastante completa, que verifica estilo, bugs y calidad del código. También si los nombres de los elementos están bien formados con respecto a los estándares y si las interfaces declaradas son implementadas. Es una herramienta comúnmente integrada en los entornos de desarrollo y editores de código.\\
+
+
+Flake8 es una utilidad que auna las comprobaciones de estilo de pep8, de errores de logica de pyflakes, y de complejidad circular. Su diseño permite la extensión mediante la inclusión de extensiones.  Por defecto incluye la extensión McCabe, que generaría errores con el codigo C9**, si detecta casos de complejidades mayores a un umbral dado.\\
+
+
+Otra extensión popular es Hacking, que introduce errores con el código H***, y sus comprobaciones son las contempladas en las \textit{OpenStack Style Guidelines}, basadas en el \textit{Google Python Style Guideline}.\\
+
+Las comprobaciones de errores de lógica de pyflakes se etiquetan mediante códigos F***. Existe una completa documentación de los códigos de error en los manuales de las diferentes utilidades.\\
+
 
 \section{OTRAS HERRAMIENTAS UTILIZADAS} 
 \label{sec:otras_herramientas}
