@@ -7,10 +7,10 @@
 \label{sec:des_problema}
 
 
-El problema al que se quiere dar una solución es la construcción de un sistema, que a partir de unas configuraciones de entrada, y cuya especificación sea trasladable al enunciado de las actividades prácticas de alumnos de asignaturas de programación de servicios y aplicaciones sobres redes de ordenadores, pueda proceder a su corrección requiriendo los mínimos cambios o ajustes en la implementación en dicho sistema, y produciéndose la menor cantidad posible de errores imprevistos, que aumenten el tiempo empleado en efectuar procesos manuales.
+El problema al que se quiere dar una solución es la construcción de un sistema, que a partir de unas configuraciones de entrada  y cuya especificación sea trasladable al enunciado de las actividades prácticas de alumnos de asignaturas de programación de servicios y aplicaciones sobres redes de ordenadores, pueda proceder a su corrección requiriendo los mínimos cambios o ajustes en la implementación en dicho sistema, y produciéndose la menor cantidad posible de errores imprevistos, que aumenten el tiempo empleado en efectuar procesos manuales.
 
 
-Estas correcciones es deseable que puedan realizarse lo más desatendida y automáticamente posible, permitiendo liberar tiempo al profesor y disminuir el tiempo de respuestas, además de proporcionarles con poco retraso con respecto al día de entrega de un conjunto variado de información acerca de los resultados de sus prácticas con el objetivo de incidir positivamente en el aprendizaje tanto de los conceptos de la asignatura como de habilidades en programación.
+Es deseable que estas correcciones puedan realizarse lo más desatendida y automáticamente posible, permitiendo liberar tiempo al profesor y disminuir el tiempo de respuestas, además de proporcionarles de un conjunto variado de información acerca de los resultados de sus prácticas con el objetivo de incidir positivamente en el aprendizaje tanto de los conceptos de la asignatura como de habilidades en programación con poco retraso con respecto al día de entrega.
 
 
 Los elementos que debemos considerar en la corrección del alumno son los siguientes:
@@ -26,7 +26,7 @@ Los elementos que debemos considerar en la corrección del alumno son los siguie
 \end{itemize}
 
 
-En base a esos entregables, tenemos que plantearnos el sistema automatizado, que nos ayude a evaluar con el mayor grado de detalle posible que la actividad ha sido entregada completamente en los términos especificados por el enunciado y la funcionalidad se cumple, demostrando el aprovechamiento de la actividad.
+En base a esos entregables, tenemos que plantearnos el sistema automatizado que nos ayude a evaluar con el mayor grado de detalle posible que la actividad ha sido entregada completamente en los términos especificados por el enunciado y la funcionalidad se cumple, demostrando el aprovechamiento de la actividad.
 
 
 
@@ -37,7 +37,7 @@ En base a esos entregables, tenemos que plantearnos el sistema automatizado, que
 Para la realización de este sistema, no se parte de cero. Ya que fruto de las nuevas experiencias docentes introducidas por el profesor, éste desarrolló unos \textit{scripts} semiautomáticos para poder agilizar la corrección y disponer los alumnos de sus reportes antes de la siguiente sesión práctica.
 
 
-Aunque estos \textit{scripts} todavía exigen bastante intervención manual, es una muy buena primera aproximación y permite abordar todo el proceso de corrección que de otra forma llevaría días o semanas para un único docente, no produciría tanta cantidad de información ni resultados susceptibles de evaluar, y por tanto se pierde capacidad de incidir sobre estos durante las siguientes sesiones.
+Aunque estos \textit{scripts} todavía exigen bastante intervención manual, es una buena primera aproximación y permite abordar todo el proceso de corrección que de otra forma llevaría días o semanas para un único docente, no produciría tanta cantidad de información ni resultados susceptibles de evaluar, y por tanto se pierde capacidad de incidir sobre estos durante las siguientes sesiones.
 
 \begin{figure}[H]
    \centering
@@ -47,7 +47,7 @@ Aunque estos \textit{scripts} todavía exigen bastante intervención manual, es 
 \end{figure}
 
 
-Según algunos reportes del profesor, con esta metodología, se podía evaluar una actividad en una mañana o una jornada, según la complejidad particular de las correcciones, y teniendo en cuenta muchos más información disponible para evaluar que otras formas de evaluación prácticas habituales en asignaturas similares.
+Según algunos reportes del profesor, con esta metodología, se podía evaluar una actividad en una mañana o una jornada, según la complejidad particular de las correcciones, y teniendo en cuenta mucha más información disponible para evaluar que otras formas de evaluación prácticas habituales en asignaturas similares.
 
 
 Este sistema de \textit{scripts}, que se introduce en la figura anexa, se compone de los siguientes procesos, la mayoría de ellos implementados por un módulo o script Python.
@@ -135,13 +135,13 @@ La funcionalidad de este \textit{script} es parsear los logs del preproceso con 
 \subsection{Generación de examen}
 \label{sec:gen_exam}
 
-En este script, se inyecta a una base de datos SQL, asociada también a una aplicación Django, las preguntas de la prueba que se hace a los alumnos para evaluar si el alumno conoce su propio código y cuestiones que evalúen.
+En este script se inyecta a una base de datos SQL, asociada también a una aplicación Django, las preguntas de la prueba que se hace a los alumnos para evaluar si el alumno conoce su propio código y cuestiones que evalúen.
 
 
 Estas preguntas se inyectan de dos fuentes. La primera viene desde los propios ficheros fuente de la entrega, para la cual se inyecta un fragmento de código y se pregunta a cuál de los ficheros fuente pertenece.
 
 
-La segunda fuente, es un fichero de texto, parseable, donde el profesor formula preguntas acerca de conceptos aplicados en la actividad, o cuestiones donde se le pide al alumno que indique cuál es la salida o que cambio tiene que hacer en un fragmento de código indicado.
+La segunda fuente es un fichero de texto, parseable, donde el profesor formula preguntas acerca de conceptos aplicados en la actividad, o cuestiones donde se le pide al alumno que indique cuál es la salida o que cambio tiene que hacer en un fragmento de código indicado.
 
 \begin{figure}[H]
    \centering
@@ -200,19 +200,19 @@ Una vez estudiado todo el escenario de nuestro problema y la funcionalidad semia
 Una vez descrito el problema con el que estamos tratando, partiendo de la base de las experiencias piloto con la parte práctica de las materias, podemos establecer cuál es el objetivo.
 
 
-El objetivo principal de Misture, es la integración de un conjunto de utilidades y de diferentes comprobaciones y pruebas de diferente índole, que van a enfrentarse contra el conjunto códigos fuentes y ficheros entregables que los alumnos generan en las diferentes actividades.
+El objetivo principal de Misture es la integración de un conjunto de utilidades y de diferentes comprobaciones y pruebas de diferente índole, que van a enfrentarse contra el conjunto códigos fuentes y ficheros entregables que los alumnos generan en las diferentes actividades.
 
 
 Esta integración debe buscar que el proceso sea lo más parecido a un flujo automatizado que reduzca el tiempo empleado por el corrector, que le permita centrarse en aquellas subtareas de una corrección donde más pueda aportar.
 
 
-Por ejemplo, el profesor en base a estadísticas del análisis y a indagar a partir de ellos, puede detectar ciertos hábitos o malas prácticas desarrollando o aplicando los conceptos teóricos de la asignatura, decidir dar una clase de refuerzo, enseñar cierta práctica o patrón de diseño, etc. Y esto es más valioso para todos que si tuviera que centrarse más bien en chequear entrega a entrega si un alumno ha escrito más o menos funciones, de más o menos longitud o complejidad, si su forma de escribir código es poco clara, etc.
+Por ejemplo, el profesor --en base a estadísticas del análisis-- puede detectar ciertos hábitos o malas prácticas desarrollando o aplicando los conceptos teóricos de la asignatura, decidir dar una clase de refuerzo, enseñar cierta práctica o patrón de diseño, etc. Y esto es más valioso para todos que si tuviera que centrarse más bien en chequear entrega a entrega si un alumno ha escrito más o menos funciones, de más o menos longitud o complejidad, si su forma de escribir código es poco clara, etc.
 
 
 Asimismo, el objetivo incluye un tratamiento más organizado de la información extraída, por ejemplo en BBDD, y la posibilidad de poder ofrecer un reporte más rico, sencillo, y fácil de ampliar o modificar frente al tratamiento que ofrecen los ficheros de texto, que contienen las salidas heterogéneas de las diferentes utilidades y pruebas.
 
 
-Para la consecución de dicho objetivo, tenemos como punto de partida el conjunto de \textit{scripts} semiautomáticos que nos ha proporcionado el tutor utilizadas para las experiencias piloto, junto al reporte de incidencias u observaciones realizadas durante la ejecución y realización de alguna corrección, para intentar buscar mejoras en las funcionalidades que permitan reducir los puntos críticos en la corrección, que incapacitan la acción del \textit{script} y llevan a una revisión manual por parte del tutor. 
+Para la consecución de dicho objetivo tenemos como punto de partida el conjunto de \textit{scripts} semiautomáticos que nos ha proporcionado el tutor utilizadas para las experiencias piloto, junto al reporte de incidencias u observaciones realizadas durante la ejecución y realización de alguna corrección, para intentar buscar mejoras en las funcionalidades que permitan reducir los puntos críticos en la corrección, que incapacitan la acción del \textit{script} y llevan a una revisión manual por parte del tutor. 
 
 
 \section{Objetivos específicos}
@@ -223,35 +223,36 @@ Aunque ya definidos los requisitos funcionales generales que exige el problema, 
 
 
 \begin{itemize}
-\item Establecer el proyecto Python, que recogiera las funciones básicas, detectadas en las muestras de las actividades entregables de las asignaturas de programación de aplicaciones y servicios web y multimedia sobre redes, adaptada a las características de las pequeñas prácticas realizadas por los alumnos.
+\item Establecer el proyecto Python, que recoja las funciones básicas, detectadas en las muestras de las actividades entregables de las asignaturas de programación de aplicaciones y servicios web y multimedia sobre redes, adaptada a las características de las pequeñas prácticas realizadas por los alumnos.
 
-\item Encontrar los mecanismos necesarios, para automatizar al máximo cada una de las funcionalidades básicas, reduciendo al mínimo la cantidad de pasos o funcionalidades semiautomáticas o manuales llevabas a cabo habitualmente por el profesor en las experiencias piloto descritas.
+\item Encontrar los mecanismos necesarios para automatizar al máximo cada una de las funcionalidades básicas, reduciendo al mínimo la cantidad de pasos o funcionalidades semiautomáticas o manuales llevabas a cabo habitualmente por el profesor en las experiencias piloto descritas.
 
-\item Como en nuestro contexto nos hallamos ante alumnos en proceso de aprendizaje de destrezas de programación. Se debe buscar el permitir cierta tolerancia en la automatización a errores por parte de los alumnos en los códigos o en los ficheros entregables.
+\item Analizar patrones de corrección idóneos. Como en nuestro contexto nos hallamos ante alumnos en proceso de aprendizaje de destrezas de programación. Se debe permitir cierta tolerancia en la automatización a errores por parte de los alumnos en los códigos o en los ficheros entregables.
 
 
 Este objetivo puede en muchos casos añadir complejidad a la resolución de nuestros propósitos. Pero la detección y rectificación automatizada de estos redundaría en reducir las intervenciones manuales y re-ejecuciones de los \textit{scripts} de los diferentes pasos de la corrección.
 
-\item En consecuencia a los anteriores, disminuir el tiempo dedicado por el docente en el desarrollo o adaptación del código para la corrección de nuevas actividades, su ejecución, y la recogida de resultados y reporte de los puntos críticos a revisar.
+\item Disminuir el tiempo dedicado por el docente en el desarrollo o adaptación del código para la corrección de nuevas actividades, su ejecución, y la recogida de resultados y reporte de los puntos críticos a revisar.
 
-\item Mejora en la generación, riqueza, y comunicación del \textit{reporting} de los resultados de los diferentes análisis y correcciones que se ejecutan sobre los repositorios.
+\item Mejorar generación, riqueza, y comunicación del \textit{reporting} de los resultados de los diferentes análisis y correcciones que se ejecutan sobre los repositorios.
 
 \item Mejorar la recogida de información extraída en las correcciones, de forma persistente y debidamente relacionada en sistemas de BBDD, permitiendo nuevos análisis posteriores, y ahorrando tiempo y re-ejecuciones en caso de errores que requieran alguna intervención manual por parte del profesor.
 
 \item Interrelacionar nuestro sistema con una interfaz web, en una primera aproximación, para la realización de exámenes de verificación de autoría y conocimiento del código del alumno. Asimismo, mejorar la experiencia piloto de forma que se pueda extender la funcionalidad de la interfaz web a mostrar.
+\end{itemize}
 
-\item A título personal, con la realización de este proyecto, pretendía, en el momento de su elección, adquirir el conocimiento o destreza en diferentes áreas y tecnologías:
+A título personal, con la realización de este proyecto, pretendía, en el momento de su elección, adquirir el conocimiento o destreza en diferentes áreas y tecnologías:
 
 \begin{itemize}
 \item Python 3, puesto que durante mi ciclo universitario la versión generalmente estudiada era Python 2.
 
 \item MongoDB, cuyo paradigma de BBDD no había tenido la oportunidad tampoco de estudiar y practicar en ninguna asignatura.
 
-\item Git, del cuál tenía un breve conocimiento básico – los comandos \textit{status, log, add, commit, pull, push} – y sólo empleado para proyectos individuales y no colaborativos.
+\item Git, del cual tenía un breve conocimiento básico – los comandos \textit{status, log, add, commit, pull, push} – sólo empleados para proyectos individuales y no colaborativos.
 
 \item Ampliar conocimientos sobre el análisis de código fuente, de repositorios, de fuentes de información heterogéneas.
 \end{itemize}
-\end{itemize}
+
 
 
 
