@@ -1,23 +1,14 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.2)  11 JUN 2017 19:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.27)  12 JUN 2017 03:32
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **memoria_def.tex
-
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\memori
-a_def.tex
+(./memoria_def.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -33,19 +24,19 @@ File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -195,7 +186,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -226,7 +217,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -250,22 +241,22 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -280,58 +271,51 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks17
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/12/03 3.9h The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\spanish.ldf"
-Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2014/01/29 v5.0m Spanish support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count91
 \U@D=\dimen111
 )
 \es@datefmt=\count92
 \es@quottoks=\toks18
 \es@quotdepth=\count93
-Package babel Info: Making " an active character on input line 492.
-Package babel Info: Making . an active character on input line 585.
-Package babel Info: Making < an active character on input line 630.
-Package babel Info: Making > an active character on input line 630.
+Package babel Info: Making " an active character on input line 496.
+Package babel Info: Making . an active character on input line 599.
+Package babel Info: Making < an active character on input line 644.
+Package babel Info: Making > an active character on input line 644.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks19
 \ex@=\dimen112
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen113
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count94
@@ -372,44 +356,44 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(C:\Users\Itzi\AppData\Roaming\MiKTeX\2.9\tex\latex\comment\comment.sty
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count106
 ))
-(C:\Users\Itzi\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count107
 \float@exts=\toks24
@@ -417,14 +401,13 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks25
 \@floatcapt=\box29
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks26
 \c@algorithm=\count108
 )
-(C:\Users\Itzi\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algorithmicx.s
-ty
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -438,19 +421,17 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \c@ALG@storecount=\count114
 \c@ALG@tmpcounter=\count115
 \ALG@tmplength=\skip48
-)
-(C:\Users\Itzi\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algpseudocode.
-sty
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
 
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks27
 \verbatim@line=\toks28
 \verbatim@in@stream=\read1
 )
-(C:\Users\Itzi\AppData\Roaming\MiKTeX\2.9\tex\latex\ulem\ulem.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box30
 \UL@hyphenbox=\box31
 \UL@skip=\skip49
@@ -462,11 +443,12 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 Package: ulem 2012/05/18
 \ULdepth=\dimen123
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2013/02/03 v3.3-65 Customizing captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2013/02/03 v1.5-62 caption3 kernel (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen124
 \captionmargin@=\dimen125
 \captionwidth=\dimen126
@@ -478,10 +460,10 @@ Package: caption3 2013/02/03 v1.5-62 caption3 kernel (AR)
 \c@ContinuedFloat=\count117
 Package caption Info: float package is loaded.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
-Package: pdfpages 2012/08/31 v0.4t Insert pages of external PDF documents (AM)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count118
 \calc@Bcount=\count119
@@ -494,39 +476,39 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count120
 \calc@Cskip=\skip52
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
-Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 \Gin@req@height=\dimen133
 \Gin@req@width=\dimen134
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2012/08/31 v0.4t Pdfpages driver for pdfTeX (AM)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box33
 \AM@toc@title=\toks30
 \c@AM@survey=\count121
 \AM@templatesizebox=\box34
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip53
 \subfigcapskip=\skip54
 \subfigcaptopadj=\dimen135
@@ -541,15 +523,15 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip57
 \subfig@bottom=\skip58
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks31
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count126
 \lst@gtempboxa=\box35
 \lst@token=\toks32
@@ -563,36 +545,40 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \lst@lineno=\count131
 \lst@maxwidth=\dimen140
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 \c@lstnumber=\count132
 \lst@skipnumbers=\count133
 \lst@framebox=\box36
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2007/02/22 1.4 listings configuration
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
 ))
-Package: listings 2007/02/22 1.4 (Carsten Heinz)
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+) (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\memori
-a_def.aux
+(./memoria_def.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+
 
 LaTeX Warning: Label `figura:regex' multiply defined.
 
 )
+\openout1 = `memoria_def.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
@@ -606,7 +592,7 @@ LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 46.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -643,7 +629,9 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count134
 \scratchdimen=\dimen141
@@ -662,22 +650,65 @@ Package caption Info: listings package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box38
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 \c@lstlisting=\count140
 
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\portad
-a.tex
+(./portada.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 6.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 6.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 <img/logo_vect.png, id=1, 169.8345pt x 338.2236pt>
@@ -687,16 +718,14 @@ Package pdftex.def Info: img/logo_vect.png used on input line 8.
 (pdftex.def)             Requested size: 42.45851pt x 84.5557pt.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 11.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 ) [1
 
 
-{C:/Users/Itzi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Itz
-i/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/img/logo_vect.png>]
-)
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\anexo_
-entrega.tex [1]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/logo_vect.png>]) (./
+anexo_entrega.tex
+[1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
@@ -705,29 +734,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
-)
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\licenc
-ia.tex [1
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+(./dedicatoria.tex [1
 
-
-] <img/by-sa_petit.png, id=15, 28.4262pt x 9.8769pt>
-File: img/by-sa_petit.png Graphic file (type png)
-
-<use img/by-sa_petit.png>
-Package pdftex.def Info: img/by-sa_petit.png used on input line 10.
-(pdftex.def)             Requested size: 113.7044pt x 39.5075pt.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 10.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-))
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\dedica
-toria.tex [2 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_M
-EMORIA/img/by-sa_petit.png>])
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\agrade
-cimientos.tex [1
 
 ] [2
+
+]) (./agradecimientos.tex [1] [2
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
@@ -759,28 +772,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-)
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\resume
-n.tex [3] [4
+) (./resumen.tex [3]
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+ [4
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-[5])
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\summar
-y.tex [6]
+] [5]) (./summary.tex
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+ [6]
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
@@ -795,647 +795,232 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-)
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\indice
-.tex [7
-
-] [8
+) (./indice.tex [7
 
 ]
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\memori
-a_def.toc [9] [10])
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+ [8
+
+] (./memoria_def.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [9]
+LaTeX Info: Redefining \. on input line 56.
+LaTeX Info: Redefining \% on input line 56.
+ [10])
 \tf@toc=\write4
- [11] [12
+\openout4 = `memoria_def.toc'.
+
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+ [11]
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+ [12
 
 ]
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\memori
-a_def.lof
+(./memoria_def.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Try loading font information for OML+ptm on input line 21.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlptm.fd"
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 21.
 )
 \tf@lof=\write5
-)
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\abrevi
-aciones.tex [13
+\openout5 = `memoria_def.lof'.
 
-] [14
-
-]) [15] [16
+) (./abreviaciones.tex [13
 
 ]
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\introd
-uccion.tex
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+ [14
+
+]) [15]
+LaTeX Info: Redefining \. on input line 64.
+LaTeX Info: Redefining \% on input line 64.
+ [16
+
+] (./introduccion.tex
 Cap\'{\i }tulo 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 [1
 
 ]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-
-Underfull \vbox (badness 1817) has occurred while \output is active []
-
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-)
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\objeti
-vos.tex [5] [6
-
-]
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+ [3]) (./objetivos.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [4]
 Cap\'{\i }tulo 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
+[5
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-[7
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-<img/Diagram1_flujo_semiautomatico.png, id=98, 1701.35625pt x 529.98pt>
+] <img/Diagram1_flujo_semiautomatico.png, id=89, 915.42pt x 1232.605pt>
 File: img/Diagram1_flujo_semiautomatico.png Graphic file (type png)
 
 <use img/Diagram1_flujo_semiautomatico.png>
 Package pdftex.def Info: img/Diagram1_flujo_semiautomatico.png used on input li
-ne 43.
-(pdftex.def)             Requested size: 455.2446pt x 199.1706pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+ne 44.
+(pdftex.def)             Requested size: 359.21933pt x 483.69684pt.
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
+ [6]
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+ [7 <./img/Diagram1_flujo_semiautomatico.png>]
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
  [8]
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-[9 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/img
-/Diagram1_flujo_semiautomatico.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-<img/Selection_014_traza_wireshark.png, id=105, 948.54375pt x 314.17375pt>
+<img/Selection_014_traza_wireshark.png, id=99, 948.54375pt x 314.17375pt>
 File: img/Selection_014_traza_wireshark.png Graphic file (type png)
 
 <use img/Selection_014_traza_wireshark.png>
 Package pdftex.def Info: img/Selection_014_traza_wireshark.png used on input li
-ne 97.
+ne 98.
 (pdftex.def)             Requested size: 455.24408pt x 150.7825pt.
- [10]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<img/Selection_015_pdml_2.png, id=109, 770.88pt x 201.75375pt>
+<img/Selection_015_pdml_2.png, id=100, 770.88pt x 201.75375pt>
 File: img/Selection_015_pdml_2.png Graphic file (type png)
 
 <use img/Selection_015_pdml_2.png>
-Package pdftex.def Info: img/Selection_015_pdml_2.png used on input line 108.
+Package pdftex.def Info: img/Selection_015_pdml_2.png used on input line 109.
 (pdftex.def)             Requested size: 455.24408pt x 119.1445pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-
- []
-
-[11 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
-g/Selection_014_traza_wireshark.png> <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX
-/memoria2017github/PFC_MEMORIA/img/Selection_015_pdml_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-<img/Selection_020_expregunta.png, id=114, 514.92375pt x 212.795pt>
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+ [9 <./img/Selection_014_traza_wireshark.png> <./img/Selection_015_pdml_2.png>]
+LaTeX Info: Redefining \. on input line 145.
+LaTeX Info: Redefining \% on input line 145.
+ [10]
+<img/Selection_020_expregunta.png, id=107, 514.92375pt x 212.795pt>
 File: img/Selection_020_expregunta.png Graphic file (type png)
 
 <use img/Selection_020_expregunta.png>
 Package pdftex.def Info: img/Selection_020_expregunta.png used on input line 14
-7.
+8.
 (pdftex.def)             Requested size: 455.24408pt x 188.13684pt.
-
-Underfull \vbox (badness 2293) has occurred while \output is active []
-
- [12]
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-
- []
-
-<img/Selection_021_moss.png, id=118, 516.93124pt x 322.20375pt>
+LaTeX Info: Redefining \. on input line 160.
+LaTeX Info: Redefining \% on input line 160.
+ [11 <./img/Selection_020_expregunta.png>] <img/Selection_021_moss.png, id=112,
+ 516.93124pt x 322.20375pt>
 File: img/Selection_021_moss.png Graphic file (type png)
 
 <use img/Selection_021_moss.png>
-Package pdftex.def Info: img/Selection_021_moss.png used on input line 165.
-(pdftex.def)             Requested size: 455.24408pt x 283.76633pt.
+Package pdftex.def Info: img/Selection_021_moss.png used on input line 164.
+(pdftex.def)             Requested size: 398.33858pt x 248.2943pt.
+LaTeX Info: Redefining \. on input line 187.
+LaTeX Info: Redefining \% on input line 187.
+ [12 <./img/Selection_021_moss.png>]
+LaTeX Info: Redefining \. on input line 213.
+LaTeX Info: Redefining \% on input line 213.
+ [13]
+LaTeX Info: Redefining \. on input line 234.
+LaTeX Info: Redefining \% on input line 234.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[14]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 246.
 
- [13 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/i
-mg/Selection_020_expregunta.png>] [14 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATE
-X/memoria2017github/PFC_MEMORIA/img/Selection_021_moss.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
-
- []
-
-[16]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 247.
-
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 247.
- [17])
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\estado
-delarte.tex [18]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 246.
+)
+(./estadodelarte.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [15]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [16
+
+]
 Cap\'{\i }tulo 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-[19
-
+[17
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
-
- []
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
-
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
-
- []
-
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
-
- []
-
-<img/pycharm.png, id=164, 1174.3875pt x 1038.88126pt>
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
+ [18]
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
+ [19]
+LaTeX Info: Redefining \. on input line 107.
+LaTeX Info: Redefining \% on input line 107.
+ [20]
+LaTeX Info: Redefining \. on input line 130.
+LaTeX Info: Redefining \% on input line 130.
+ [21]
+LaTeX Info: Redefining \. on input line 163.
+LaTeX Info: Redefining \% on input line 163.
+ [22]
+LaTeX Info: Redefining \. on input line 183.
+LaTeX Info: Redefining \% on input line 183.
+ [23]
+LaTeX Info: Redefining \. on input line 202.
+LaTeX Info: Redefining \% on input line 202.
+ [24]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 221.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+<img/pycharm.png, id=155, 1174.3875pt x 1038.88126pt>
 File: img/pycharm.png Graphic file (type png)
  <use img/pycharm.png>
-Package pdftex.def Info: img/pycharm.png used on input line 225.
+Package pdftex.def Info: img/pycharm.png used on input line 226.
 (pdftex.def)             Requested size: 455.24408pt x 402.705pt.
+LaTeX Info: Redefining \. on input line 230.
+LaTeX Info: Redefining \% on input line 230.
 
-Underfull \vbox (badness 2828) has occurred while \output is active []
-
- [27]
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
-
- []
-
-
-Overfull \hbox (41.25426pt too wide) in paragraph at lines 235--236
-\OT1/ptm/m/n/12 cu-yas con-di-cio-nes po-de-mos en-con-trar en  $\OT1/pcr/m/n/1
-2 https : / / www . jetbrains . com / buy / opensource/$\OT1/ptm/m/n/12 . 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
-
- []
-
-
-Overfull \hbox (33.53209pt too wide) in paragraph at lines 238--239
+[25]
+Overfull \hbox (33.53209pt too wide) in paragraph at lines 233--234
 \OT1/ptm/m/n/12 mo es el ca-so de In-te-lliJ IDEA  $\OT1/pcr/m/n/12 https : / /
  github . com / JetBrains / intellij-[]community$\OT1/ptm/m/n/12 ,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
-
- []
-
-[28 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
-g/pycharm.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
-
- []
-
-<img/robomongo.png, id=172, 1216.545pt x 743.77875pt>
+LaTeX Info: Redefining \. on input line 247.
+LaTeX Info: Redefining \% on input line 247.
+[26 <./img/pycharm.png>] <img/robomongo.png, id=165, 1216.545pt x 743.77875pt>
 File: img/robomongo.png Graphic file (type png)
- <use img/robomongo.png>
-Package pdftex.def Info: img/robomongo.png used on input line 258.
+
+<use img/robomongo.png>
+Package pdftex.def Info: img/robomongo.png used on input line 255.
 (pdftex.def)             Requested size: 455.24408pt x 278.32619pt.
+) (./design_implement.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [27 <./img/robomongo.png>]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[28
 
- [29])
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\design
-_implement.tex [30 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github
-/PFC_MEMORIA/img/robomongo.png>]
+]
 Cap\'{\i }tulo 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -1447,674 +1032,215 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-[31
-
+[29
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-[32]
-Overfull \hbox (8.8283pt too wide) in paragraph at lines 60--61
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
+ [30]
+Overfull \hbox (8.8283pt too wide) in paragraph at lines 65--66
 []\OT1/ptm/m/n/12 Escenarios de ma-yor can-ti-dad y com-ple-ji-dad de c[]odi-go
  fuen-te: apli-ca-cio-nes cliente-servidor
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-
- []
-
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-
- []
-
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-
- []
-
-<img/Diagram2_iteracion1.png, id=193, 1236.62pt x 698.61pt>
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
+[31]
+LaTeX Info: Redefining \. on input line 101.
+LaTeX Info: Redefining \% on input line 101.
+ [32] <img/Diagram2_iteracion1.png, id=187, 945.5325pt x 798.985pt>
 File: img/Diagram2_iteracion1.png Graphic file (type png)
 
 <use img/Diagram2_iteracion1.png>
-Package pdftex.def Info: img/Diagram2_iteracion1.png used on input line 102.
-(pdftex.def)             Requested size: 455.24408pt x 257.18114pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
-
- []
-
-[35 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
-g/Diagram2_iteracion1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-
- []
-
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-<img/Selection_022_pyanaly_regex.png, id=201, 481.8pt x 94.3525pt>
+Package pdftex.def Info: img/Diagram2_iteracion1.png used on input line 109.
+(pdftex.def)             Requested size: 341.43306pt x 288.51216pt.
+LaTeX Info: Redefining \. on input line 118.
+LaTeX Info: Redefining \% on input line 118.
+ [33 <./img/Diagram2_iteracion1.png>]
+LaTeX Info: Redefining \. on input line 139.
+LaTeX Info: Redefining \% on input line 139.
+ [34]
+<img/Selection_022_pyanaly_regex.png, id=194, 481.8pt x 94.3525pt>
 File: img/Selection_022_pyanaly_regex.png Graphic file (type png)
 
 <use img/Selection_022_pyanaly_regex.png>
 Package pdftex.def Info: img/Selection_022_pyanaly_regex.png used on input line
- 142.
+ 149.
 (pdftex.def)             Requested size: 455.24408pt x 89.15492pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
-
- []
-
-[37 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
-g/Selection_022_pyanaly_regex.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
-
- []
-
-<img/Selection_024_testcodigo.png, id=205, 462.72874pt x 213.79875pt>
+LaTeX Info: Redefining \. on input line 166.
+LaTeX Info: Redefining \% on input line 166.
+ [35 <./img/Selection_022_pyanaly_regex.png>] <img/Selection_024_testcodigo.png
+, id=199, 462.72874pt x 213.79875pt>
 File: img/Selection_024_testcodigo.png Graphic file (type png)
 
 <use img/Selection_024_testcodigo.png>
-Package pdftex.def Info: img/Selection_024_testcodigo.png used on input line 18
-5.
+Package pdftex.def Info: img/Selection_024_testcodigo.png used on input line 19
+0.
 (pdftex.def)             Requested size: 455.24408pt x 210.34343pt.
- [38 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/i
-mg/Selection_024_testcodigo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
-
- []
-
-<img/Selection_025_gitlog_patterns.png, id=209, 517.935pt x 336.25626pt>
+LaTeX Info: Redefining \. on input line 196.
+LaTeX Info: Redefining \% on input line 196.
+ [36 <./img/Selection_024_testcodigo.png>] <img/Selection_025_gitlog_patterns.p
+ng, id=203, 517.935pt x 336.25626pt>
 File: img/Selection_025_gitlog_patterns.png Graphic file (type png)
 
 <use img/Selection_025_gitlog_patterns.png>
 Package pdftex.def Info: img/Selection_025_gitlog_patterns.png used on input li
-ne 209.
+ne 214.
 (pdftex.def)             Requested size: 455.24408pt x 295.56778pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \vbox (badness 1242) has occurred while \output is active []
 
- []
+LaTeX Info: Redefining \. on input line 218.
+LaTeX Info: Redefining \% on input line 218.
+ [37]
+LaTeX Info: Redefining \. on input line 223.
+LaTeX Info: Redefining \% on input line 223.
 
-[39 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
-g/Selection_025_gitlog_patterns.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
-
- []
-
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
-
- []
-
-[41] <img/Diagram3_iteracion2.png, id=220, 1295.84125pt x 858.20625pt>
+[38 <./img/Selection_025_gitlog_patterns.png>]
+LaTeX Info: Redefining \. on input line 250.
+LaTeX Info: Redefining \% on input line 250.
+ [39]
+<img/Diagram3_iteracion2.png, id=213, 915.42pt x 828.09375pt>
 File: img/Diagram3_iteracion2.png Graphic file (type png)
 
 <use img/Diagram3_iteracion2.png>
-Package pdftex.def Info: img/Diagram3_iteracion2.png used on input line 265.
-(pdftex.def)             Requested size: 455.24408pt x 301.50287pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
-
- []
-
-[42 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
-g/Diagram3_iteracion2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
-
- []
-
-[43] <img/Selection_026_mongomodel.png, id=227, 461.725pt x 236.885pt>
+Package pdftex.def Info: img/Diagram3_iteracion2.png used on input line 269.
+(pdftex.def)             Requested size: 455.24408pt x 411.80934pt.
+LaTeX Info: Redefining \. on input line 273.
+LaTeX Info: Redefining \% on input line 273.
+ [40]
+LaTeX Info: Redefining \. on input line 283.
+LaTeX Info: Redefining \% on input line 283.
+ [41 <./img/Diagram3_iteracion2.png>]
+<img/Selection_026_mongomodel.png, id=221, 461.725pt x 236.885pt>
 File: img/Selection_026_mongomodel.png Graphic file (type png)
 
 <use img/Selection_026_mongomodel.png>
 Package pdftex.def Info: img/Selection_026_mongomodel.png used on input line 30
-0.
+4.
 (pdftex.def)             Requested size: 455.24408pt x 233.559pt.
-
-<img/Selection_027_mongoembdoc.png, id=228, 260.975pt x 75.28125pt>
+LaTeX Info: Redefining \. on input line 308.
+LaTeX Info: Redefining \% on input line 308.
+ [42]
+<img/Selection_027_mongoembdoc.png, id=225, 260.975pt x 75.28125pt>
 File: img/Selection_027_mongoembdoc.png Graphic file (type png)
 
 <use img/Selection_027_mongoembdoc.png>
 Package pdftex.def Info: img/Selection_027_mongoembdoc.png used on input line 3
-07.
-(pdftex.def)             Requested size: 341.43306pt x 98.49162pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
-
- []
-
-[44 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
-g/Selection_026_mongomodel.png> <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memo
-ria2017github/PFC_MEMORIA/img/Selection_027_mongoembdoc.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
-
- []
-
-[45]
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 376--377
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 379--380
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
-
- []
-
-[46] <img/Selection_028_git_comentarios.png, id=238, 416.55624pt x 118.4425pt>
+11.
+(pdftex.def)             Requested size: 227.62204pt x 65.6607pt.
+LaTeX Info: Redefining \. on input line 332.
+LaTeX Info: Redefining \% on input line 332.
+ [43 <./img/Selection_026_mongomodel.png> <./img/Selection_027_mongoembdoc.png>
+]
+LaTeX Info: Redefining \. on input line 374.
+LaTeX Info: Redefining \% on input line 374.
+ [44]
+<img/Selection_028_git_comentarios.png, id=232, 416.55624pt x 118.4425pt>
 File: img/Selection_028_git_comentarios.png Graphic file (type png)
 
 <use img/Selection_028_git_comentarios.png>
 Package pdftex.def Info: img/Selection_028_git_comentarios.png used on input li
-ne 392.
+ne 396.
 (pdftex.def)             Requested size: 455.24408pt x 129.44855pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 409--410
-
- []
-
-[47 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
-g/Selection_028_git_comentarios.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 415--416
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 427--428
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
-
- []
-
-<img/Selection_015_pdml_1.png, id=243, 752.8125pt x 521.95pt>
+LaTeX Info: Redefining \. on input line 400.
+LaTeX Info: Redefining \% on input line 400.
+ [45]
+LaTeX Info: Redefining \. on input line 422.
+LaTeX Info: Redefining \% on input line 422.
+ [46 <./img/Selection_028_git_comentarios.png>] <img/Selection_015_pdml_1.png, 
+id=239, 752.8125pt x 521.95pt>
 File: img/Selection_015_pdml_1.png Graphic file (type png)
 
 <use img/Selection_015_pdml_1.png>
-Package pdftex.def Info: img/Selection_015_pdml_1.png used on input line 434.
+Package pdftex.def Info: img/Selection_015_pdml_1.png used on input line 438.
 (pdftex.def)             Requested size: 455.24408pt x 315.64134pt.
 
-<img/Selection_029_pdml.png, id=244, 400.49625pt x 155.58125pt>
+<img/Selection_029_pdml.png, id=240, 400.49625pt x 155.58125pt>
 File: img/Selection_029_pdml.png Graphic file (type png)
 
 <use img/Selection_029_pdml.png>
-Package pdftex.def Info: img/Selection_029_pdml.png used on input line 435.
+Package pdftex.def Info: img/Selection_029_pdml.png used on input line 439.
 (pdftex.def)             Requested size: 284.52756pt x 110.53703pt.
-
-Underfull \vbox (badness 1184) has occurred while \output is active []
-
- [48]
-Underfull \hbox (badness 10000) in paragraph at lines 443--444
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 448--449
-
- []
-
-[49 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
-g/Selection_015_pdml_1.png> <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2
-017github/PFC_MEMORIA/img/Selection_029_pdml.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 452--453
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 455--456
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--472
-
- []
-
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
-
- []
-
-<img/Diagram4_bbdd.png, id=254, 1249.66875pt x 614.295pt>
+LaTeX Info: Redefining \. on input line 443.
+LaTeX Info: Redefining \% on input line 443.
+ [47]
+LaTeX Info: Redefining \. on input line 453.
+LaTeX Info: Redefining \% on input line 453.
+ [48 <./img/Selection_015_pdml_1.png> <./img/Selection_029_pdml.png>]
+LaTeX Info: Redefining \. on input line 479.
+LaTeX Info: Redefining \% on input line 479.
+ [49]
+<img/Diagram4_bbdd.png, id=251, 927.465pt x 762.85pt>
 File: img/Diagram4_bbdd.png Graphic file (type png)
 
 <use img/Diagram4_bbdd.png>
-Package pdftex.def Info: img/Diagram4_bbdd.png used on input line 481.
-(pdftex.def)             Requested size: 455.24408pt x 223.77994pt.
+Package pdftex.def Info: img/Diagram4_bbdd.png used on input line 485.
+(pdftex.def)             Requested size: 455.24408pt x 374.45161pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--489
+Underfull \vbox (badness 7186) has occurred while \output is active []
 
- []
-
-[51 <C:/Users/Itzi/Dropbox/Carlos-Itziar/LATEX/memoria2017github/PFC_MEMORIA/im
-g/Diagram4_bbdd.png>] [52] [53] [54] [55] [56])
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\evalua
-tion.tex [57] [58
-
-]
+LaTeX Info: Redefining \. on input line 493.
+LaTeX Info: Redefining \% on input line 493.
+ [50 <./img/Diagram4_bbdd.png>]
+LaTeX Info: Redefining \. on input line 527.
+LaTeX Info: Redefining \% on input line 527.
+ [51]
+LaTeX Info: Redefining \. on input line 555.
+LaTeX Info: Redefining \% on input line 555.
+ [52]
+LaTeX Info: Redefining \. on input line 588.
+LaTeX Info: Redefining \% on input line 588.
+ [53]
+LaTeX Info: Redefining \. on input line 619.
+LaTeX Info: Redefining \% on input line 619.
+ [54]
+LaTeX Info: Redefining \. on input line 650.
+LaTeX Info: Redefining \% on input line 650.
+ [55]) (./evaluation.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [56]
 Cap\'{\i }tulo 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[59
+[57
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+ [58]) (./conclusiones.tex [59]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [60
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-[60]
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-
- []
-
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
-
-)
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\conclu
-siones.tex [62]
+]
 Cap\'{\i }tulo 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-[63
-
+[61
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-[65]
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-
- []
-
-[66]
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-
- []
-
-)
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\apendi
-ces.tex [67] [68
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+ [62]
+LaTeX Info: Redefining \. on input line 53.
+LaTeX Info: Redefining \% on input line 53.
+ [63]
+LaTeX Info: Redefining \. on input line 74.
+LaTeX Info: Redefining \% on input line 74.
+ [64]) (./apendices.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [65]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [66
 
 ]
 Ap\IeC {\'e}ndice A.
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
 
 Overfull \hbox (4.18318pt too wide) in paragraph at lines 21--22
 []\OT1/ptm/m/n/12 Una co-pia del \OT1/ptm/m/it/12 script \OT1/ptm/m/n/12 prin-c
@@ -2122,75 +1248,57 @@ i-pal, que lee las con-fi-gu-ra-cio-nes e in-vo-ca los di-fe-ren-tes subm[]odu-
 
  []
 
+[67
+
+]
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+ [68]
+Ap\IeC {\'e}ndice B.
 [69
 
-] [70]
-Ap\IeC {\'e}ndice B.
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-[71
-
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
+ [70]) (./bibliografia.tex [71]
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+ [72
 
- []
+] [73
 
-[72])
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\biblio
-grafia.tex [73] [74
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-[75
-
-]) [76]
-(C:\Users\Itzi\Dropbox\Carlos-Itziar\LATEX\memoria2017github\PFC_MEMORIA\memori
-a_def.aux)
+])
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
+ [74] (./memoria_def.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8016 strings out of 493921
- 117986 string characters out of 3147286
- 180519 words of memory out of 3000000
- 11060 multiletter control sequences out of 15000+200000
- 34312 words of font info for 79 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 36i,13n,38p,767b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/he
-lvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/urw/times/utmri8a.pfb>
-Output written on memoria_def.pdf (96 pages, 986208 bytes).
+ 8433 strings out of 493304
+ 122440 string characters out of 6139871
+ 192623 words of memory out of 5000000
+ 11619 multiletter control sequences out of 15000+600000
+ 32826 words of font info for 77 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,13n,38p,764b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
+mb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on memoria_def.pdf (94 pages, 941463 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 235 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

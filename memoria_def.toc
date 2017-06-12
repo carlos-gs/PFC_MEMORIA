@@ -1,63 +1,63 @@
 \select@language {spanish}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}
-\contentsline {section}{\numberline {1.1}Presentaci\IeC {\'o}n}{2}
-\contentsline {section}{\numberline {1.2}Motivaci\IeC {\'o}n personal}{3}
-\contentsline {section}{\numberline {1.3}Estructura de la memoria}{4}
-\contentsline {chapter}{\numberline {2}Objetivos}{7}
-\contentsline {section}{\numberline {2.1}Descripci\IeC {\'o}n del problema}{7}
-\contentsline {section}{\numberline {2.2}Punto de partida}{8}
-\contentsline {subsection}{\numberline {2.2.1}Recuperaci\IeC {\'o}n de los datos}{9}
-\contentsline {subsection}{\numberline {2.2.2}Preproceso}{10}
-\contentsline {subsection}{\numberline {2.2.3}Parseo XML: PDML, SMIL}{10}
-\contentsline {subsection}{\numberline {2.2.4}Correctness}{11}
-\contentsline {subsection}{\numberline {2.2.5}Posproceso}{12}
-\contentsline {subsection}{\numberline {2.2.6}Generaci\IeC {\'o}n de examen}{12}
-\contentsline {subsection}{\numberline {2.2.7}Detecci\IeC {\'o}n de plagio}{13}
-\contentsline {section}{\numberline {2.3}Requisitos}{14}
-\contentsline {section}{\numberline {2.4}Objetivos generales}{15}
-\contentsline {section}{\numberline {2.5}Objetivos espec\IeC {\'\i }ficos}{16}
-\contentsline {chapter}{\numberline {3}Estado del arte}{19}
-\contentsline {section}{\numberline {3.1}Mining Software Repositories}{19}
-\contentsline {section}{\numberline {3.2}Tecnolog\IeC {\'\i }as utilizadass}{21}
-\contentsline {subsection}{\numberline {3.2.1}Python}{21}
-\contentsline {subsection}{\numberline {3.2.2}Django}{22}
-\contentsline {subsection}{\numberline {3.2.3}MongoDB}{22}
-\contentsline {subsubsection}{PyMODM}{23}
-\contentsline {subsection}{\numberline {3.2.4}GIT}{23}
-\contentsline {subsubsection}{PyGIT2}{24}
-\contentsline {subsection}{\numberline {3.2.5}An\IeC {\'a}lisis de c\IeC {\'o}digo fuente}{24}
-\contentsline {subsubsection}{UTILIDADES DE AN\IeC {\'A}LISIS DE C\IeC {\'O}DIGO FUENTE EN PYTHON}{25}
-\contentsline {section}{\numberline {3.3}Otras herramientas utilizadas}{26}
-\contentsline {subsection}{\numberline {3.3.1}PyCharm}{27}
-\contentsline {subsection}{\numberline {3.3.2}Robomongo}{29}
-\contentsline {chapter}{\numberline {4}Arquitectura y dise\IeC {\~n}o.}{31}
-\contentsline {section}{\numberline {4.1}Modelo de desarrollo}{31}
-\contentsline {section}{\numberline {4.2}Iteraci\IeC {\'o}n 1:}{34}
-\contentsline {subsection}{\numberline {4.2.1}M\IeC {\'o}dulo principal}{35}
-\contentsline {subsection}{\numberline {4.2.2}M\IeC {\'o}dulo de an\IeC {\'a}lisis de c\IeC {\'o}digo Python}{36}
-\contentsline {subsection}{\numberline {4.2.3}M\IeC {\'o}dulo de an\IeC {\'a}lisis de calidad de c\IeC {\'o}digo}{37}
-\contentsline {subsection}{\numberline {4.2.4}M\IeC {\'o}dulo de pruebas de ejecuci\IeC {\'o}n}{38}
-\contentsline {subsection}{\numberline {4.2.5}M\IeC {\'o}dulo de an\IeC {\'a}lisis de GIT}{39}
-\contentsline {subsection}{\numberline {4.2.6}M\IeC {\'o}dulo de comunicaci\IeC {\'o}n}{40}
-\contentsline {section}{\numberline {4.3}Iteraci\IeC {\'o}n 2:}{40}
-\contentsline {subsection}{\numberline {4.3.1}M\IeC {\'o}dulo principal}{42}
-\contentsline {subsection}{\numberline {4.3.2}Paquete de entidades}{43}
-\contentsline {subsection}{\numberline {4.3.3}Paquete de funcionalidades}{44}
-\contentsline {subsection}{\numberline {4.3.4}Paquete de an\IeC {\'a}lisis}{45}
-\contentsline {subsubsection}{M\IeC {\'o}dulo de an\IeC {\'a}lisis de ficheros entregados}{45}
-\contentsline {subsubsection}{M\IeC {\'o}dulo de an\IeC {\'a}lisis de GIT}{46}
-\contentsline {subsubsection}{M\IeC {\'o}dulo de an\IeC {\'a}lisis de c\IeC {\'o}digo Python}{47}
-\contentsline {subsubsection}{M\IeC {\'o}dulo de an\IeC {\'a}lisis de estilo y calidad de c\IeC {\'o}digo}{48}
-\contentsline {subsubsection}{M\IeC {\'o}dulos de an\IeC {\'a}lisis de XML y trazas Wireshark}{48}
-\contentsline {subsection}{\numberline {4.3.5}Generaci\IeC {\'o}n de examen}{49}
-\contentsline {section}{\numberline {4.4}Aplicaci\IeC {\'o}n examen Django}{50}
-\contentsline {section}{\numberline {4.5}Dise\IeC {\~n}o de BBDD}{50}
-\contentsline {chapter}{\numberline {5}Resultados}{59}
-\contentsline {chapter}{\numberline {6}Conclusiones}{63}
-\contentsline {section}{\numberline {6.1}Lecciones aprendidas}{63}
-\contentsline {section}{\numberline {6.2}Conocimientos aplicados}{65}
-\contentsline {section}{\numberline {6.3}Conocimientos adquiridos}{66}
-\contentsline {section}{\numberline {6.4}Mejoras o trabajos futuros}{67}
-\contentsline {chapter}{\numberline {A}Instalaci\IeC {\'o}n y Uso}{69}
-\contentsline {chapter}{\numberline {B}Requisitos}{71}
-\contentsline {chapter}{Bibliograf\'{\i }a}{75}
+\contentsline {section}{\numberline {1.1}Presentaci\IeC {\'o}n}{1}
+\contentsline {section}{\numberline {1.2}Motivaci\IeC {\'o}n personal}{2}
+\contentsline {section}{\numberline {1.3}Estructura de la memoria}{3}
+\contentsline {chapter}{\numberline {2}Objetivos}{5}
+\contentsline {section}{\numberline {2.1}Descripci\IeC {\'o}n del problema}{5}
+\contentsline {section}{\numberline {2.2}Punto de partida}{6}
+\contentsline {subsection}{\numberline {2.2.1}Recuperaci\IeC {\'o}n de los datos}{8}
+\contentsline {subsection}{\numberline {2.2.2}Preproceso}{8}
+\contentsline {subsection}{\numberline {2.2.3}Parseo XML: PDML, SMIL}{9}
+\contentsline {subsection}{\numberline {2.2.4}Correctness}{10}
+\contentsline {subsection}{\numberline {2.2.5}Posproceso}{10}
+\contentsline {subsection}{\numberline {2.2.6}Generaci\IeC {\'o}n de examen}{10}
+\contentsline {subsection}{\numberline {2.2.7}Detecci\IeC {\'o}n de plagio}{11}
+\contentsline {section}{\numberline {2.3}Requisitos}{12}
+\contentsline {section}{\numberline {2.4}Objetivos generales}{13}
+\contentsline {section}{\numberline {2.5}Objetivos espec\IeC {\'\i }ficos}{14}
+\contentsline {chapter}{\numberline {3}Estado del arte}{17}
+\contentsline {section}{\numberline {3.1}Mining Software Repositories}{17}
+\contentsline {section}{\numberline {3.2}Tecnolog\IeC {\'\i }as utilizadass}{19}
+\contentsline {subsection}{\numberline {3.2.1}Python}{19}
+\contentsline {subsection}{\numberline {3.2.2}Django}{20}
+\contentsline {subsection}{\numberline {3.2.3}MongoDB}{20}
+\contentsline {subsubsection}{PyMODM}{21}
+\contentsline {subsection}{\numberline {3.2.4}GIT}{21}
+\contentsline {subsubsection}{PyGIT2}{22}
+\contentsline {subsection}{\numberline {3.2.5}An\IeC {\'a}lisis de c\IeC {\'o}digo fuente}{22}
+\contentsline {subsubsection}{UTILIDADES DE AN\IeC {\'A}LISIS DE C\IeC {\'O}DIGO FUENTE EN PYTHON}{23}
+\contentsline {section}{\numberline {3.3}Otras herramientas utilizadas}{24}
+\contentsline {subsection}{\numberline {3.3.1}PyCharm}{25}
+\contentsline {subsection}{\numberline {3.3.2}Robomongo}{27}
+\contentsline {chapter}{\numberline {4}Arquitectura y dise\IeC {\~n}o.}{29}
+\contentsline {section}{\numberline {4.1}Modelo de desarrollo}{29}
+\contentsline {section}{\numberline {4.2}Iteraci\IeC {\'o}n 1:}{33}
+\contentsline {subsection}{\numberline {4.2.1}M\IeC {\'o}dulo principal}{34}
+\contentsline {subsection}{\numberline {4.2.2}M\IeC {\'o}dulo de an\IeC {\'a}lisis de c\IeC {\'o}digo Python}{34}
+\contentsline {subsection}{\numberline {4.2.3}M\IeC {\'o}dulo de an\IeC {\'a}lisis de calidad de c\IeC {\'o}digo}{35}
+\contentsline {subsection}{\numberline {4.2.4}M\IeC {\'o}dulo de pruebas de ejecuci\IeC {\'o}n}{36}
+\contentsline {subsection}{\numberline {4.2.5}M\IeC {\'o}dulo de an\IeC {\'a}lisis de GIT}{37}
+\contentsline {subsection}{\numberline {4.2.6}M\IeC {\'o}dulo de comunicaci\IeC {\'o}n}{38}
+\contentsline {section}{\numberline {4.3}Iteraci\IeC {\'o}n 2:}{39}
+\contentsline {subsection}{\numberline {4.3.1}M\IeC {\'o}dulo principal}{41}
+\contentsline {subsection}{\numberline {4.3.2}Paquete de entidades}{42}
+\contentsline {subsection}{\numberline {4.3.3}Paquete de funcionalidades}{43}
+\contentsline {subsection}{\numberline {4.3.4}Paquete de an\IeC {\'a}lisis}{44}
+\contentsline {subsubsection}{M\IeC {\'o}dulo de an\IeC {\'a}lisis de ficheros entregados}{44}
+\contentsline {subsubsection}{M\IeC {\'o}dulo de an\IeC {\'a}lisis de GIT}{45}
+\contentsline {subsubsection}{M\IeC {\'o}dulo de an\IeC {\'a}lisis de c\IeC {\'o}digo Python}{46}
+\contentsline {subsubsection}{M\IeC {\'o}dulo de an\IeC {\'a}lisis de estilo y calidad de c\IeC {\'o}digo}{47}
+\contentsline {subsubsection}{M\IeC {\'o}dulos de an\IeC {\'a}lisis de XML y trazas Wireshark}{47}
+\contentsline {subsection}{\numberline {4.3.5}Generaci\IeC {\'o}n de examen}{48}
+\contentsline {section}{\numberline {4.4}Aplicaci\IeC {\'o}n examen Django}{49}
+\contentsline {section}{\numberline {4.5}Dise\IeC {\~n}o de BBDD}{49}
+\contentsline {chapter}{\numberline {5}Resultados}{57}
+\contentsline {chapter}{\numberline {6}Conclusiones}{61}
+\contentsline {section}{\numberline {6.1}Lecciones aprendidas}{61}
+\contentsline {section}{\numberline {6.2}Conocimientos aplicados}{63}
+\contentsline {section}{\numberline {6.3}Conocimientos adquiridos}{64}
+\contentsline {section}{\numberline {6.4}Mejoras o trabajos futuros}{65}
+\contentsline {chapter}{\numberline {A}Instalaci\IeC {\'o}n y Uso}{67}
+\contentsline {chapter}{\numberline {B}Requisitos}{69}
+\contentsline {chapter}{Bibliograf\'{\i }a}{73}

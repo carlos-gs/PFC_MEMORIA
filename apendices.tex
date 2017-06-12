@@ -4,7 +4,7 @@
 \label{app:instalacion}
 
 
-Con el sistema Misture propuesto, si se desea efectuar una corrección con una parte o la totalidad de las funcionalidades básicas ya implementadas, sería necesario:\\
+Con el sistema Misture propuesto, si se desea efectuar una corrección con una parte o la totalidad de las funcionalidades básicas ya implementadas, sería necesario:
 
 \begin{enumerate}
 \item El directorio del profesor donde deposita los ficheros auxiliares a la corrección, tales como:
@@ -25,9 +25,9 @@ Con el sistema Misture propuesto, si se desea efectuar una corrección con una p
 
 \item Estos ajustes a los módulos que realmente se van a utilizar entre aquellos que son opcionales, que llamadas se van a ejecutar en las pruebas y que resultado u listado de resultados válidos se pueden esperar.
 
-\item Asimismo, se pueden ajustar otras constantes como el listado de errores o tipo de errores de pep8, pylint o hackings ignorar en un análisis de estilo y código.
+\item Asimismo, se pueden ajustar otras constantes como el listado de errores o tipo de errores de Pep8, Pylint o Hackings que se desean ignorar en un análisis de estilo y código.
 
-\item También, en caso de activar la comprobación de xml o pdml, se indicarían cuáles comprobaciones, entre las implementadas, se deberían realizar, como la cuenta de trazas de determinado tipo en la captura Wireshark, la presencia de cierto atributo o valor en una etiqueta concreta, etc.
+\item También, en caso de activar la comprobación de XML o PDML, se indicarían que comprobaciones, entre las implementadas, se deberían realizar, como la cuenta de trazas de determinado tipo en la captura Wireshark, la presencia de cierto atributo o valor en una etiqueta concreta, etc.
 \end{itemize}
 \end{enumerate}
 
@@ -36,20 +36,20 @@ Con el sistema Misture propuesto, si se desea efectuar una corrección con una p
 \chapter{Requisitos}
 \label{app:req}
 
-Para la ejecución del código de Misture.\\
+A continuación se especifican las dependencias necesarias para la ejecución del código de Misture.
 
-En cuanto a librerías Python, si no se indica lo contrario, su instalación se aconseja realizar el gestor de paquetes Python Pip para instalar los paquetes necesarios en la versión 3 de Python, de la siguiente manera.
+En cuanto a librerías Python, si no se indica lo contrario, se aconseja realizar con gestor de paquetes de Python llamado Pip para instalar los paquetes necesarios en la versión 3 de Python, de la siguiente manera.
 \begin{center}
 \begin{verbatim}
-pip3 install <nombre_paquete>
+$ pip3 install <nombre_paquete>
 \end{verbatim}
 \end{center}
 
 
-Dada la cantidad de paquetes y dependencias manejados, se detallarán las dependencias principales, siendo instaladas todas las dependencias en las versiones disponibles o las requeridas por el propio paquete.\\
+Dada la cantidad de paquetes y dependencias manejados, se detallarán las dependencias principales, siendo instaladas todas las dependencias en las versiones disponibles o las requeridas por el propio paquete que las tiene en su lista de dependencias requeridas.
 
 
-Además, por la misma razón, es una buena práctica configurar un ``Virtual Environment'' de Python específico para la configuración de todo el entorno necesario y la ejecución de este proyecto.\\
+Además, por la misma razón, es una buena práctica configurar un \textit{virtual environment} de Python específico para la configuración de todo el entorno necesario y la ejecución de este proyecto.
 \begin{center}
 \begin{verbatim}
  $ sudo pip install virtualenv
@@ -66,21 +66,21 @@ $ deactivate
 \end{verbatim}
 \end{center}
 
-Una vez aclarado todo esto, definimos los principales requisitos:\\
+Una vez aclarado todo esto, definimos los principales requisitos:
 
 \begin{itemize}
 \item Interprete de Python:	Durante el desarrollo, se ha empleado principalmente el interprete de la versión 3.4, aconsejándose la instalación de la versión 3.4 o superior.
 
-\item Asimismo, se dispuso de un interprete de la versión 2, en concreto de la versión 2.7, para el testing sobre códigos de Python 2. Aconsejándose, en caso de la corrección de prácticas en esa versión de Python, de un virtualenv con la versión más reciente utilizada por los alumnos.
+\item Asimismo, se dispuso de un interprete de la versión 2, en concreto de la versión 2.7, para el testing sobre códigos de Python 2. Aconsejándose, en caso de la corrección de prácticas en esa versión de Python, de un entorno Python con la versión más reciente utilizada por los alumnos.
 
 \item Sistema gestor de bases de datos MongoDB: Se ha empleado la versión 3.2.13.
 
-\item La librería pymongo y el ODM PyMODM de Python: PyMongo 3.4, siendo válida cualquier versión con numeración mayor o igual a la de MongoDB empleada.
-	Usar la versión 0.4.0 o superior de PyMODM, teniendo en cuenta en la documentación de esta librería, se indica que esta probado para la versión de MongoDB que se tiene instalada.	
+\item La librería Pymongo y el ODM PyMODM de Python: PyMongo 3.4, siendo válida cualquier versión con numeración mayor o igual a la de MongoDB empleada.
+	Usar la versión 0.4.0 o superior de PyMODM, teniendo en cuenta en la documentación de esta librería, que se indica que esta probado para la versión de MongoDB que se tiene instalada.	
 
-\item Sistema de control de versiones Git: Se recomienda tener instalada la versión 2 de este herramienta, ya que esta documentado y asimismo hemos detectado en diferentes pruebas con la librería que algunos de los comandos y opciones de Git han modificado su comportamiento, sus opciones por defecto, o el formato de su salida, afectando por tanto al comportamiento de pygit2.
+\item Sistema de control de versiones Git: Se recomienda tener instalada la versión 2 de este herramienta, ya que esta documentado y asimismo hemos detectado en diferentes pruebas que algunos de los comandos y opciones de Git han modificado su comportamiento, sus opciones por defecto, o el formato de su salida, afectando por tanto al comportamiento de Pygit2.
 
-\item Librería pygit2. El sistema Misture esta probado con la versión 0.25.0
+\item Librería Pygit2. El sistema Misture esta probado con la versión 0.25.0
 
 \item Librería Beautiful Soup.
 	Se debe instalar Beautiful Soup 4.
@@ -96,7 +96,7 @@ Una vez aclarado todo esto, definimos los principales requisitos:\\
 
 \item Librería Pylint: Empleada la versión 1.7.1
 
-\item Librería validators: Se ha empleado la versión 0.11.3
+\item Librería Validators: Se ha empleado la versión 0.11.3
 
-\item Librería astor: Versión >= 0.5
+\item Librería Astor: Versión >= 0.5
 \end{itemize}

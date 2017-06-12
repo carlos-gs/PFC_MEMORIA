@@ -44,34 +44,35 @@
 \renewcommand{\baselinestretch}{1.5}  %% Interlineado
 
 \begin{document}
-
+%\setlength{\parskip}{2mm plus 7mm minus 0mm} % INTENTO CARLOS PARA EL ESPACIO ENTRE 'PARRAFOS' SE AJUSTE FLEXIBLE
 \renewcommand{\refname}{Bibliografía}  %% Renombrando
 \renewcommand{\appendixname}{Apéndice}
 
 \input{portada.tex}
 \pagenumbering{Roman} % para comenzar la numeracion de paginas en numeros romanos
-\input{anexo_entrega.tex}
+\input{anexo_entrega.tex}\textsf
 \input{licencia.tex}
 \input{dedicatoria.tex}
 \input{agradecimientos.tex}
 
-
-\input{resumen.tex}
+{\setlength{\parskip}{4mm plus 7mm minus 0mm}\input{resumen.tex}}	
 \input{summary.tex} 
-
-\input{indice.tex}
+{\setlength{\parskip}{0mm plus 7mm minus -2mm}\input{indice.tex}}
 \input{abreviaciones.tex}
+
+
 \cleardoublepage
+
 \pagenumbering{arabic} % para empezar la numeración de página con números
-\input{introduccion.tex}
-\input{objetivos.tex}
-\input{estadodelarte.tex}
-\input{design_implement.tex}
-\input{evaluation.tex}
-\input{conclusiones.tex}
+{\setlength{\parskip}{3mm plus 7mm minus 1mm}\input{introduccion.tex}}
+{\setlength{\parskip}{3mm plus 7mm minus 1mm}\input{objetivos.tex}}
+{\setlength{\parskip}{3mm plus 7mm minus 1mm}\input{estadodelarte.tex}}
+{\setlength{\parskip}{3mm plus 7mm minus 1mm}\input{design_implement.tex}}
+{\setlength{\parskip}{3mm plus 7mm minus 1mm}\input{evaluation.tex}}
+{\setlength{\parskip}{3mm plus 7mm minus 1mm}\input{conclusiones.tex}}
 
 
 
-\input{apendices.tex}
-\input{bibliografia.tex}
+{\setlength{\parskip}{3mm plus 7mm minus 1mm}\input{apendices.tex}}
+{\setlength{\parskip}{3mm plus 7mm minus 1mm}\input{bibliografia.tex}}
 \end{document}
