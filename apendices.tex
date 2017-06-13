@@ -4,7 +4,7 @@
 \label{app:instalacion}
 
 
-Con el sistema Misture propuesto, si se desea efectuar una corrección con una parte o la totalidad de las funcionalidades básicas ya implementadas, sería necesario:
+Con el sistema Misture propuesto, si se desea efectuar una corrección, serían necesarios:
 
 \begin{enumerate}
 \item El directorio del profesor donde deposita los ficheros auxiliares a la corrección, tales como:
@@ -14,11 +14,11 @@ Con el sistema Misture propuesto, si se desea efectuar una corrección con una p
 
 \item Fichero con las preguntas estáticas de la prueba o examen que se mezclaran con las generadas de autoría.
 
-\item Ficheros auxiliares para la ejecución de pruebas sobre el código: códigos de un servidor o cliente de prueba para lanzarlo contra el del alumno, xmls de configuración, ficheros de entrada sobre el que lanzar una prueba, etc.
+\item Ficheros auxiliares para la ejecución de pruebas sobre el código: códigos de un servidor o cliente de prueba para lanzarlo contra el del alumno, XMLs de configuración, ficheros de entrada sobre el que lanzar una prueba, etc.
 \end{itemize}
 
 
-\item Una copia del \textit{script} principal, que lee las configuraciones e invoca los diferentes submódulos de corrección.
+\item Una copia del \textit{script} principal, que lee las configuraciones e invoca los diferentes módulos de corrección.
 
 \begin{itemize}
 \item Se utiliza a modo de plantilla, teniendo que ajustar la configuración y código del \textit{script}.
@@ -27,7 +27,7 @@ Con el sistema Misture propuesto, si se desea efectuar una corrección con una p
 
 \item Asimismo, se pueden ajustar otras constantes como el listado de errores o tipo de errores de Pep8, Pylint o Hackings que se desean ignorar en un análisis de estilo y código.
 
-\item También, en caso de activar la comprobación de XML o PDML, se indicarían que comprobaciones, entre las implementadas, se deberían realizar, como la cuenta de trazas de determinado tipo en la captura Wireshark, la presencia de cierto atributo o valor en una etiqueta concreta, etc.
+\item También, en caso de activar la comprobación de XML o PDML, se indicarían que comprobaciones, entre las implementadas en Misture, se deberían realizar, como la cuenta de trazas de determinado tipo en la captura Wireshark, la presencia de cierto atributo o valor en una etiqueta concreta, etc.
 \end{itemize}
 \end{enumerate}
 
@@ -46,10 +46,10 @@ $ pip3 install <nombre_paquete>
 \end{center}
 
 
-Dada la cantidad de paquetes y dependencias manejados, se detallarán las dependencias principales, siendo instaladas todas las dependencias en las versiones disponibles o las requeridas por el propio paquete que las tiene en su lista de dependencias requeridas.
+Dada la cantidad de paquetes y dependencias manejados, se detallarán las dependencias principales, sin olvidar que estas precisan de otras dependencias requeridas que serán instaladas conjuntamente.
 
 
-Además, por la misma razón, es una buena práctica configurar un \textit{virtual environment} de Python específico para la configuración de todo el entorno necesario y la ejecución de este proyecto.
+Además, es una buena práctica configurar un \textit{virtual environment} de Python específico para la configuración de todo el entorno necesario y la ejecución de este proyecto.
 \begin{center}
 \begin{verbatim}
  $ sudo pip install virtualenv
@@ -98,5 +98,5 @@ Una vez aclarado todo esto, definimos los principales requisitos:
 
 \item Librería Validators: Se ha empleado la versión 0.11.3
 
-\item Librería Astor: Versión >= 0.5
+\item Librería Astor: Versión \textgreater=0.5
 \end{itemize}

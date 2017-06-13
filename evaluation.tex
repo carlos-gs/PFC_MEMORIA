@@ -6,51 +6,45 @@ Con la aplicación del proyecto Misture, pretendíamos, entre otros items a cump
 
 
 \begin{itemize}
-\item Establecer un proyecto Python, que recogiera las funciones básicas, detectadas en las muestras de las actividades entregables de las asignaturas de programación de aplicaciones y servicios web y multimedia en redes, adaptada a las pequeñas prácticas de los alumnos.
+\item Establecer un proyecto Python, que recoja las funciones básicas, detectadas en las muestras de las actividades entregables de las asignaturas de programación de aplicaciones y servicios web y multimedia en redes, adaptada a las pequeñas prácticas de los alumnos.
 
 \item Automatizar la funcionalidad básica detectada, minimizando la cantidad de pasos o funcionalidades semiautomáticas o manuales llevadas a cabo por el profesor en las experiencias piloto.
 
-\item Permitir cierta tolerancia -no permisividad- en la automatización a errores por parte de los alumnos en los códigos o en los ficheros entregables. Dado que estamos ante alumnos en proceso de aprendizaje. Y que la detección y rectificación automatizada de estos redundaría en reducir las intervenciones manuales y re-ejecuciones de los \textit{scripts} de los diferentes pasos de la corrección.
+\item Permitir cierta tolerancia en la automatización a errores por parte de los alumnos en los códigos o en los ficheros entregables. 
 
-\item En consecuencia a los anteriores, disminuir el tiempo dedicado por el docente en el desarrollo o adaptación del código para la corrección de nuevas actividades, su ejecución, y la recogida de resultados y reporte de los puntos críticos a revisar.
+\item Disminuir el tiempo dedicado por el docente en el desarrollo o adaptación del código para la corrección de nuevas actividades, su ejecución, y la recogida de resultados y reporte de los puntos críticos a revisar.
 
-\item Mejora en la generación, riqueza, y comunicación del \textit{reporting} de los resultados de los diferentes análisis y correcciones que se ejecutan sobre los repositorios.
+\item Mejorar generación, riqueza, y comunicación del \textit{reporting} de los resultados de los diferentes análisis y correcciones que se ejecutan sobre los repositorios.
 
 \item Mejorar la recogida de información extraída en las correcciones, de forma persistente y debidamente relacionada en sistemas de BBDD, permitiendo nuevos análisis posteriores, y ahorrando tiempo y re-ejecuciones en caso de errores que requieran alguna intervención manual por parte del profesor.
 
-\item Interrelacionar nuestro sistema con una interfaz web, en una primera aproximación para la realización de exámenes de verificación de autoría y conocimiento del código del alumno. Asimismo, mejorar la experiencia piloto de forma que se pueda extender la funcionalidad de la interfaz web a mostrar.
+\item Interrelacionar nuestro sistema con una interfaz web, en una primera aproximación para la realización de exámenes de verificación de autoría y conocimiento del código del alumno.
 \end{itemize}
 
 De este compendio de deseos que inicialmente esperábamos cumplir, en el estadio en el que el proyecto Misture ha sido entregado, hemos llegado a los siguientes resultados.\
 
 
-En cuanto a establecer un diseño que recoja la funcionalidad básica detectada en las experiencias piloto, podemos estimar que se ha podido realizar, con el diseño descrito en el apartado precedente.
-
-
-Asimismo, hemos construido una pequeña arquitectura, que en gran medida puede ser ampliada con nuevas funcionalidades y mejoras a partir de la propia estructura del proyecto y las BBDD propuestas.
+En cuanto a establecer un diseño que recoja la funcionalidad básica detectada en las experiencias piloto, podemos estimar que se ha podido realizar, con el diseño descrito en el apartado precedente. Asimismo, hemos construido una pequeña arquitectura, que en gran medida puede ser ampliada con nuevas funcionalidades y mejoras a partir de la propia estructura del proyecto y las BBDD propuestas.
 
 
 Con respecto a los hitos de automatización, en algunas tareas concretas como el \textit{reporting} y comunicación de los resultados, que requerían mayor intervención manual, ha sido posible introducir una mayor ganancia en tiempo y en reducción de las intervenciones manuales por parte del profesor.
 
 
-Sin embargo, en otras comprobaciones, como la comprobación de los ficheros entregados, el estilo y errores de los códigos fuentes, pruebas, etc. La ganancia principal, más que en tiempo bruto, se produce en el hecho de disponer de los datos de los análisis almacenados sistemáticamente con una mayor riqueza e interrelacionados en las BBDD.
+Sin embargo, en otras comprobaciones, como la comprobación de los ficheros entregados, el estilo y errores de los códigos fuentes, pruebas, etc. La ganancia principal, más que en tiempo, se produce en el hecho de disponer de los datos de los análisis almacenados sistemáticamente con una mayor riqueza y relacionados en un medio persistente -BBDD-.
 
 
-En cambio, en permitir cierta tolerancia en los procesos automáticos frente a pequeños errores de los alumnos, que son los que producen que tengan que realizarse correcciones manuales, para seguir pudiendo efectuar el resto de chequeos automáticos a esa práctica del alumno. Ha sido uno de los hitos más complicados de cumplir.
+En cambio, el permitir tolerancia en los procesos automáticos frente a pequeños errores de los alumnos ha sido uno de los hitos más complicados de cumplir.
 
 
-Se ha introducido alguna pequeña mejora, como la corrección con ayuda del algoritmo de Levenshtein de casos muy simples de equivocación de los nombres de los ficheros esperados, cuando se indica una lista obligatoria de ellos.
+En esa dirección se ha introducido alguna pequeña mejora, como la corrección con ayuda del algoritmo de Levenshtein de casos muy simples de equivocación de los nombres de los ficheros esperados, cuando se indica una lista obligatoria de ellos. Sin embargo, no ha sido posible encontrar soluciones abordables en el ámbito de este proyecto y en un plazo razonable para automatizar la rectificación de otros pequeños despistes que tienen los alumnos en sus entregas.
 
 
-En cambio, no ha sido posible encontrar soluciones abordables en el ámbito de este proyecto y en un plazo razonable para automatizar la rectificación de otros pequeños despistes que se suelen producir en ocasiones por parte de los alumnos.
-
-
-Por ejemplo, casos en los que no se definió estrictamente en el enunciado de la actividad propuesta, o el alumno cometió errores, sobre la forma de usar o leer los parámetros de los \textit{scripts}. Pudiendo esto dificultar tareas como la ejecución de pruebas de caja negra, y exigen al tutor pasar a operar manualmente, buscar y rectificar el problema, y realizar re-ejecuciones. O no poder evaluar por completo al alumno.
+Por ejemplo, en casos en los que no se define estrictamente en el enunciado de la actividad propuesta, o el alumno comete errores, sobre la forma de usar o leer los parámetros de los \textit{scripts}. En este caso concreto esto puede dificultar tareas como la ejecución de pruebas de caja negra, y exigen al tutor pasar a operar manualmente, buscar y rectificar el problema, y realizar re-ejecuciones. También no poder evaluar por completo al alumno.
 
 
 En general, podemos decir que con respecto a las experiencias piloto se ha mejorado en varios aspectos las tareas de corrección automática. También que con Misture se sienta una posible base sobre la que ampliar y mejorar funcionalidades y el reporte de información extraída y sus posibilidades de análisis.
 
-Sin embargo, nos hemos encontrado con que no es tan fácil de alcanzar un grado elevado de generalización de casos a abarcar, y de automatización plena y desatendida de la herramienta, entre los pasos de configuración y de lectura de informes y reporte.
+Sin embargo, nos hemos encontrado con que no es tan fácil de alcanzar un grado elevado de generalización para abarcar escenarios de corrección menos específicos. Tampoco lo es alcanzar la automatización plena y desatendida de la herramienta, al menos en los procesos que hay entre la configuración de Misture y la  lectura de informes y reporte.
 
 Por ejemplo, una ejecución de código de caja negra es difícil de adecuar para probar una práctica desarrollada en un \textit{framework} de aplicaciones web como Django, empleada por los alumnos en asignaturas de cursos más avanzados.
 

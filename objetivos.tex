@@ -7,7 +7,7 @@
 \label{sec:des_problema}
 
 
-El problema al que se quiere dar una solución es la construcción de un sistema, que a partir de unas configuraciones de entrada  y cuya especificación sea trasladable al enunciado de las actividades prácticas de alumnos de asignaturas de programación de servicios y aplicaciones sobres redes de ordenadores, pueda proceder a su corrección requiriendo los mínimos cambios o ajustes en la implementación en dicho sistema, y produciéndose la menor cantidad posible de errores imprevistos, que aumenten el tiempo empleado en efectuar procesos manuales.
+El problema al que se quiere dar una solución es la construcción de un sistema, que a partir de unas configuraciones de entrada y cuya especificación se pueda trasladar al enunciado de las actividades prácticas de alumnos de asignaturas de programación de servicios y aplicaciones sobres redes de ordenadores, pueda proceder a su corrección requiriendo los mínimos cambios o ajustes en la implementación en dicho sistema, y produciéndose la menor cantidad posible de errores imprevistos, que aumenten el tiempo empleado en efectuar procesos manuales.
 
 
 Es deseable que estas correcciones puedan realizarse lo más desatendida y automáticamente posible, permitiendo liberar tiempo al profesor y disminuir el tiempo de respuestas, además de proporcionarles de un conjunto variado de información acerca de los resultados de sus prácticas con el objetivo de incidir positivamente en el aprendizaje tanto de los conceptos de la asignatura como de habilidades en programación con poco retraso con respecto al día de entrega.
@@ -16,11 +16,11 @@ Es deseable que estas correcciones puedan realizarse lo más desatendida y autom
 Los elementos que debemos considerar en la corrección del alumno son los siguientes:
 
 \begin{itemize}
-\item En general, un repositorio Git, \it{no bare}, en el cual el alumno ha estado trabajando y pueda observarse objetivamente su evolución desarrollando esa actividad, cuyo directorio de trabajo contenga los entregables predefinidos por la especificación o enunciado de la actividad.
+\item En general, un repositorio Git, \it{no bare}, en el cual el alumno ha estado trabajando y pueda observarse objetivamente su evolución desarrollando esa actividad El directorio de trabajo debería contener los entregables predefinidos por la especificación o enunciado de la actividad.
 
 \item Ficheros de código fuente: trabajando casi siempre con fuentes en Python 2 o 3.
 
-\item Capturas de Wireshark: dado que estamos evaluando a alumnos que cursan asignaturas relacionadas con servicios o aplicaciones lanzadas sobre redes, es un tipo de entregable muy útil para evaluar el funcionamiento de programas cliente o servidor que se entregan.
+\item Capturas de Wireshark: dado que estamos evaluando a alumnos que cursan asignaturas relacionadas con servicios o aplicaciones lanzadas sobre redes, es un tipo de entregable útil para evaluar el funcionamiento de programas cliente o servidor que se entregan.
 
 \item Otros ficheros de texto o XML, cuya inclusión venga justificada por contener configuraciones o datos de entrada para los \textit{scripts}, o sean en sí mismo uno de los entregables evaluables, como por ejemplo una actividad acerca de la manipulación del lenguaje SMIL, que es una especificación XML.
 \end{itemize}
@@ -34,7 +34,7 @@ En base a esos entregables, tenemos que plantearnos el sistema automatizado que 
 \label{sec:puntp_partida}
 
 
-Para la realización de este sistema, no se parte de cero. Ya que fruto de las nuevas experiencias docentes introducidas por el profesor, éste desarrolló unos \textit{scripts} semiautomáticos para poder agilizar la corrección y disponer los alumnos de sus reportes antes de la siguiente sesión práctica.
+Para la realización de este sistema, no se parte de cero. Fruto de las nuevas experiencias docentes introducidas por el profesor, éste desarrolló unos \textit{scripts} semiautomáticos para poder agilizar la corrección y disponer los alumnos de sus reportes antes de la siguiente sesión práctica.
 
 
 Aunque estos \textit{scripts} todavía exigen bastante intervención manual, es una buena primera aproximación y permite abordar todo el proceso de corrección que de otra forma llevaría días o semanas para un único docente, no produciría tanta cantidad de información ni resultados susceptibles de evaluar, y por tanto se pierde capacidad de incidir sobre estos durante las siguientes sesiones.
@@ -71,7 +71,7 @@ Actualmente, se solicita el usuario público de los alumnos en el servicio Githu
 En este módulo se lee y establece la configuración inicial con las especificaciones de la entrega tales como los usuarios de los alumnos, localización de repositorios, listado de ficheros a entregar, etc.
 
 
-Una vez establecida la configuración. Se lanzan diferentes comprobaciones sobre los ficheros mediante funcionalidad Python o invocando terceras utilidades mediante llamadas al sistema. La salida se vuelca a ficheros de texto en un formato parseable, y los errores en la ejecución de los \textit{checks} a otro fichero de errores, que revisa el profesor por si tiene que tomar acciones correctoras sobre el repositorio afectado y ejecutar nuevamente los \textit{checks}.
+Una vez establecida la configuración. Se lanzan diferentes comprobaciones sobre los ficheros mediante funcionalidad Python o invocando terceras utilidades mediante llamadas al sistema. La salida se vuelca a ficheros de texto en un formato parseable, y los errores en la ejecución de los \textit{checks} a otro fichero de errores, que revisa el profesor por si tiene que tomar acciones correctoras sobre el repositorio afectado y ejecutar nuevamente los \textit{checks}. Estas comprobaciones son:
 
 
 \begin{itemize}
@@ -90,7 +90,7 @@ Una vez establecida la configuración. Se lanzan diferentes comprobaciones sobre
 \subsection{Parseo XML: PDML, SMIL}
 \label{sec:parseo}
 
-La utilidad de este módulo sale a relucir en las entregas dónde los alumnos entregan capturas Wireshark con las trazas resultantes de ejecutar sus escenarios, las cuáles se convierten a PDML (ver las figuras inferiores) para facilitar su análisis. También en alguna otra actividad donde se han tratado con lenguajes XML, como el caso de SMIL.
+La utilidad de este módulo sale a relucir en las entregas dónde los alumnos incluyen capturas de Wireshark con las trazas resultantes de ejecutar sus escenarios, las cuáles se convierten a PDML (ver las figuras inferiores) para facilitar su análisis. También en alguna otra actividad donde se han tratado con lenguajes XML, como el caso de SMIL.
 
 
 \begin{figure}[H]
@@ -100,8 +100,7 @@ La utilidad de este módulo sale a relucir en las entregas dónde los alumnos en
    \label{figura:traza_wireshark}
 \end{figure}
 
-
-La aproximación que se sigue para el análisis, es utilizar el módulo SAX de Python para implementar específicamente para la actividad concreta que estamos corrigiendo, las comprobaciones sobre estos ficheros sobre las etiquetas, atributos o valores de ellas. Para demostrar que la traza o el XML ha sido generado o tiene los contenidos que se esperan, de haber realizado el alumno la tarea correctamente.\\
+La aproximación que se lleva a cabo en este análisis es implementar un pequeño parser SAX en Python específico para la actividad a corregir. Este parser realizaría las comprobaciones sobre las etiquetas, atributos o los valores de estos en el XML. Con el resultado de ejecutar este parser sobre el XML, se puede concluir si la traza o el XML tiene los contenidos o elementos esperados y si el alumno ha realizado su tarea con éxito.
 
 
 \begin{figure}[H]
@@ -112,7 +111,7 @@ La aproximación que se sigue para el análisis, es utilizar el módulo SAX de P
 \end{figure}
 
 
-Una vez el profesor ha implementado las comprobaciones en un módulo \textit{parser} específico, se invoca en el módulo de preproceso y se recogen los resultados impresos en el \textit{log} desde el módulo de corrección.
+Una vez el profesor ha implementado las comprobaciones en un módulo \textit{parser} específico, se invoca el parser en el módulo de preproceso y se recogen los resultados impresos en el \textit{log} desde el módulo de corrección.
 
 
 \subsection{Correctness}
@@ -122,26 +121,26 @@ Una vez el profesor ha implementado las comprobaciones en un módulo \textit{par
 Correctness es el módulo de ejecución de pruebas de caja negra, se lanzan las llamadas sobre los \textit{scripts} de los alumnos para probar su funcionalidad ante determinadas entradas o ficheros de entrada, y se recogen los resultados y errores en los \textit{logs}.
 
 
-Estas salidas se pueden comparar en el posproceso con el resultado esperado por el procesor, en el caso de actividades más sencillas o aquellas que se defina en el enunciado un formato de salida muy estricto. En caso contrario, la salida se almacena dentro del pool de ficheros de reporte del alumno para la posterior inspección del profesor.
+Estas salidas se pueden comparar en el posproceso contra resultado esperado por el profesor, en el caso que sean actividades más sencillas o que tengan definido un formato de salida muy estricto en el enunciado planteado para la actividad. En caso contrario, la salida se almacena dentro del \textit{pool} de ficheros de reporte del alumno para que sea inspeccionado por el profesor.
 
 
 \subsection{Posproceso}
 \label{sec:posproceso}
 
 
-La funcionalidad de este \textit{script} es parsear los logs del preproceso con el resultado de los \textit{checks}, generando un reporte en formato texto con el detalle sobre el resultado de las comprobaciones realizadas y su resultado, y el desglose de sus errores de estilo y avisos sobre líneas de código que incurren en algún uso del código no considerado de calidad según lo generalmente aceptado. Según el caso, también el resultado de las pruebas de caja negra.
+La funcionalidad de este \textit{script} es parsear los logs del preproceso con el resultado de los \textit{checks}. Así se genera un reporte en formato texto con el detalle sobre las comprobaciones realizadas y su resultado, el desglose de sus errores de estilo y avisos sobre líneas de código que incurren en alguna práctica no considerada de calidad. Según el caso, también se reporta el resultado de las pruebas de caja negra.
 
 
 \subsection{Generación de examen}
 \label{sec:gen_exam}
 
-En este script se inyecta a una base de datos SQL, asociada también a una aplicación Django, las preguntas de la prueba que se hace a los alumnos para evaluar si el alumno conoce su propio código y cuestiones que evalúen.
+En este \textit{script} se inyecta a una base de datos SQL, asociada también a una aplicación Django, las preguntas de la prueba que se hace a los alumnos para evaluar si el alumno conoce su propio código y cuestiones que evalúen.
 
 
 Estas preguntas se inyectan de dos fuentes. La primera viene desde los propios ficheros fuente de la entrega, para la cual se inyecta un fragmento de código y se pregunta a cuál de los ficheros fuente pertenece.
 
 
-La segunda fuente es un fichero de texto, parseable, donde el profesor formula preguntas acerca de conceptos aplicados en la actividad, o cuestiones donde se le pide al alumno que indique cuál es la salida o que cambio tiene que hacer en un fragmento de código indicado.
+La segunda fuente es un fichero de texto, parseable, donde el profesor formula preguntas acerca de conceptos aplicados en la actividad, o cuestiones donde se le pide al alumno que indique la salida que produce un código o hacer un cambio sobre él.
 
 \begin{figure}[H]
    \centering
@@ -157,7 +156,7 @@ Esta tarea no está integrada dentro del resto de scripts, pero también forma p
 
 En este paso del proceso de corrección, se suben las rutas con los códigos al servidor de la herramienta MOSS, donde se realiza el análisis y pasado el tiempo necesario son publicados en su servidor web.
 
-MOSS mide la similitud de entre ficheros texto a través de métodos estadísticos y establece esta medida fichero a fichero. Según el tipo de ficheros y su contenido, no es un hecho fuera de lo habitual encontrarse ante falsos positivos, especialmente si usamos MOSS para cotejar los códigos de las actividades más simples. \newpage %TODO AJUSTE
+MOSS mide la similitud de entre ficheros de texto a través de métodos estadísticos. Según el tipo de ficheros y su contenido, es habitual encontrarse ante falsos positivos, especialmente si cotejamos los códigos de las actividades más simples. \newpage %TODO AJUSTE
 
 \begin{figure}[H]
    \centering
@@ -170,18 +169,18 @@ MOSS mide la similitud de entre ficheros texto a través de métodos estadístic
 \label{sec:requisitos}
 
 
-Una vez estudiado todo el escenario de nuestro problema y la funcionalidad semiautomática de los \textit{scripts} de corrección, se estuvo definiendo de forma general entre proyectando y tutor algunos de los requisitos que se extrajeron de este análisis, obteniendo así el siguiente listado de requisitos a tener en cuenta en el sistema Misture:
+Una vez se ha estudiado todo el escenario de nuestro problema y la funcionalidad semiautomática de los \textit{scripts} de corrección, se definió de forma general entre proyectando y tutor algunos de los requisitos que se extrajeron de este análisis, obteniendo así el siguiente listado de requisitos a tener en cuenta en el sistema Misture:
 
 \begin{itemize}
 \item Análisis de qué ficheros han sido entregados en el repositorio, mejorando la experiencia del \textit{script}, limitada a verificar un listado inicial de ficheros.
 
 \item Solucionar el caso frecuente de pequeñas desviaciones en los nombres de fichero.
 
-\item Identificación del tipo de código de una fuente o el tipo del fichero, y algunos 	parámetros adicionales como la cantidad de líneas de código.
+\item Identificación del tipo de código de una fuente o el tipo del fichero, y algunos parámetros adicionales como la cantidad de líneas de código.
 
 \item Análisis de la estructura de los códigos Python ampliado.
 
-\item Incrementar la funcionalidad inicial que se limitaba a contar las clausulas ``class'' o ``def'' en los ficheros Python determinados inicialmente.
+\item Incrementar la funcionalidad inicial que se limitaba a contar las cláusulas ``class'' o ``def'' en los ficheros Python determinados inicialmente.
 
 \item Análisis de errores de estilo, y calidad de código. Los pilotos cuentan la cantidad de errores de estilo de Pep8 y de \textit{warnings} sobre un análisis estático del código de Pylint, y reportan al profesor un resumen en formato texto de la cantidad de errores por tipo.
 
@@ -212,7 +211,7 @@ Por ejemplo, el profesor --en base a estadísticas del análisis-- puede detecta
 Asimismo, el objetivo incluye un tratamiento más organizado de la información extraída, por ejemplo en BBDD, y la posibilidad de poder ofrecer un reporte más rico, sencillo, y fácil de ampliar o modificar frente al tratamiento que ofrecen los ficheros de texto, que contienen las salidas heterogéneas de las diferentes utilidades y pruebas.
 
 
-Para la consecución de dicho objetivo tenemos como punto de partida el conjunto de \textit{scripts} semiautomáticos que nos ha proporcionado el tutor utilizadas para las experiencias piloto, junto al reporte de incidencias u observaciones realizadas durante la ejecución y realización de alguna corrección, para intentar buscar mejoras en las funcionalidades que permitan reducir los puntos críticos en la corrección, que incapacitan la acción del \textit{script} y llevan a una revisión manual por parte del tutor. 
+Para la consecución de dicho objetivo tenemos como punto de partida el conjunto de \textit{scripts} semiautomáticos que nos ha proporcionado el tutor utilizadas para las experiencias piloto. También se dispone del reporte de incidencias u observaciones realizadas durante la ejecución y realización de algunas de las correcciones, para intentar buscar mejoras en las funcionalidades que permitan reducir los puntos críticos en la corrección, que incapacitan la acción del \textit{script} y obligan a una revisión manual por parte del tutor. 
 
 
 \section{Objetivos específicos}

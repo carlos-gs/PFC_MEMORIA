@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.27)  12 JUN 2017 03:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.27)  13 JUN 2017 07:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -711,21 +711,18 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 6.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<img/logo_vect.png, id=1, 169.8345pt x 338.2236pt>
-File: img/logo_vect.png Graphic file (type png)
- <use img/logo_vect.png>
-Package pdftex.def Info: img/logo_vect.png used on input line 8.
-(pdftex.def)             Requested size: 42.45851pt x 84.5557pt.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 11.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-) [1
+<img/logo2.png, id=1, 138.5175pt x 54.2025pt>
+File: img/logo2.png Graphic file (type png)
+ <use img/logo2.png>
+Package pdftex.def Info: img/logo2.png used on input line 8.
+(pdftex.def)             Requested size: 138.51715pt x 54.20236pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+ [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/logo_vect.png>]) (./
-anexo_entrega.tex
-[1]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/logo2.png>])
+(./anexo_entrega.tex [1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
@@ -734,11 +731,23 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
-(./dedicatoria.tex [1
+) (./licencia.tex [1
 
 
 ] [2
+
+]
+<img/by-sa_petit.png, id=20, 28.4262pt x 9.8769pt>
+File: img/by-sa_petit.png Graphic file (type png)
+ <use img/by-sa_petit.png>
+Package pdftex.def Info: img/by-sa_petit.png used on input line 10.
+(pdftex.def)             Requested size: 113.7044pt x 39.5075pt.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 10.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)) (./dedicatoria.tex
+[3 <./img/by-sa_petit.png>] [4
 
 ]) (./agradecimientos.tex [1] [2
 
@@ -823,12 +832,6 @@ LaTeX Info: Redefining \% on input line 6.
 (./memoria_def.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 21.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
-File: omlptm.fd 
-)
-LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 21.
 )
 \tf@lof=\write5
 \openout5 = `memoria_def.lof'.
@@ -845,15 +848,14 @@ LaTeX Info: Redefining \. on input line 64.
 LaTeX Info: Redefining \% on input line 64.
  [16
 
-] (./introduccion.tex
+]
+(./introduccion.tex
 Cap\'{\i }tulo 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 [1
 
 ]
@@ -870,7 +872,7 @@ Cap\'{\i }tulo 2.
 [5
 
 
-] <img/Diagram1_flujo_semiautomatico.png, id=89, 915.42pt x 1232.605pt>
+] <img/Diagram1_flujo_semiautomatico.png, id=98, 915.42pt x 1232.605pt>
 File: img/Diagram1_flujo_semiautomatico.png Graphic file (type png)
 
 <use img/Diagram1_flujo_semiautomatico.png>
@@ -886,7 +888,7 @@ LaTeX Info: Redefining \% on input line 61.
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
  [8]
-<img/Selection_014_traza_wireshark.png, id=99, 948.54375pt x 314.17375pt>
+<img/Selection_014_traza_wireshark.png, id=108, 948.54375pt x 314.17375pt>
 File: img/Selection_014_traza_wireshark.png Graphic file (type png)
 
 <use img/Selection_014_traza_wireshark.png>
@@ -894,57 +896,44 @@ Package pdftex.def Info: img/Selection_014_traza_wireshark.png used on input li
 ne 98.
 (pdftex.def)             Requested size: 455.24408pt x 150.7825pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-
- []
-
-<img/Selection_015_pdml_2.png, id=100, 770.88pt x 201.75375pt>
+<img/Selection_015_pdml_2.png, id=109, 770.88pt x 201.75375pt>
 File: img/Selection_015_pdml_2.png Graphic file (type png)
 
 <use img/Selection_015_pdml_2.png>
-Package pdftex.def Info: img/Selection_015_pdml_2.png used on input line 109.
+Package pdftex.def Info: img/Selection_015_pdml_2.png used on input line 108.
 (pdftex.def)             Requested size: 455.24408pt x 119.1445pt.
-LaTeX Info: Redefining \. on input line 116.
-LaTeX Info: Redefining \% on input line 116.
+LaTeX Info: Redefining \. on input line 117.
+LaTeX Info: Redefining \% on input line 117.
  [9 <./img/Selection_014_traza_wireshark.png> <./img/Selection_015_pdml_2.png>]
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
+LaTeX Info: Redefining \. on input line 144.
+LaTeX Info: Redefining \% on input line 144.
  [10]
-<img/Selection_020_expregunta.png, id=107, 514.92375pt x 212.795pt>
+<img/Selection_020_expregunta.png, id=117, 514.92375pt x 212.795pt>
 File: img/Selection_020_expregunta.png Graphic file (type png)
 
 <use img/Selection_020_expregunta.png>
 Package pdftex.def Info: img/Selection_020_expregunta.png used on input line 14
-8.
+7.
 (pdftex.def)             Requested size: 455.24408pt x 188.13684pt.
-LaTeX Info: Redefining \. on input line 160.
-LaTeX Info: Redefining \% on input line 160.
- [11 <./img/Selection_020_expregunta.png>] <img/Selection_021_moss.png, id=112,
+LaTeX Info: Redefining \. on input line 159.
+LaTeX Info: Redefining \% on input line 159.
+ [11 <./img/Selection_020_expregunta.png>] <img/Selection_021_moss.png, id=121,
  516.93124pt x 322.20375pt>
 File: img/Selection_021_moss.png Graphic file (type png)
 
 <use img/Selection_021_moss.png>
-Package pdftex.def Info: img/Selection_021_moss.png used on input line 164.
+Package pdftex.def Info: img/Selection_021_moss.png used on input line 163.
 (pdftex.def)             Requested size: 398.33858pt x 248.2943pt.
-LaTeX Info: Redefining \. on input line 187.
-LaTeX Info: Redefining \% on input line 187.
+LaTeX Info: Redefining \. on input line 186.
+LaTeX Info: Redefining \% on input line 186.
  [12 <./img/Selection_021_moss.png>]
-LaTeX Info: Redefining \. on input line 213.
-LaTeX Info: Redefining \% on input line 213.
+LaTeX Info: Redefining \. on input line 212.
+LaTeX Info: Redefining \% on input line 212.
  [13]
-LaTeX Info: Redefining \. on input line 234.
-LaTeX Info: Redefining \% on input line 234.
+LaTeX Info: Redefining \. on input line 233.
+LaTeX Info: Redefining \% on input line 233.
 
-[14]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 246.
-
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 246.
-)
-(./estadodelarte.tex
+[14]) (./estadodelarte.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [15]
@@ -962,54 +951,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 [17
 
 ]
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
  [18]
-LaTeX Info: Redefining \. on input line 75.
-LaTeX Info: Redefining \% on input line 75.
+LaTeX Info: Redefining \. on input line 72.
+LaTeX Info: Redefining \% on input line 72.
  [19]
-LaTeX Info: Redefining \. on input line 107.
-LaTeX Info: Redefining \% on input line 107.
+LaTeX Info: Redefining \. on input line 105.
+LaTeX Info: Redefining \% on input line 105.
  [20]
-LaTeX Info: Redefining \. on input line 130.
-LaTeX Info: Redefining \% on input line 130.
+LaTeX Info: Redefining \. on input line 129.
+LaTeX Info: Redefining \% on input line 129.
  [21]
-LaTeX Info: Redefining \. on input line 163.
-LaTeX Info: Redefining \% on input line 163.
+LaTeX Info: Redefining \. on input line 162.
+LaTeX Info: Redefining \% on input line 162.
  [22]
 LaTeX Info: Redefining \. on input line 183.
 LaTeX Info: Redefining \% on input line 183.
  [23]
-LaTeX Info: Redefining \. on input line 202.
-LaTeX Info: Redefining \% on input line 202.
+LaTeX Info: Redefining \. on input line 204.
+LaTeX Info: Redefining \% on input line 204.
  [24]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 221.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-<img/pycharm.png, id=155, 1174.3875pt x 1038.88126pt>
+<img/pycharm.png, id=163, 1174.3875pt x 1038.88126pt>
 File: img/pycharm.png Graphic file (type png)
  <use img/pycharm.png>
-Package pdftex.def Info: img/pycharm.png used on input line 226.
+Package pdftex.def Info: img/pycharm.png used on input line 224.
 (pdftex.def)             Requested size: 455.24408pt x 402.705pt.
-LaTeX Info: Redefining \. on input line 230.
-LaTeX Info: Redefining \% on input line 230.
+LaTeX Info: Redefining \. on input line 228.
+LaTeX Info: Redefining \% on input line 228.
 
 [25]
-Overfull \hbox (33.53209pt too wide) in paragraph at lines 233--234
+Overfull \hbox (33.53209pt too wide) in paragraph at lines 231--232
 \OT1/ptm/m/n/12 mo es el ca-so de In-te-lliJ IDEA  $\OT1/pcr/m/n/12 https : / /
  github . com / JetBrains / intellij-[]community$\OT1/ptm/m/n/12 ,
  []
 
-LaTeX Info: Redefining \. on input line 247.
-LaTeX Info: Redefining \% on input line 247.
-[26 <./img/pycharm.png>] <img/robomongo.png, id=165, 1216.545pt x 743.77875pt>
+LaTeX Info: Redefining \. on input line 245.
+LaTeX Info: Redefining \% on input line 245.
+[26 <./img/pycharm.png>] <img/robomongo.png, id=171, 1216.545pt x 743.77875pt>
 File: img/robomongo.png Graphic file (type png)
 
 <use img/robomongo.png>
-Package pdftex.def Info: img/robomongo.png used on input line 255.
+Package pdftex.def Info: img/robomongo.png used on input line 250.
 (pdftex.def)             Requested size: 455.24408pt x 278.32619pt.
 ) (./design_implement.tex
 LaTeX Info: Redefining \. on input line 1.
@@ -1046,157 +1029,171 @@ Overfull \hbox (8.8283pt too wide) in paragraph at lines 65--66
 LaTeX Info: Redefining \. on input line 79.
 LaTeX Info: Redefining \% on input line 79.
 [31]
-LaTeX Info: Redefining \. on input line 101.
-LaTeX Info: Redefining \% on input line 101.
- [32] <img/Diagram2_iteracion1.png, id=187, 945.5325pt x 798.985pt>
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
+ [32] <img/Diagram2_iteracion1.png, id=193, 945.5325pt x 798.985pt>
 File: img/Diagram2_iteracion1.png Graphic file (type png)
 
 <use img/Diagram2_iteracion1.png>
-Package pdftex.def Info: img/Diagram2_iteracion1.png used on input line 109.
+Package pdftex.def Info: img/Diagram2_iteracion1.png used on input line 106.
 (pdftex.def)             Requested size: 341.43306pt x 288.51216pt.
-LaTeX Info: Redefining \. on input line 118.
-LaTeX Info: Redefining \% on input line 118.
+LaTeX Info: Redefining \. on input line 117.
+LaTeX Info: Redefining \% on input line 117.
  [33 <./img/Diagram2_iteracion1.png>]
 LaTeX Info: Redefining \. on input line 139.
 LaTeX Info: Redefining \% on input line 139.
  [34]
-<img/Selection_022_pyanaly_regex.png, id=194, 481.8pt x 94.3525pt>
+<img/Selection_022_pyanaly_regex.png, id=201, 481.8pt x 94.3525pt>
 File: img/Selection_022_pyanaly_regex.png Graphic file (type png)
 
 <use img/Selection_022_pyanaly_regex.png>
 Package pdftex.def Info: img/Selection_022_pyanaly_regex.png used on input line
- 149.
+ 146.
 (pdftex.def)             Requested size: 455.24408pt x 89.15492pt.
-LaTeX Info: Redefining \. on input line 166.
-LaTeX Info: Redefining \% on input line 166.
+LaTeX Info: Redefining \. on input line 171.
+LaTeX Info: Redefining \% on input line 171.
  [35 <./img/Selection_022_pyanaly_regex.png>] <img/Selection_024_testcodigo.png
-, id=199, 462.72874pt x 213.79875pt>
+, id=205, 462.72874pt x 213.79875pt>
 File: img/Selection_024_testcodigo.png Graphic file (type png)
 
 <use img/Selection_024_testcodigo.png>
-Package pdftex.def Info: img/Selection_024_testcodigo.png used on input line 19
-0.
+Package pdftex.def Info: img/Selection_024_testcodigo.png used on input line 18
+7.
 (pdftex.def)             Requested size: 455.24408pt x 210.34343pt.
-LaTeX Info: Redefining \. on input line 196.
-LaTeX Info: Redefining \% on input line 196.
- [36 <./img/Selection_024_testcodigo.png>] <img/Selection_025_gitlog_patterns.p
-ng, id=203, 517.935pt x 336.25626pt>
+LaTeX Info: Redefining \. on input line 193.
+LaTeX Info: Redefining \% on input line 193.
+ [36 <./img/Selection_024_testcodigo.png>]
+LaTeX Info: Redefining \. on input line 209.
+LaTeX Info: Redefining \% on input line 209.
+ [37]
+<img/Selection_025_gitlog_patterns.png, id=212, 517.935pt x 336.25626pt>
 File: img/Selection_025_gitlog_patterns.png Graphic file (type png)
 
 <use img/Selection_025_gitlog_patterns.png>
 Package pdftex.def Info: img/Selection_025_gitlog_patterns.png used on input li
-ne 214.
+ne 213.
 (pdftex.def)             Requested size: 455.24408pt x 295.56778pt.
-
-Underfull \vbox (badness 1242) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 218.
-LaTeX Info: Redefining \% on input line 218.
- [37]
-LaTeX Info: Redefining \. on input line 223.
-LaTeX Info: Redefining \% on input line 223.
-
-[38 <./img/Selection_025_gitlog_patterns.png>]
-LaTeX Info: Redefining \. on input line 250.
-LaTeX Info: Redefining \% on input line 250.
- [39]
-<img/Diagram3_iteracion2.png, id=213, 915.42pt x 828.09375pt>
+LaTeX Info: Redefining \. on input line 222.
+LaTeX Info: Redefining \% on input line 222.
+ [38 <./img/Selection_025_gitlog_patterns.png>]
+LaTeX Info: Redefining \. on input line 249.
+LaTeX Info: Redefining \% on input line 249.
+ [39] <img/Diagram3_iteracion2.png, id=220, 915.42pt x 828.09375pt>
 File: img/Diagram3_iteracion2.png Graphic file (type png)
 
 <use img/Diagram3_iteracion2.png>
-Package pdftex.def Info: img/Diagram3_iteracion2.png used on input line 269.
+Package pdftex.def Info: img/Diagram3_iteracion2.png used on input line 268.
 (pdftex.def)             Requested size: 455.24408pt x 411.80934pt.
-LaTeX Info: Redefining \. on input line 273.
-LaTeX Info: Redefining \% on input line 273.
+LaTeX Info: Redefining \. on input line 272.
+LaTeX Info: Redefining \% on input line 272.
  [40]
-LaTeX Info: Redefining \. on input line 283.
-LaTeX Info: Redefining \% on input line 283.
+LaTeX Info: Redefining \. on input line 282.
+LaTeX Info: Redefining \% on input line 282.
  [41 <./img/Diagram3_iteracion2.png>]
-<img/Selection_026_mongomodel.png, id=221, 461.725pt x 236.885pt>
+<img/Selection_026_mongomodel.png, id=227, 461.725pt x 236.885pt>
 File: img/Selection_026_mongomodel.png Graphic file (type png)
 
 <use img/Selection_026_mongomodel.png>
 Package pdftex.def Info: img/Selection_026_mongomodel.png used on input line 30
-4.
+3.
 (pdftex.def)             Requested size: 455.24408pt x 233.559pt.
-LaTeX Info: Redefining \. on input line 308.
-LaTeX Info: Redefining \% on input line 308.
+LaTeX Info: Redefining \. on input line 307.
+LaTeX Info: Redefining \% on input line 307.
  [42]
-<img/Selection_027_mongoembdoc.png, id=225, 260.975pt x 75.28125pt>
+<img/Selection_027_mongoembdoc.png, id=231, 260.975pt x 75.28125pt>
 File: img/Selection_027_mongoembdoc.png Graphic file (type png)
 
 <use img/Selection_027_mongoembdoc.png>
 Package pdftex.def Info: img/Selection_027_mongoembdoc.png used on input line 3
-11.
+10.
 (pdftex.def)             Requested size: 227.62204pt x 65.6607pt.
-LaTeX Info: Redefining \. on input line 332.
-LaTeX Info: Redefining \% on input line 332.
+LaTeX Info: Redefining \. on input line 331.
+LaTeX Info: Redefining \% on input line 331.
  [43 <./img/Selection_026_mongomodel.png> <./img/Selection_027_mongoembdoc.png>
 ]
-LaTeX Info: Redefining \. on input line 374.
-LaTeX Info: Redefining \% on input line 374.
+LaTeX Info: Redefining \. on input line 372.
+LaTeX Info: Redefining \% on input line 372.
  [44]
-<img/Selection_028_git_comentarios.png, id=232, 416.55624pt x 118.4425pt>
+<img/Selection_028_git_comentarios.png, id=238, 416.55624pt x 118.4425pt>
 File: img/Selection_028_git_comentarios.png Graphic file (type png)
 
 <use img/Selection_028_git_comentarios.png>
 Package pdftex.def Info: img/Selection_028_git_comentarios.png used on input li
-ne 396.
+ne 391.
 (pdftex.def)             Requested size: 455.24408pt x 129.44855pt.
-LaTeX Info: Redefining \. on input line 400.
-LaTeX Info: Redefining \% on input line 400.
- [45]
-LaTeX Info: Redefining \. on input line 422.
-LaTeX Info: Redefining \% on input line 422.
- [46 <./img/Selection_028_git_comentarios.png>] <img/Selection_015_pdml_1.png, 
-id=239, 752.8125pt x 521.95pt>
+LaTeX Info: Redefining \. on input line 399.
+LaTeX Info: Redefining \% on input line 399.
+ [45 <./img/Selection_028_git_comentarios.png>]
+LaTeX Info: Redefining \. on input line 424.
+LaTeX Info: Redefining \% on input line 424.
+ [46] <img/Selection_015_pdml_1.png, id=246, 752.8125pt x 521.95pt>
 File: img/Selection_015_pdml_1.png Graphic file (type png)
 
 <use img/Selection_015_pdml_1.png>
-Package pdftex.def Info: img/Selection_015_pdml_1.png used on input line 438.
-(pdftex.def)             Requested size: 455.24408pt x 315.64134pt.
+Package pdftex.def Info: img/Selection_015_pdml_1.png used on input line 433.
+(pdftex.def)             Requested size: 426.79134pt x 295.91376pt.
 
-<img/Selection_029_pdml.png, id=240, 400.49625pt x 155.58125pt>
+<img/Selection_029_pdml.png, id=247, 400.49625pt x 155.58125pt>
 File: img/Selection_029_pdml.png Graphic file (type png)
 
 <use img/Selection_029_pdml.png>
-Package pdftex.def Info: img/Selection_029_pdml.png used on input line 439.
-(pdftex.def)             Requested size: 284.52756pt x 110.53703pt.
-LaTeX Info: Redefining \. on input line 443.
-LaTeX Info: Redefining \% on input line 443.
- [47]
-LaTeX Info: Redefining \. on input line 453.
-LaTeX Info: Redefining \% on input line 453.
- [48 <./img/Selection_015_pdml_1.png> <./img/Selection_029_pdml.png>]
-LaTeX Info: Redefining \. on input line 479.
-LaTeX Info: Redefining \% on input line 479.
- [49]
-<img/Diagram4_bbdd.png, id=251, 927.465pt x 762.85pt>
+Package pdftex.def Info: img/Selection_029_pdml.png used on input line 434.
+(pdftex.def)             Requested size: 227.62204pt x 88.42583pt.
+LaTeX Info: Redefining \. on input line 440.
+LaTeX Info: Redefining \% on input line 440.
+ [47 <./img/Selection_015_pdml_1.png> <./img/Selection_029_pdml.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
+
+ []
+
+LaTeX Info: Redefining \. on input line 470.
+LaTeX Info: Redefining \% on input line 470.
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
+
+ []
+
+LaTeX Info: Redefining \. on input line 483.
+LaTeX Info: Redefining \% on input line 483.
+[49] <img/Diagram4_bbdd.png, id=257, 927.465pt x 762.85pt>
 File: img/Diagram4_bbdd.png Graphic file (type png)
 
 <use img/Diagram4_bbdd.png>
-Package pdftex.def Info: img/Diagram4_bbdd.png used on input line 485.
+Package pdftex.def Info: img/Diagram4_bbdd.png used on input line 487.
 (pdftex.def)             Requested size: 455.24408pt x 374.45161pt.
-
-Underfull \vbox (badness 7186) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 493.
-LaTeX Info: Redefining \% on input line 493.
+LaTeX Info: Redefining \. on input line 504.
+LaTeX Info: Redefining \% on input line 504.
  [50 <./img/Diagram4_bbdd.png>]
-LaTeX Info: Redefining \. on input line 527.
-LaTeX Info: Redefining \% on input line 527.
+LaTeX Info: Redefining \. on input line 538.
+LaTeX Info: Redefining \% on input line 538.
  [51]
-LaTeX Info: Redefining \. on input line 555.
-LaTeX Info: Redefining \% on input line 555.
+LaTeX Info: Redefining \. on input line 567.
+LaTeX Info: Redefining \% on input line 567.
  [52]
-LaTeX Info: Redefining \. on input line 588.
-LaTeX Info: Redefining \% on input line 588.
+LaTeX Info: Redefining \. on input line 600.
+LaTeX Info: Redefining \% on input line 600.
  [53]
-LaTeX Info: Redefining \. on input line 619.
-LaTeX Info: Redefining \% on input line 619.
- [54]
-LaTeX Info: Redefining \. on input line 650.
-LaTeX Info: Redefining \% on input line 650.
+LaTeX Info: Redefining \. on input line 631.
+LaTeX Info: Redefining \% on input line 631.
+
+[54]
+LaTeX Info: Redefining \. on input line 660.
+LaTeX Info: Redefining \% on input line 660.
  [55]) (./evaluation.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1211,8 +1208,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
 
 ]
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
  [58]) (./conclusiones.tex [59]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1241,13 +1238,6 @@ LaTeX Info: Redefining \% on input line 1.
 
 ]
 Ap\IeC {\'e}ndice A.
-
-Overfull \hbox (4.18318pt too wide) in paragraph at lines 21--22
-[]\OT1/ptm/m/n/12 Una co-pia del \OT1/ptm/m/it/12 script \OT1/ptm/m/n/12 prin-c
-i-pal, que lee las con-fi-gu-ra-cio-nes e in-vo-ca los di-fe-ren-tes subm[]odu-
-
- []
-
 [67
 
 ]
@@ -1261,7 +1251,16 @@ Ap\IeC {\'e}ndice B.
 ]
 LaTeX Info: Redefining \. on input line 95.
 LaTeX Info: Redefining \% on input line 95.
- [70]) (./bibliografia.tex [71]
+ [70]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 101.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 101.
+)
+(./bibliografia.tex [71]
 LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
  [72
@@ -1280,25 +1279,23 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8433 strings out of 493304
- 122440 string characters out of 6139871
+ 8366 strings out of 493304
+ 121408 string characters out of 6139871
  192623 words of memory out of 5000000
- 11619 multiletter control sequences out of 15000+600000
- 32826 words of font info for 77 fonts, out of 8000000 for 9000
+ 11557 multiletter control sequences out of 15000+600000
+ 32552 words of font info for 77 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,13n,38p,764b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
-mb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on memoria_def.pdf (94 pages, 941463 bytes).
+f-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on memoria_def.pdf (96 pages, 933386 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
+ 364 PDF objects out of 1000 (max. 8388607)
+ 233 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -17,8 +17,8 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Relaci\IeC {\'o}n entre los paquetes y elementos en esta versi\IeC {\'o}n de Misture\relax }}{41}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Un objeto Misture como documentos de una colecci\IeC {\'o}n en MongoDB v\IeC {\'\i }a ODM\relax }}{43}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Representaci\IeC {\'o}n de un documento sin colecci\IeC {\'o}n, embebido en otro documento\relax }}{43}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Par\IeC {\'a}metros para la extracci\IeC {\'o}n de significantes de comentarios de \textit {commits}\relax }}{46}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces PDML de una captura es una sucesi\IeC {\'o}n de \textless packet\textgreater con \textless proto\textgreater en su interior.\relax }}{48}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Par\IeC {\'a}metros para la extracci\IeC {\'o}n de significantes de comentarios de \textit {commits}\relax }}{45}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces El PDML de la traza son elementos \textit {packet} con elementos \textit {proto} en su interior.\relax }}{47}
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Representaci\IeC {\'o}n de BBDD incluida en Misture\relax }}{50}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

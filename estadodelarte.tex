@@ -2,15 +2,15 @@
 \chapter{Estado del arte}
 
 
-En este capítulo se describen el estado del ámbito y de las tecnologías utilizadas para la realización del presente proyecto.
+En este capítulo se describen el estado del ámbito del proyecto y de las tecnologías utilizadas para la realización del mismo.
 
 
 \section{Mining Software Repositories}
 
-Este Proyecto de Fin de Carrera, puede asociarse al área de los Mining Software Repositories -MSR-. El objetivo de la comunidad MSR es, aprovechar todos los datos que se generan en el proceso de desarrollo software.
+Este Proyecto de Fin de Carrera, puede asociarse al área de los Mining Software Repositories -MSR-. El objetivo de la comunidad MSR es aprovechar todos los datos que se generan en el proceso de desarrollo software.
 
 
-En general, estos datos se hallan en repositorios de software, como por ejemplo repositorios de control de cambios del código fuente -como Git-, repositorios de seguimiento de bugs y errores, o repositorios de comunicaciones, que almacenan las comunicaciones entre el equipo de desarrolladores como es el caso de las listas de distribución. \\
+En general, estos datos se hallan en repositorios de software, como por ejemplo repositorios de control de cambios del código fuente -como Git-, repositorios de seguimiento de bugs y errores, o repositorios de comunicaciones que almacenan las comunicaciones entre el equipo de desarrolladores como es el caso de las listas de distribución. \\
 
 La comunidad MSR se dedica a encontrar fuentes de información provenientes de los proyectos software, estudiar sus características, encontrar técnicas para extraer de forma efectiva la información y el aprovechamiento de esos datos para mejorar los requisitos, la calidad y la trazabilidad de los proyectos, y estudiar el impacto de diferentes fenómenos en un desarrollo.
 
@@ -38,10 +38,9 @@ Las temáticas dentro de los MSR, entre muchas otras, podemos enumerar, por ejem
 \end{itemize}
 
 
-Centrándose más en la parcela relativa a este proyecto. Por otra parte, las experiencias piloto que suponen el punto de partida de este Proyecto de Fin de Carrera, fueron analizadas y expuestas en \textit{Gregorio Robles y Jesús M. González-Barahona (2013). Mining student repositories to gain learning analytics}. En éste, se expone el proceso, que ya describimos en esta memoria, y se concluye con el hecho de que proporciona importantes beneficios al facilitar la evaluación continua y realimentación frecuente a los alumnos.
+Centrándose más en la parcela relativa a este proyecto. Por otra parte, las experiencias piloto que suponen el punto de partida de este Proyecto de Fin de Carrera, fueron analizadas y expuestas en \textit{Gregorio Robles y Jesús M. González-Barahona (2013). Mining student repositories to gain learning analytics}. En éste, se expone el proceso de corrección, que ya describimos en el capítulo 2. 
 
-
-El otro hecho que se concluye, es que un sistema de estas características, que se ha tenido que refinar en un proceso iterativo, no es posible hacerse completamente automático, y se deben tomar medidas para minimizar las tareas manuales del proceso, la principal, es que los estudiantes sigan estrictamente las instrucciones indicadas para la realización de la actividad.
+Entre las conclusiones del articulo, se expone que proporciona importantes beneficios al facilitar la evaluación continua y realimentación frecuente a los alumnos. El otro hecho que se concluye, es que un sistema de estas características, que se ha tenido que refinar en un proceso iterativo, no es posible hacerse completamente automático, y se deben tomar medidas para minimizar las tareas manuales del proceso, la principal, es que los estudiantes sigan estrictamente las instrucciones indicadas para la realización de la actividad.
 
 
 Asimismo, a la hora de explorar formas y herramientas para explotar los datos brutos de las entregas de los alumnos, me resultó útil a nivel conceptual el análisis de las diferentes fuentes que nos podemos encontrar en un proyecto de software, que se realiza en el artículo \textit{Robles, G., González-Barahona J. M., Izquierdo-Cortazar, D. y Herraiz, I. (2009). Tools for the Study of the Usual Data Sources found in Libre Software Projects}.
@@ -57,10 +56,10 @@ Asimismo, a la hora de explorar formas y herramientas para explotar los datos br
 Python es un lenguaje de programación interpretado, usa tipado dinámico y es multiplataforma. Además se trata de un lenguanje de programación multiparadigma, permitiendo programación orientada a objetos, imperativa y funcional. Además posee una extensa biblioteca estándar y existen infinidad de librerías de terceros.
 
 
-Dadas sus características, Python en muy útil como lenguaje para scripting y desarrollo rápido de aplicaciones de todo tipo.
+Dadas sus características, Python es muy útil como lenguaje para scripting y desarrollo rápido de aplicaciones de todo tipo.
 
 
-Es licenciado bajo la \textit{Python Software Foundation License} desde la versión 2.1, licencia declarada libre, y compatible con GPL.
+Esta licenciado bajo la \textit{Python Software Foundation License} desde la versión 2.1, licencia declarada libre, y compatible con GPL.
 
 
 Fue creado por Guido van Rossum -el Benevolente Dictador Vitalicio- en los Países Bajos a finales de los años 80 y su nombre proviene de los humoristas británicos Monty Python.
@@ -147,7 +146,7 @@ En un análisis estático de código automático, se incluyen análisis de sint�
 En el caso del análisis humano, este se denomina comprensión de programas o también revisión de código, que es complementario al automático y permite evaluar aspectos que un sistema automático no suele cubrir, como la arquitectura, el diseño, o la forma de trabajar con elementos externos.
 
 
-Los objetivos de estos análisis puede ser tales como la verificación de propiedades del software para seguridad o detección de código vulnerable, la mejora de la calidad del software, o mejorar el mantenimiento y desarrollo del software.
+Los objetivos de estos análisis puede ser tales como la verificación de propiedades del software para seguridad, detección de código vulnerable, la mejora de la calidad, o mejorar el mantenimiento y desarrollo.
 
 
 No obstante, el análisis de código fuente no es suficiente para evaluar o mejorar un desarrollo en todos sus aspectos, por lo que debería complementarse con otras técnicas de análisis de software, por ejemplo, los test.
@@ -160,7 +159,7 @@ No obstante, el análisis de código fuente no es suficiente para evaluar o mejo
 Para la realización de análisis de código en Python, nos hemos ayudado de varias herramientas, introducidas a continuación.
 
 
-La utilidad Pep8, ya rebautizada como \textit{Pycodestyle}, es un \textit{checker} de la guía de estilo de Python. Esta utilidad, se ejecuta sobre ficheros fuente Python, y nos proporciona un listado con la localización, el código de error E*** o W*** y la descripción de los incumplimientos con respecto a la guía de PEP8.
+La utilidad Pep8, que recientemente se ha rebautizado como \textit{Pycodestyle}, es un \textit{checker} de la guía de estilo de Python. Esta utilidad, se ejecuta sobre ficheros fuente Python, y nos proporciona un listado con la localización, el código de error E*** o W*** y la descripción de los incumplimientos con respecto a la guía de PEP8.
 
 
 Pylint, es otra utilidad de verificación de código Python bastante completa, que verifica estilo, bugs y calidad del código. También si los nombres de los elementos están bien formados con respecto a los estándares y si las interfaces declaradas son implementadas. Es una herramienta comúnmente integrada en los entornos de desarrollo y editores de código.
@@ -169,7 +168,7 @@ Pylint, es otra utilidad de verificación de código Python bastante completa, q
 Flake8 es una utilidad que auna las comprobaciones de estilo de Pep8, de errores de lógica de Pyflakes, y de complejidad circular. Su diseño permite la extensión mediante la inclusión de extensiones. Por defecto incluye la extensión McCabe, que generaría errores con el codigo C9**, si detecta casos de complejidades mayores a un umbral dado. Las comprobaciones de errores de lógica de Pyflakes se etiquetan mediante códigos F***.
 
 
-Otra extensión popular es Hacking, que introduce errores con el código H***, y sus comprobaciones son las contempladas en las \textit{OpenStack Style Guidelines}, basadas en el \textit{Google Python Style Guideline}.
+Otra extensión popular es Hacking, que introduce errores con el código H***, y sus comprobaciones son las contempladas en \textit{OpenStack Style Guidelines}, basadas en  \textit{Google Python Style Guidelines}.
 
 Existe una completa documentación de los códigos de error en los manuales de las diferentes utilidades mencionadas.
 
@@ -179,9 +178,8 @@ Existe una completa documentación de los códigos de error en los manuales de l
 
 El desarrollo de este proyecto se ha realizado eminentemente desde y para sistemas Linux, y concretamente se ha desarrollado y probado en distribuciones Ubuntu y Linux Mint, semejantes a los entornos que emplean profesores y alumnos en el contexto tratado.
 
-No obstante, dado que Python es un lenguaje soportado por otros sistemas, y que en la iteración más reciente del desarrollo del proyecto se ha tendido a emplear las utilidades a través de librerías o APIs Python, o son herramientas con versión en otros sistemas. En un gran porcentaje sería portable este proyecto a otros sistemas como Windows.
 
-En todo caso, inicialmente el desarrollo no esta considerado para otros sistemas, y exigiría la revisión de la totalidad de las dependencias de las librerías utilizadas. También sería necesaria la revisión y refactorización de algunos códigos, como por ejemplo  aquellos que emplean la librerías estándar \textit{os} y \textit{os.path}, para asegurar la plena independencia del código frente al sistema operativo.
+En otros casos, aunque Python es un lenguaje multiplataforma y Misture emplea muchas librerias y utilidades que también lo son, inicialmente el desarrollo no esta considerado para otros sistemas, y exigiría la revisión de la totalidad de las dependencias de las librerías utilizadas. También sería necesaria la revisión y refactorización de algunos códigos, como por ejemplo  aquellos que emplean la librerías estándar \textit{os} y \textit{os.path}, para asegurar la plena independencia del código frente al sistema operativo.
 
 
 Una vez circunscritos a estos sistemas, hay que recalcar que en general se ha intentado optar por el uso de editores, herramientas, librerías, DBMS de software libre, open source o en todo caso amigables con sus filosofías o licencias compatibles.
@@ -244,10 +242,7 @@ En el caso de PyCharm, está versión es la denominada como ``Community Edition'
 Robomongo es un cliente para bases de datos MongoDB con interfaz gráfica, muy ligero y de funcionalidad básica, pero suficientemente potente.
 
 
-Además de integrar la funcionalidad del cliente shell de MongoDB, permite la escritura de scripts para mongo y la visualización rápida de las diferentes BBDD MongoDB de la conexión sobre la que se establece, asimismo de las principales características, configuraciones y contenidos de colecciones y documentos.
-
-
-Una característica simple pero que resulta de gran ayuda, es la rapidez de navegación entre las diferentes colecciones y documentos y la posibilidad de visualización de estos en diferentes formatos como tabla, árbol, o la tradicional vista de texto en formato JSON.
+Entre sus capacidades, integra la funcionalidad del cliente shell de MongoDB, permite la escritura de scripts y la vista de las propiedades, configuración y colecciones de las BBDD MongoDB del equipo. Resulta de gran ayuda navegación entre las diferentes colecciones y documentos y la posibilidad de visualizarlos en diferentes formatos como tabla, árbol, o la tradicional vista de texto en formato JSON.
 
 
 \begin{figure}[H]
@@ -258,4 +253,4 @@ Una característica simple pero que resulta de gran ayuda, es la rapidez de nave
 \end{figure}
 
 
-Robomongo ha estado siendo un proyecto open source cuyo código ha estado disponible públicamente. Recientemente, ha sido adquirido por la empresa Studio3T, que ha optado por mantener el proyecto en  open source \url{https://github.com/Studio3T/robomongo}, en paralelo a sus proyectos comerciales relativos a MongoDB.
+Robomongo era un proyecto open source cuyo código ha estado disponible públicamente. Recientemente, ha sido adquirido por la empresa Studio3T, que ha optado por mantener el proyecto en  open source \url{https://github.com/Studio3T/robomongo}, en paralelo a sus proyectos comerciales relativos a MongoDB.
